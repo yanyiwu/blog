@@ -5,6 +5,9 @@ date:   2014-01-16
 categories: jekyll update
 ---
 
+主要是按照参考文档的描述来学习的，本文的目的在于整理一下思路和个人觉得比较有感触的点。
+保持未完待续的节奏，慢慢积累和在使用中完善。
+
 ## auto
 
 其实就是类型自动推导，在泛型编程时候就有的老概念了。
@@ -45,7 +48,28 @@ for(auto & x : t)
 #define print(x) for(const auto & y: x){cout<<y<<endl;}
 ```
 
+## 初始化列表
 
-## 参考
+如下：
+
+```cpp
+vector<double> v = { 1, 2, 3.456, 99.99 };
+   list<pair<string,string>> languages = {
+       {"Nygaard","Simula"}, {"Richards","BCPL"}, {"Ritchie","C"}
+   }; 
+   map<vector<string>,vector<int>> years = {
+       { {"Maurice","Vincent", "Wilkes"},{1913, 1945, 1951, 1967, 2000} },
+       { {"Martin", "Ritchards"}, {1982, 2003, 2007} }, 
+       { {"David", "John", "Wheeler"}, {1927, 1947, 1951, 2004} }
+   };
+```
+
+一下子就pythonic起来了有木有。
+
+详见文末的参考文档
+
+## 右值引用和移动语义
+
+## 参考文档
 
 http://blog.jobbole.com/55063/
