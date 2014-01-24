@@ -41,8 +41,8 @@ node是著名的__异步IO高并发单线程网络服务__
 
 ## 参考
 
-[nodejs代码初探](http://cnodejs.org/topic/4f16442ccae1f4aa270010d7)
-[node.js源码研究—模块组织加载](http://cnodejs.org/topic/4f571a16a680d212781ccf9f)
+* [nodejs代码初探](http://cnodejs.org/topic/4f16442ccae1f4aa270010d7)
+* [node.js源码研究—模块组织加载](http://cnodejs.org/topic/4f571a16a680d212781ccf9f)
 
 [CppJieba]: https://github.com/aszxqw/cppjieba.git
 [NodeJieba]: https://github.com/aszxqw/nodejieba.git
