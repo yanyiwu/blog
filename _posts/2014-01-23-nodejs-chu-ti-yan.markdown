@@ -25,14 +25,21 @@ node是著名的__异步IO高并发单线程网络服务__
 
 所以按我的理解，node其实可以看成是一个c++写好了若干网络服务库，但是引入了v8，让我们可以简单的使用js来调用这些牛逼的服务库，嗯，就是这样。
 
+## 单线程和异步IO
+
+照着《node入门》教程写代码就会遇到nodejs与众不同的编程方法，在传统编程方法中，
+代码逻辑都是同步运行，如果要进行并行的话则需要多线程或者多进程，如传统的网络服务器Apache, Nginx。
+而nodejs天生支持异步编程，实际代码就是各种使用回调函数。
+至于为什么nodejs天生支持异步编程函数，就是在实际编程中为何将回调函数传入某些库函数之后会发生什么事情？
+其实本质上就是libuv的功劳，大概的原因就是用多线程和阻塞IO来模拟异步。
+
+
 ## 使用c++为node写扩展
 
 写扩展说起来很屌，但是其实在node里面，重点主要是要了解v8的相关api，
 了解v8里面定义的Handle，Scope等概念，依样画葫芦即可。
 
 作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。
-
-
 
 ## 还有一些想说的
 
@@ -43,6 +50,7 @@ node是著名的__异步IO高并发单线程网络服务__
 
 * [nodejs代码初探](http://cnodejs.org/topic/4f16442ccae1f4aa270010d7)
 * [node.js源码研究—模块组织加载](http://cnodejs.org/topic/4f571a16a680d212781ccf9f)
+* [初探Node.js的异步I/O实现](http://www.infoq.com/cn/articles/nodejs-asynchronous-io)
 
 [CppJieba]: https://github.com/aszxqw/cppjieba.git
 [NodeJieba]: https://github.com/aszxqw/nodejieba.git
