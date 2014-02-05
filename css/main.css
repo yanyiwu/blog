@@ -10,6 +10,9 @@ body {
 
 H1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    border-bottom: 2px LightGrey solid;
+    line-height: 150%;
+    color: DarkRed;
 }
 
 H2 {
@@ -17,7 +20,7 @@ H2 {
     margin-bottom: 60px;
     margin-bottom: 40px;
     padding: 5px;
-    border-bottom: 2px LightGrey solid;
+    border-bottom: 1px LightGrey solid;
     width: 90%;
     line-height: 150%;
     color: DarkGreen;
@@ -28,7 +31,6 @@ H3 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     margin-top: 40px;
     margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
     width: 80%;
     line-height: 150%;
     color: DarkBlue;

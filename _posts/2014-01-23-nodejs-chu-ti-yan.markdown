@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "node.js初体验和使用c++写node.js扩展尝试"
+title:  "node.js初体验"
 date:   2014-01-23
 categories: jekyll update
 ---
@@ -10,7 +10,7 @@ node.js是一直想探索的一个开源项目。
 
 ## node 初体验
 
-node是著名的__异步IO高并发单线程网络服务__
+node是著名的__异步IO高并发单线程的server__
 
 从node/deps这个目录下就可以看到大概node的整体思路:
 * `v8`   : google出品的js引擎
