@@ -41,6 +41,8 @@ node是著名的__异步IO高并发单线程的server__
 
 作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。
 
+关于具体如何写和如何在npm上发布，[详见这里](http://9.ap01.aws.af.cm/create-and-publish-node-js-c-addon/)
+
 ## 还有一些想说的
 
 * CppJieba全写成hpp文件用起来真是爽
