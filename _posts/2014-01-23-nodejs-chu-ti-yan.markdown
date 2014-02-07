@@ -39,14 +39,14 @@ node是著名的__异步IO高并发单线程的server__
 写扩展说起来很屌，但是其实在node里面，重点主要是要了解v8的相关api，
 了解v8里面定义的Handle，Scope等概念，依样画葫芦即可。
 
-作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。
+作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。 [详见这里](https://github.com/aszxqw/nodejieba)
 
 关于具体如何写和如何在npm上发布，[详见这里](http://9.ap01.aws.af.cm/create-and-publish-node-js-c-addon/)
 
 ## 还有一些想说的
 
 * CppJieba全写成hpp文件用起来真是爽
-* npm感觉不好用，慢成狗。而且没有进度条，经常不知道是卡死了还是网速慢而已。
+* npm 发布和管理项目真心赞
 
 ## 参考
 
