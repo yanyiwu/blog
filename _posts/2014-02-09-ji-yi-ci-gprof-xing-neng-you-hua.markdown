@@ -10,9 +10,9 @@ gprof是linux下进行性能优化的神器
 ## 记一次性能调优的经历
 
 之前在开发CppJieba的时候性能上直觉上感觉不够快。
-使用了这个gprof来检测了一下，发现某个函数里面的vector的push_back被频繁调用。
+使用了这个gprof来检测了一下，发现某个函数里面的vector的`push_back`被频繁调用。
 仔细看了一下发现，这个函数里面有个算法是O(n^2)。
-也就是在两个for里面频繁push_back。
+也就是在两个for里面频繁`push_back`。
 
 后来进行了优化，具体的过程我忘了，大概就是将这个vector抽离出来，不需要每次进来这个函数都进行vector的初始化，然后再慢慢push_back等。优化之后整个CppJieba的分词速度提高5~6倍。
 
