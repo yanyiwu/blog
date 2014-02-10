@@ -5,11 +5,6 @@ date:   2014-02-10
 categories: jekyll update
 ---
 
-# CppJieba 项目代码详解
-
-想写这篇已经很久了，而且有些朋友说过希望我讲讲[CppJieba]的代码架构。
-趁这两天没什么事，写这篇文章算是总结和备忘吧。
-
 本博文基于CppJieba v2.3.0版本。
 
 ## 脉络概要
@@ -59,7 +54,7 @@ CppJieba的主要目录结构如下：
 
 #### src/Husky/
 
-这个就比较没那么重要了，主要是考虑到一般分词在生产环境中经常都是以服务的形式供人调用。所以加了这么个东西。
+[Husky]相对比[Limonp]就比较没那么重要了，主要是考虑到一般分词在生产环境中经常都是以服务的形式供人调用。所以加了这么个东西。
 
 #### src/*.cpp
 
@@ -69,14 +64,130 @@ src/下面有且只有两个cpp文件: `segment.cpp , server.cpp`
 
 #### src/*.hpp
 
-终于到了项目的__核心__代码。
+这里才是项目的__核心__代码。
+看这里的代码需要先了解以下的`分词设计思路`。
 
-歇会儿，未完待续。
+## 分词设计思路
+
+分词所需要的工作分为下面几点：
+
+* TransCode.hpp : string转换成unicode，以及逆转换。
+* Trie.hpp : 将词库字典转换成trie树以便高效查找。
+* (MPSegment.hpp, HMMSegment.hpp, MixSegment.hpp, ...) : 各种分词算法的Segment类。
+
+### TransCode
+
+这个看上去简单，其实很关键，因为每次进行分词前，都需要将string decode成unicode，分词完要输出的时候又需要将unicode encode成string。
+要知道，在分词算法中，对于句子是按一个字一个字来计算和分词的。所以转换成unicode是完成分词算法的必要前提。
+
+### Trie
+
+Trie也是分词的核心模块。
+大部分分词算法都需要依赖词典（工业界依赖的算法几乎全是基于词典的）。
+
+### TrieManager
+
+主要是在某些Segment里面是有不同模块需要同一个Trie，所以让TrieManager.hpp 提供一个单例TrieManager，负责管理trie树。
+通过该单例获取trie树时，会先判断是否已经由该字典文件生成了一颗trie树，如果已有则返回已有的trie树，否则重新创建一颗trie树返回。
 
 
+### Segments
+
+注意到`src/*.hpp`里面各种含有Segment的文件很7个。
+其实他们虽然互相有联系，但是在使用的时候其实是互相独立的。
+
+其中：
+
+* `ISegment.hpp` 是接口类。
+* `SegmentBase.hpp` 是基类。
+
+由接口类ISegment就可以看出，各个Segment类都提供出cut函数来进行切词。
+最常用的是以下这个接口函数:
+
+```
+virtual bool cut(const string& str, vector<string>& res) const = 0;
+```
+
+SegmentBase主要是含有一些公用函数，减少代码冗余。
+
+
+#### MPSegment
+
+(Maximum Probability)最大概率法:负责根据Trie树构建有向无环图和进行动态规划算法，是分词算法的核心。
+
+#### HMMSegment
+
+是根据HMM模型来进行分词，主要算法思路是根据(B,E,M,S)四个状态来代表每个字的隐藏状态。
+HMM模型由`dict/hmm_model.utf8`提供。
+分词算法即viterbi算法。
+
+#### MixSegment
+
+MixSegment是CppJieba里面分词效果最好的类(效果分析详见项目的README.md)，之所以叫Mix，其实就是结合使用MPSegment和HMMSegment而已。哈哈。
+
+#### FullSegment
+
+枚举句子中所有可能成词的情况，找出字典里存在的即可。
+
+## 代码细节
+
+### 异常处理
+
+代码中大部分对于错误和异常处理，都使用函数bool返回值来判断。
+而不是`try ... catch ...`，这是个人原因，还是偏爱bool返回值。
+
+### 类的初始化风格
+
+注意到本项目中的类的初始化过程都很重要，因为分词之前都是需要载入字典或者模型。
+所以几乎每个类都带有`bool init(...)`作为初始化函数。
+
+我们类比了`fstream`类的设计风格。
+
+```
+ifstream ifs("filename");
+if(!ifs)
+{/*错误处理*/}
+```
+
+or
+
+```
+ifstream ifs;
+ifs.open("filename");
+if(!ifs)
+{/*错误处理*/}
+```
+
+所以在Segment中，举例MixSegment这个类的使用初始化方法如下：
+
+```
+MixSegment segment("../dict/jieba.dict.utf8", "../dict/hmm_model.utf8");
+if(!segment)
+{/*错误处理*/}
+```
+
+or 
+
+```
+MixSegment segment;
+segment.init("../dict/jieba.dict.utf8", "../dict/hmm_model.utf8");
+if(!segment)
+{/*错误处理*/}
+```
+
+## 单元测试
+
+使用的是google的单元测试框架[gtest]。
+单元测试写的也还算全，考虑到好多人看项目用法都是从单元测试入手了解每个类的，所以我想对那些人说三个字：可以的。
+
+
+## 最后总结
+
+新年快乐
 
 [cmake]:http://zh.wikipedia.org/wiki/CMake
 [hpp]:http://baike.baidu.com/view/3779455.htm
 [CppJieba]:https://github.com/aszxqw/cppjieba
 [Limonp]:https://github.com/aszxqw/limonp
 [Husky]:https://github.com/aszxqw/husky
+[gtest]:https://code.google.com/p/googletest/
