@@ -5,7 +5,7 @@ date:   2014-02-10
 categories: jekyll update
 ---
 
-本博文基于CppJieba v2.3.0版本。
+本博文基于[CppJieba] v2.3.0版本。
 
 ## 脉络概要
 
@@ -16,7 +16,7 @@ categories: jekyll update
 
 ## 源码剖析
 
-CppJieba的主要目录结构如下：
+[CppJieba]的主要目录结构如下：
 
 ```
 |- src
@@ -48,9 +48,9 @@ CppJieba的主要目录结构如下：
 当然可能有人会问，为什么不用boost之类的库呢？
 
 * 因为个人觉得这些工具函数自己写其实也蛮快的，省的再去谷歌找boost的相关函数用法。
-* 而且觉得boost安装其实也蛮麻烦的。每次使用CppJieba还需要别人安装一套boost也挺费事。毕竟cpp又不是node.js，有npm可以用。
+* 而且觉得boost安装其实也蛮麻烦的。每次使用[CppJieba]还需要别人安装一套boost也挺费事。毕竟cpp又不是node.js，有npm可以用。
 
-总之，其实CppJieba的很多函数都是因为有了Limonp才可以写的简短起来的。Limonp功不可没。
+总之，其实[CppJieba]的很多函数都是因为有了Limonp才可以写的简短起来的。Limonp功不可没。
 
 #### src/Husky/
 
@@ -60,7 +60,7 @@ CppJieba的主要目录结构如下：
 
 src/下面有且只有两个cpp文件: `segment.cpp , server.cpp`
 这两个文件主要是为了生成可执行文件用的，`make`之后在`build/bin/`下面可以找到对应的可执行文件。
-也就是说，如果想把CppJieba当成一个库来用的话，只需要关心hpp文件即可。一键include，即include即用。
+也就是说，如果想把[CppJieba]当成一个库来用的话，只需要关心hpp文件即可。一键include，即include即用。
 
 #### src/*.hpp
 
@@ -123,7 +123,7 @@ HMM模型由`dict/hmm_model.utf8`提供。
 
 #### MixSegment
 
-MixSegment是CppJieba里面分词效果最好的类(效果分析详见项目的README.md)，之所以叫Mix，其实就是结合使用MPSegment和HMMSegment而已。哈哈。
+MixSegment是[CppJieba]里面分词效果最好的类(效果分析详见项目的README.md)，之所以叫Mix，其实就是结合使用MPSegment和HMMSegment而已。哈哈。
 
 #### FullSegment
 
