@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "深厦铁路游——说走就走的旅行"
+title:  "深厦铁路行"
 date:   2014-01-15
 categories: jekyll update
 ---
