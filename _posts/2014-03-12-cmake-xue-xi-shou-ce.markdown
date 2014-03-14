@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cmake学习手册"
+title:  "cmake常用指令学习手册"
 date:   2014-03-12
 categories: jekyll update
 ---
@@ -37,4 +37,4 @@ categories: jekyll update
 
 ## 有待完善的地方
 
-
+* 可以 `make install` 但是不可以 `make uninstall`，`make uninstall`的替代方法是:`cat install_manifest.txt | xargs rm -rf`
