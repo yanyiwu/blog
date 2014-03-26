@@ -1,5 +1,5 @@
 body {
-    font-family: "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+    font-family: SimSun, Heiti, sans-serif;
     font-size: 18px;
     margin: 5% 20% 5% 20%;
     padding: 2% 5% 5% 5%;
@@ -10,6 +10,7 @@ body {
 
 H1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 2em;
     border-bottom: 2px LightGrey solid;
     line-height: 150%;
     color: DarkRed;
@@ -17,6 +18,7 @@ H1 {
 
 H2 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.5em;
     margin-bottom: 60px;
     margin-bottom: 40px;
     padding: 5px;
@@ -29,6 +31,7 @@ H2 {
 
 H3 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.5em;
     margin-top: 40px;
     margin-bottom: 30px;
     width: 80%;
@@ -39,6 +42,7 @@ H3 {
 
 H4 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.5em;
     margin-top: 40px;
     margin-bottom: 30px;
     border-bottom: 1px LightGrey solid;
