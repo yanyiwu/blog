@@ -56,3 +56,9 @@ namespace std
 ## 结论
 
 上述方法最低大概只能支持到C++98这个标准了，因为到了C++98才开始有`tr1/unordered_map`，所以你的编译器如果连`C++98`都不支持的话，那就乖乖用远古时代流传至今的`map`吧。
+
+
+## 参考资料
+
+* http://www.cplusplus.com/forum/general/90675/
+* http://stackoverflow.com/questions/2324658/how-to-determine-the-version-of-the-c-standard-used-by-the-compiler
