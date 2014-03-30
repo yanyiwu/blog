@@ -37,7 +37,9 @@ python client 跑1000条数据，花费51秒，`51ms/row`
 ## 总结
 
 本来使用Thrift实现美好的服务端C++，客户端Python的愿望被击碎了。
-对Thrift有点心寒，不过听说最近Facebook又搞出了一个fbthrift，不知道会不会有所改善，但愿吧。
+虽然说用Python写本来就不该对性能太苛刻，但是毕竟只是很简单的工作，而且也不是计算密集型的任务。
+只是数据的组装和搬运而已，没想到性能差这么多。
+不过听说最近Facebook又搞出了一个`fbthrift`，不知道会不会有所改善，但愿吧。
 
 
 [thrift-0.8.0-python-bug]:https://issues.apache.org/jira/browse/THRIFT-1515
