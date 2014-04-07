@@ -120,6 +120,8 @@ SegmentBase主要是含有一些公用函数，减少代码冗余。
 HMM模型由`dict/hmm_model.utf8`提供。
 分词算法即viterbi算法。
 
+详见[HMMSegmentBlog]
+
 #### MixSegment
 
 MixSegment是[CppJieba]里面分词效果最好的类(效果分析详见项目的README.md)，之所以叫Mix，其实就是结合使用MPSegment和HMMSegment而已。哈哈。
@@ -190,3 +192,4 @@ if(!segment)
 [Limonp]:https://github.com/aszxqw/limonp
 [Husky]:https://github.com/aszxqw/husky
 [gtest]:https://code.google.com/p/googletest/
+[HMMSegmentBlog]:http://aszxqw.github.io/jekyll/update/2014/04/07/hmm-segment-xiangjie.html
