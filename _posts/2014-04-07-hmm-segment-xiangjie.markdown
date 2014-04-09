@@ -31,7 +31,11 @@ HMM模型可以用来解决三种问题：
 2. 其它参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(`viterbi`算法)
 3. 其它参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(`Baum-Welch`算法)
 
-其中，第三种问题最玄乎也最不常用，第二种问题最常用，**中文分词**，**新词发现**， **词性标注** 都有它的一席之地。所以本文主要介绍第二种问题，即**viterbi算法求解状态值序列**的方法。
+其中，第三种问题最玄乎也最不常用，第二种问题最常用，**中文分词**，**语音识别**, **新词发现**， **词性标注** 都有它的一席之地。所以本文主要介绍第二种问题，即**viterbi算法求解状态值序列**的方法。
+
+> 李开复1988年的博士论文发表了第一个基于隐马尔科夫模型（HMM）的语音识别系统Sphinx，被《商业周刊》评为1988年美国最重要的科技发明。
+
+出处[点我][KaifuLeeHMM]
 
 ## 五元组参数在中文分词中的具体含义
 
@@ -319,3 +323,4 @@ wuyanyi09@foxmail.com
 
 [HMMSegment]:https://github.com/aszxqw/cppjieba/blob/master/src/HMMSegment.hpp
 [HMMDict]:https://github.com/aszxqw/cppjieba/tree/master/dict
+[KaifuLeeHMM]:http://tech.sina.com.cn/zl/post/detail/it/2014-04-09/pid_8446205.htm#483253-tsina-1-23485-1cf60a7c37a7bc296a2ba7aba0120190
