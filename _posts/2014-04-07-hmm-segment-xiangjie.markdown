@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "深入浅出中文分词之HMM模型"
+title:  "白话中文分词之HMM模型"
 date:   2014-04-07
 categories: jekyll update
 ---
