@@ -16,7 +16,7 @@ categories: jekyll update
 经过排查最后才锁定在`unordered_map`上有__实现不一致__的问题。
 (当然排查出来的结果很简单，但是其实排查的过程很累很崩溃，因为这个问题是隐藏在整个项目的底层库代码里面。)
 
-`unordered_map`在迭代器遍历时候key,value出现的顺利是未定义，注意，是__未定义__，不是未排序。
+`unordered_map`在迭代器遍历时候key,value出现的顺序是未定义，注意，是__未定义__，不是未排序。
 比如对于`{"key1":1.12, "key2":1.12}`这样的字典。
 有的机器迭代输出的结果是`{"key1":1.12, "key2":1.12}`，而有的机器则是`{"key2":1.12, "key1":1.12}`。
 也就是迭代结果和`unordered_map`__实现版本__或者是__机器环境__有关。
@@ -47,8 +47,32 @@ categories: jekyll update
 这段英文按我的理解就是`unordered_map`的快速插入和快速查找都是没有问题的，只不过对于__迭代器遍历的速度__恐怕会__相比低效__一些。
 
 众所周知的是，map的迭代输出是树的中序遍历，因此保证有序，且效率还行。
-照理说如果`unordered_map`如果内部维护一个`list`则遍历的效率也会很快。
-但是没有深入研究过它的实现源码，就是不知道实现者有没有多维护一个`list`来避免连空bucket也遍历进去。
+而事实上`unordered_map`直接使用了开链的hashtable而已，因为迭代效率低下。
+
+以下是开链的hashtable关于迭代器递增会调用的部分源码：
+
+```
+ // Global iterators, used for arbitrary iteration within a hash
+ // table.  Larger and more expensive than local iterators.
+ template<typename _Value, bool __cache>
+   void
+   _Hashtable_iterator_base<_Value, __cache>::
+   _M_incr_bucket()
+   {
+     ++_M_cur_bucket;
+
+     // This loop requires the bucket array to have a non-null sentinel.
+     while (!*_M_cur_bucket)
+   ++_M_cur_bucket;
+     _M_cur_node = *_M_cur_bucket;
+   }
+```
+
+**注意到**: 效率低下的原因就在于源码里面里面的`while`循环。
+
+也就是每次遍历不只遍历每个桶下面的链表，连每个空桶(`empty bucket`)都会迭代进去。
+当你的`unordered_map`里面只有1个元素时，`unordered_map`的初始`bucket size`一般默认是23。
+也就是本来是迭代一遍只有1个元素的hashtable需要遍历23个空桶。这效率明显和map差距略大。
 
 但是其实对于使用者来说，其实如果本身对遍历要求很苛刻的话，完全可以自己维护一个`vector`，然后`unordered_map`的值只是一个指向`vector`元素的指针。就能保证遍历效率了。
 
@@ -56,6 +80,6 @@ categories: jekyll update
 
 ## 总结
 
-吃一bug长一智吧，具体关于`unordered_map`的源码实现，等有空了再深究吧。
+吃一bug长一智吧。刚好借此深挖一下`unordered_map`的底层实现。感觉蛮好。
 
 [cpp\_unordered\_map]:http://www.cplusplus.com/reference/unordered_map/unordered_map/
