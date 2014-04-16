@@ -326,7 +326,7 @@ P(Observed[i]|Status[i],Status[i-1],...,Status[1]) = P(Observed[i]|Status[i])
 
 ## 客服
 
-wuyanyi09@foxmail.com
+wuyanyi09 at. foxmail.com
 
 [HMMSegment]:https://github.com/aszxqw/cppjieba/blob/master/src/HMMSegment.hpp
 [HMMDict]:https://github.com/aszxqw/cppjieba/tree/master/dict

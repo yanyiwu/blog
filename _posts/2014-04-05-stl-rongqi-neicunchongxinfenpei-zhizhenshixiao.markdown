@@ -84,5 +84,5 @@ for(size_t i = 0 ; i < count; i++)
 
 ## 客服
 
-wuyanyi09@foxmail.com
+wuyanyi09 at. foxmail.com
 
