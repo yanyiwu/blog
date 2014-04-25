@@ -19,7 +19,7 @@ categories: jekyll update
 #!/bin/bash
 
 # 指定日志所在目录
-logdir="/d1/logs/"
+logdir="/opt/logs/"
 
 # 切割日志
 date=$(date -d "yesterday" +"%Y%m%d")
@@ -30,9 +30,17 @@ cat /dev/null > $logdir/run.log
 find $logdir -name "www*" -type f -mtime +7 -exec rm -f {} \;
 ```
 
-不过此方法毕竟是__简单__解决方法而已，切割日志的时候会导致__微量__日志__丢失__。
-但是其实对于小公司(__流量不大__)来说这个方法已经简单够用了。
+不过需要注意的是，输出日志的进程重定向的时候要使用追加的写入方式，即:
 
-而且现在很多程序输出日志都是自己切割好输出的，对于这样的，则可以直接跳过脚本里__切割日志__ 那三行代码。
+```
+./bin/server.start >> run.log 2>&1 
+```
+
+而不是
+
+```
+./bin/server.start > run.log 2>&1 
+```
 
 Have Fun.
+
