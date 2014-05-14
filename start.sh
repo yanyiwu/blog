@@ -14,15 +14,10 @@ then
     sleep 1
     echo "kill ${PID}"
     jekyll serve --port 80 >> $LOGFILE 2>&1 &
+    echo "jekyll server started."
 else
-    echo "hehe"
     jekyll serve --port 80 >> $LOGFILE 2>&1 &
+    echo "jekyll server started."
 fi
 
-if [ $? = 0 ]
-then
-    echo "jekyll server started ok."
-else
-    echo "jekyll server started failed. please see details in ${LOGFILE}"
-fi
     
