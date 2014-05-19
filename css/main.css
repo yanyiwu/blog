@@ -1,4 +1,4 @@
-body {
+#blog_index {
     font-family: SimSun, Heiti, sans-serif;
     font-size: 18px;
     margin: 5% 20% 5% 20%;
@@ -101,3 +101,10 @@ a:hover {
 hr {
     color: LightGrey;
 }
+
+#footer {border-top:1px solid #fff; font-size:0.8em; padding-bottom:1em; padding-top:1em; color:#292f34; text-shadow:1px 1px #adafb1;}
+#footer a {
+color:#292f34;
+border-bottom: 0px;
+}
+#footer p {text-align:center; margin-bottom:0; font-size:1em;}
