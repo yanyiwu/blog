@@ -1,0 +1,8 @@
+#logo a{
+    display: inline-block;
+    z-index: 5;
+    top: 0;
+    float: right;
+    margin: 0px;
+    border: 0;
+}
