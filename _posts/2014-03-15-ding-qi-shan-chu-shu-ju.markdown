@@ -2,7 +2,7 @@
 layout: post
 title:  "切割和删除过期日志的简单方法"
 date:   2014-03-15
-categories: jekyll update
+category: work
 ---
 
 日志管理一般是运维负责统一管理，开发是不用管这个事情。

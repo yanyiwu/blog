@@ -2,7 +2,7 @@
 layout: post
 title:  "推荐系统的那点事"
 date:   2014-06-01
-categories: work
+category: work
 ---
 
 ## 推荐系统的误区

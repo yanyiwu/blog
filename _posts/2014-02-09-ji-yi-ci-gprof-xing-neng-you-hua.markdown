@@ -2,7 +2,7 @@
 layout: post
 title:  "记一次使用gprof进行性能优化"
 date:   2014-02-09
-categories: jekyll update
+category: work
 ---
 
 gprof是linux下进行性能优化的神器

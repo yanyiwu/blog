@@ -2,7 +2,7 @@
 layout: post
 title:  "C++中unordered_map的版本兼容性问题"
 date:   2014-03-27
-categories: jekyll update
+category: work
 ---
 
 ## 背景

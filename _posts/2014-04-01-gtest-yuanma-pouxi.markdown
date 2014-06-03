@@ -2,7 +2,7 @@
 layout: post
 title:  "gtest的使用和源码分析"
 date:   2014-04-01
-categories: jekyll update
+category: work
 ---
 
 本文基于`gtest-1.6.0`的源码版本，且示例源码可以在[gtest-example]里找到。

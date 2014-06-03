@@ -2,7 +2,7 @@
 layout: post
 title:  "如何写出不可维护的服务端程序"
 date:   2014-03-03
-categories: jekyll update
+category: work
 ---
 
 ## 配置文件篇

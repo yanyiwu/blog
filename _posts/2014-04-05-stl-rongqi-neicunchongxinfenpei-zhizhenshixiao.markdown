@@ -2,7 +2,7 @@
 layout: post
 title:  "stl容器内存重新分配导致的指针失效"
 date:   2014-04-05
-categories: jekyll update
+category: work
 ---
 
 看到标题应该就可以猜到大概是哪类问题了，但是这是开发中遇到的bug，集成在项目中，发生错误时并不是那么好查。

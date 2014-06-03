@@ -2,7 +2,7 @@
 layout: post
 title:  "白话中文分词之HMM模型"
 date:   2014-04-07
-categories: jekyll update
+category: work
 ---
 
 关于HMM模型的介绍，网上的资料已经烂大街，但是大部分都是在背书背公式，本文在此针对HMM模型在**中文分词**中的应用，讲讲实现原理。

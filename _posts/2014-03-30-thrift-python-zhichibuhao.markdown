@@ -2,7 +2,7 @@
 layout: post
 title:  "Thrift对Python的支持并不好"
 date:   2014-03-30
-categories: jekyll update
+category: work
 ---
 
 Thrift声称对`C++/Java/Python`这类大众语言支持的很好，但是最近工作发现Thrift对Python的支持真是惨不忍睹。

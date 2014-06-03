@@ -2,7 +2,7 @@
 layout: post
 title:  "simhash算法原理及实现"
 date:   2014-01-30
-categories: jekyll update
+category: work
 ---
 
 simhash是google用来处理海量文本去重的算法。

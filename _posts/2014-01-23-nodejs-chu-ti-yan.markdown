@@ -2,7 +2,7 @@
 layout: post
 title:  "node.js初体验"
 date:   2014-01-23
-categories: jekyll update
+category: work
 ---
 
 node.js是一直想探索的一个开源项目。

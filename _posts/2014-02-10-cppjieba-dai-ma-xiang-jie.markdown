@@ -2,7 +2,7 @@
 layout: post
 title:  "CppJieba代码详解"
 date:   2014-02-10
-categories: jekyll update
+category: work
 ---
 
 本博文基于[CppJieba] v2.3.0版本。

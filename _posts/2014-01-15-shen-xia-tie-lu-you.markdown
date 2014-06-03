@@ -2,7 +2,7 @@
 layout: post
 title:  "深厦铁路行"
 date:   2014-01-15
-categories: jekyll update
+category: life
 ---
 
 回到家呆了几天，12号一个同学（简称Z）上来找我玩，说到深厦铁路，没想到两个人都有去一趟深圳的想法。

@@ -2,7 +2,7 @@
 layout: post
 title:  "cmake常用指令学习手册"
 date:   2014-03-12
-categories: jekyll update
+category: work
 ---
 
 ## 环境设置

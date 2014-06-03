@@ -2,7 +2,7 @@
 layout: post
 title:  "长沙游记"
 date:   2014-05-13
-categories: jekyll update
+category: life
 ---
 
 一次完美的旅行

@@ -2,7 +2,7 @@
 layout: post
 title:  "由unordered_map引发问题的思考"
 date:   2014-03-11
-categories: jekyll update
+category: work
 ---
 
 ## 问题的产生

@@ -2,7 +2,7 @@
 layout: post
 title:  "C++11特性学习笔记"
 date:   2014-01-16
-categories: jekyll update
+category: work
 ---
 
 主要是按照参考文档的描述来学习的，本文的目的在于整理一下思路和个人觉得比较有感触的点。

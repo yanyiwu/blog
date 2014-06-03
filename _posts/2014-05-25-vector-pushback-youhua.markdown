@@ -2,7 +2,7 @@
 layout: post
 title:  "vector使用的简单优化技巧"
 date:   2014-05-22
-categories: jekyll update
+category: work
 ---
 
 ## 背景
