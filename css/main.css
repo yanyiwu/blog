@@ -84,7 +84,6 @@ code {
 
 a {
     text-decoration: none;
-    cursor: crosshair;
     border-bottom: 1px dashed Red;
     padding: 1px;
     color: black;
@@ -108,3 +107,4 @@ color:#292f34;
 border-bottom: 0px;
 }
 #footer p {text-align:center; margin-bottom:0; font-size:1em;}
+
