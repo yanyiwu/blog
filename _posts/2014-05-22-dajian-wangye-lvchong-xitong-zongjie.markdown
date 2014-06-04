@@ -98,5 +98,5 @@ category: work
  
 
 [simhash]:https://github.com/aszxqw/simhash.git
-[SimhashBlog]:http://www.aszxqw.com/jekyll/update/2014/01/30/simhash-shi-xian-xiang-jie.html
-[ThriftBlog]:http://www.aszxqw.com/jekyll/update/2014/03/30/thrift-python-zhichibuhao.html
+[SimhashBlog]:http://www.aszxqw.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html
+[ThriftBlog]:http://www.aszxqw.com/work/2014/03/30/thrift-python-zhichibuhao.html

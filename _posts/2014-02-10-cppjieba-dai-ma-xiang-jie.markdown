@@ -192,4 +192,4 @@ if(!segment)
 [Limonp]:https://github.com/aszxqw/limonp
 [Husky]:https://github.com/aszxqw/husky
 [gtest]:https://code.google.com/p/googletest/
-[HMMSegmentBlog]:http://www.aszxqw.com/jekyll/update/2014/04/07/hmm-segment-xiangjie.html
+[HMMSegmentBlog]:http://www.aszxqw.com/work/2014/04/07/hmm-segment-xiangjie.html
