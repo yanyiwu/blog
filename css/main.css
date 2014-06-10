@@ -73,6 +73,7 @@ pre {
     line-height: 130%;
     margin-left: 10px;
     width: 95%;
+    overflow-x: auto;
 }
 
 
@@ -87,6 +88,10 @@ a {
     border-bottom: 1px dashed Red;
     padding: 1px;
     color: black;
+}
+
+img {
+    width:100%;
 }
 
 

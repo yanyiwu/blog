@@ -13,7 +13,7 @@ simhash最牛逼的一点就是将一个文档，最后转换成一个64位的�
 
 ### simhash值的生成图解如下：
 
-![simhash原理图](/img/simhash.jpg)
+<img src="/img/simhash.jpg" alt="simhash原理图" ></img>
 
 大概花三分钟看懂这个图就差不多怎么实现这个simhash算法了。特别简单。谷歌出品嘛，简单实用。
 
