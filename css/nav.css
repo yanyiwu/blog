@@ -8,7 +8,8 @@ nav ul {
         margin: 0 auto;
         padding: 1.0em 1.0em 1.0em 1.0em;
         list-style: none;
-        background: #444;
+        /*background: #444;*/
+        background-image:url('/img/nav_starry_sky.jpg');
         /*background: rgba(0,0,0,.2);*/
         /*-moz-border-radius: .5em;*/
         /*-webkit-border-radius: .5em;*/
