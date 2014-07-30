@@ -1,4 +1,5 @@
 ---
+published: true
 layout: post
 title:  "长沙游记"
 date:   2014-05-13
@@ -46,9 +47,6 @@ category: life
 + 长沙的摩的很不错，至少坐上去就不再担心堵车。
 + 在长沙大排档吃夜宵和麻辣烫的时候，交钱的时候老板都会说声谢谢。不知道是小概率事件还是普遍的，总之还是让人倍感亲切。
 
-待续
+最后贴一篇某矫情女的视角的长沙旅行记录文章吧，请[点我]。
 
-
-
-
-
+[点我]:http://aszxqw.com/read_by_url/mengyiban-de-lvcheng.html

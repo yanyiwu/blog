@@ -2,7 +2,7 @@
 layout: post
 title:  "创业公司招聘的世界性难题"
 date:   2014-07-30
-category: life
+category: work
 ---
 
 昨天随意评论了一下某大V的公司招聘待遇太低，今天该人连发几条微博吐槽：
