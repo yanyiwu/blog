@@ -100,13 +100,46 @@ ngx_log_error(NGX_LOG_NOTICE, r->connection->log, 0, “error info content");
 前面的井号去掉。也就是讲日志级别降低到 info 这个级别。以方便看到更全面的日志信息。
 从配置里面也可以看到，日志所在文件是 `logs/error.log` 。
 
+## 6. 【Nginx配置项之 SENDFILE, TCP_NODELAY, TCP_NOPUSH】
+
+在古老的互联网早期，网络是非常稀缺的资源，在 TCP 协议栈的设计上面，
+有缓冲的设计，并不是每次调用 socket 的 send 函数就可以马上将数据包发送出去。
+当包很小的时候，并不立即发送，是会在缓冲区里面缓存 0.2 秒等待后续的数据进来一起发送，
+以此起到减少网络资源消耗的作用。
+但是这个缓冲的设计已经不符合当前的网络环境（给服务器带来了不必要的延时）。
+所以 Nginx 提供了 `TCP_NODELAY` 这个配置项来关闭该缓冲机制（其实 Nginx 也是直接配置 socket 的 `TCP_NODELAY` 选项）。
+
+而 `TCP_NOPUSH` 则显然就是和 `TCP_NODELAY` 相反。 
+所以乍一看 `TCP_NODELAY` 能优化 Nginx 的性能，而 `TCP_NOPUSH` 则无用武之处。
+不过 Nginx 里规定，`TCP_NOPUSH` 必须和 `SENDFILE` 一起被启用。这两者结合就开始变得有趣起来了。
+
+先说说 `SENDFILE` ，`SENDFILE` 也非常简单易懂，
+Nginx 的 `SENDIFLE` 实际上也是调用了底层 Linux 系统提供的 `sendfile` 接口。
+
+`sendfile` 是一个系统调用，简单说就是比 `read` 和 `write` 更高性能的系统接口，具体原因可以看 `man sendfile` 。
+不过需要注意的是，`sendfile` 是将 `in_fd` 的内容发送到 `out_fd` 。而 `in_fd` 不能是 socket ， 也就是只能文件句柄。
+所以当 Nginx 是一个静态文件服务器的时候，开启 `SENDFILE` 配置项能大大提高 Nginx 的性能。
+但是当 Nginx 是作为一个反向代理来使用的时候，`SENDFILE` 则没什么用了，因为 Nginx 是反向代理的时候。
+`in_fd` 就不是文件句柄而是 socket，此时就不符合 `sendfile` 函数的参数要求了。
+
+所以当 `SENDFILE`, `TCP_NOPUSH`, `TCP_NODELAY` 一起启用的时候，
+Nginx 对于每次发送静态文件到远端 client 的时候，会先把 socket 配置成 `tcp_nopush`，
+然后使用 `sendfile` 将整个静态文件的数据写到 socket 缓冲区，
+等 `sendfile` 完成后 去除掉 `tcp_nopush` 的 socket 选项，
+则 socket 会将缓冲区里所有数据一次性 **无延迟**(因为`TCP_NODELAY`) 发送。
+从而起到提高服务器性能的作用。
+
+详情请看 [nginx-sendfile-tcp_nodelay-tcp_nopush]
 
 ## 参考资料：
 
-http://www.serverphorums.com/read.php?5,79835
+[Trouble-getting-the-Request-Body-of-a-HTTP-Post]
+[ngx\_http\_cppjieba\_module]
+[nginx-sendfile-tcp_nodelay-tcp_nopush]
 
+[Trouble-getting-the-Request-Body-of-a-HTTP-Post]:http://www.serverphorums.com/read.php?5,79835
 [ngx\_http\_cppjieba\_module]:http://github.com/aszxqw/ngx_http_cppjieba_module
-
+[nginx-sendfile-tcp_nodelay-tcp_nopush]:https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html
 
 
 
