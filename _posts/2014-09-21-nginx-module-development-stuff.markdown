@@ -100,7 +100,7 @@ ngx_log_error(NGX_LOG_NOTICE, r->connection->log, 0, “error info content");
 前面的井号去掉。也就是讲日志级别降低到 info 这个级别。以方便看到更全面的日志信息。
 从配置里面也可以看到，日志所在文件是 `logs/error.log` 。
 
-## 6. 【Nginx配置项之 SENDFILE, TCP_NODELAY, TCP_NOPUSH】
+## 6. 【Nginx配置项之 SENDFILE, TCP\_NODELAY, TCP\_NOPUSH】
 
 在古老的互联网早期，网络是非常稀缺的资源，在 TCP 协议栈的设计上面，
 有缓冲的设计，并不是每次调用 socket 的 send 函数就可以马上将数据包发送出去。
@@ -129,17 +129,17 @@ Nginx 对于每次发送静态文件到远端 client 的时候，会先把 socke
 则 socket 会将缓冲区里所有数据一次性 **无延迟**(因为`TCP_NODELAY`) 发送。
 从而起到提高服务器性能的作用。
 
-详情请看 [nginx-sendfile-tcp_nodelay-tcp_nopush]
+详情请看 [nginx-sendfile-tcp\_nodelay-tcp\_nopush] 。
 
 ## 参考资料：
 
-[Trouble-getting-the-Request-Body-of-a-HTTP-Post]
-[ngx\_http\_cppjieba\_module]
-[nginx-sendfile-tcp_nodelay-tcp_nopush]
++ [Trouble-getting-the-Request-Body-of-a-HTTP-Post]
++ [ngx\_http\_cppjieba\_module]
++ [nginx-sendfile-tcp\_nodelay-tcp\_nopush]
 
 [Trouble-getting-the-Request-Body-of-a-HTTP-Post]:http://www.serverphorums.com/read.php?5,79835
 [ngx\_http\_cppjieba\_module]:http://github.com/aszxqw/ngx_http_cppjieba_module
-[nginx-sendfile-tcp_nodelay-tcp_nopush]:https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html
+[nginx-sendfile-tcp\_nodelay-tcp\_nopush]:https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html
 
 
 
