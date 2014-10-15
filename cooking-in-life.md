@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: review
 title: 大厨的日常
 ---
-
-# 大厨的日常
 
 <img src="/weedfs/2/02a4114c08/7496AAD14F23C29D45E3DB7F0B970B0F.png" alt="" ></img>
 <img src="/weedfs/1/03f1561b20/7ABA4A07583294EB85AA52B5B6AEF129.png" alt="" ></img>
