@@ -71,7 +71,7 @@ service Foo {
 里面最关键的两个文件就是 `Foo.h` 和 `Foo.cpp` 。
 里面和 processor 相关的类是 : 
 
-```cpp
+{% highlight cpp %}
 class FooProcessor : public ::apache::thrift::TDispatchProcessor {
  protected:
   boost::shared_ptr<FooIf> iface_;
@@ -89,7 +89,7 @@ class FooProcessor : public ::apache::thrift::TDispatchProcessor {
 
   virtual ~FooProcessor() {}
 };
-```
+{% endhighlight %}
 
 可以看出该 processor 继承自 `TDispatchProcessor` 。
 
@@ -240,6 +240,7 @@ Task 就是将 `transport`, `protocol`, `processor` 包装起来而已。
 不过就像前阶段[淘叔度]微博说的：
 
 > 做互联网开发的程序员怎么可以不读开源代码呢？！即使是最伟大的画家也会去欣赏甚至借鉴别人的作品，因为这是一个必经的学习成长路径。不读开源代码就不是好程序员；不读开源代码就是无追求、无品味、无上进心的三无程序员。
+
 
 
 [thrift-0.9.0]:http://archive.apache.org/dist/thrift/0.9.0/thrift-0.9.0.tar.gz
