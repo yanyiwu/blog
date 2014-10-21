@@ -6,6 +6,7 @@ category: work
 ---
 
 本博文基于[CppJieba] v2.3.0版本。
+【后注】主要模块都已经成型，后续的修改请参看【[ChangeLog]】。
 
 ## 脉络概要
 
@@ -193,3 +194,4 @@ if(!segment)
 [Husky]:https://github.com/aszxqw/husky
 [gtest]:https://code.google.com/p/googletest/
 [HMMSegmentBlog]:http://www.aszxqw.com/work/2014/04/07/hmm-segment-xiangjie.html
+[ChangeLog]:https://github.com/aszxqw/cppjieba/blob/master/ChangeLog.md
