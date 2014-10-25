@@ -8,6 +8,12 @@ title: 大厨的日常
 
 <img src="/weedfs/1/1725fdf81b/6.pic.jpg"></img>
 
+话说上面一锅白萝卜只用了下面这根萝卜的不到一半。
+下面这根萝卜这么大价格还不足三块钱。
+北京除了房价变态，其他物价其实并不高。
+
+<img src="/weedfs/5/1815e21794/luobo.pic_hd.jpg"></img>
+
 ## 炒饭已经如火纯青，没什么提升的空间了。
 
 <img src="/weedfs/2/12bdb36a57/1.pic.jpg"></img>
