@@ -3,16 +3,23 @@ layout: review
 title: 大厨的日常
 ---
 
+&raquo; 2014-10-20 19:11:25
 
-## 【2014-10-20】家母特地打电话告知这个季节吃白萝卜对身体特别好，所以。
+> 家母特地打电话告知这个季节吃白萝卜对身体特别好。
+> 话说图里一锅白萝卜只用了该根萝卜的不到一半。
+> 这根萝卜这么大价格还不足三块钱。
+> 北京除了房价变态，其他物价其实并不高。
 
-<img src="/weedfs/1/1725fdf81b/6.pic.jpg"></img>
-
-话说上面一锅白萝卜只用了下面这根萝卜的不到一半。
-下面这根萝卜这么大价格还不足三块钱。
-北京除了房价变态，其他物价其实并不高。
-
-<img src="/weedfs/5/1815e21794/luobo.pic_hd.jpg"></img>
+<img 
+class="ShowAndHide" 
+src="/weedfs/1/1725fdf81b/6.pic.jpg"
+onclick="BackFullScreen(this.src)" 
+/>
+<img 
+class="ShowAndHide" 
+src="/weedfs/5/1815e21794/luobo.pic_hd.jpg"
+onclick="BackFullScreen(this.src)" 
+/>
 
 ## 炒饭已经如火纯青，没什么提升的空间了。
 
