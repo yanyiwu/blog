@@ -121,7 +121,7 @@ SegmentBase主要是含有一些公用函数，减少代码冗余。
 HMM模型由`dict/hmm_model.utf8`提供。
 分词算法即viterbi算法。
 
-详见[HMMSegmentBlog]
+详见【[白话中文分词之HMM模型]】
 
 #### MixSegment
 
@@ -193,6 +193,6 @@ if(!segment)
 [Limonp]:https://github.com/aszxqw/limonp
 [Husky]:https://github.com/aszxqw/husky
 [gtest]:https://code.google.com/p/googletest/
-[HMMSegmentBlog]:http://www.aszxqw.com/work/2014/04/07/hmm-segment-xiangjie.html
+[白话中文分词之HMM模型]:http://yanyiwu.com/work/2014/04/07/hmm-segment-xiangjie.html
 [ChangeLog]:https://github.com/aszxqw/cppjieba/blob/master/ChangeLog.md
 [wiki]:https://github.com/aszxqw/cppjieba/wiki/CppJieba%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3

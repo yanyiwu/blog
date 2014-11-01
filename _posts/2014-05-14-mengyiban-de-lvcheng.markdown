@@ -1,9 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 title:  "梦一般的旅程"
 date:   2014-05-14
+category: life
 ---
+
+【女友视角】
 
 （2014.5.9-2014.5.12 长沙）
 
