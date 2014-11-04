@@ -3,6 +3,17 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2014-11-04 22:44
+
+> 这几天心情比较低落，想起之前老罗的一条微博，
+> 重新照出来再看一遍，还是觉得非常好的文章，如下图：
+
+> <img
+class="ShowAndHide"
+src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
+onclick="BackFullScreen(this.src)"
+/>
+
 &raquo; 2014-11-02 00:01
 
 > 这几天一直在犹豫是否要买罗永浩的锤子手机，

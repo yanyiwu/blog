@@ -3,6 +3,22 @@ layout: post_without_date
 title: 大厨的日常
 ---
 
+&raquo; 2014-11-02 14:17
+
+> 买的活鱼，超市里面现场杀好的，
+> 没想到放锅里煎的时候还会跳，吓。
+
+> <img
+class="ShowAndHide"
+src="/weedfs/1/22ed7bea40/968975B1D7CA574ABFAFE56076C99516.jpeg"
+onclick="BackFullScreen(this.src)"
+/>
+> <img
+class="ShowAndHide"
+src="/weedfs/2/238df55e45/4C6A128F107202EDFA4BC50A8651D18A.png"
+onclick="BackFullScreen(this.src)"
+/>
+
 &raquo; 2014-10-28 23:02
 
 > 夜宵和早餐
