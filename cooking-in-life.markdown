@@ -1,5 +1,5 @@
 ---
-layout: review
+layout: post_without_date
 title: 大厨的日常
 ---
 
