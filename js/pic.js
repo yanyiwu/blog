@@ -7,7 +7,7 @@ function BackFullScreen(BigImgUrl) {
     if (ShowBigImgDivPosition == 0 || ShowBigImgDivPosition == "") {
         ShowBigImgDivPosition = document.body.scrollTop;
     }
-    ShowBigImgDiv.style.top = ShowBigImgDivPosition + ((window.screen.height - ShowBigImgDiv.clientHeight) / 2 - 170 ) + "px";
+    ShowBigImgDiv.style.top = ShowBigImgDivPosition + ((window.screen.height - ShowBigImgDiv.clientHeight) / 2 ) + "px";
     ShowBigImgDiv.style.left = (window.screen.width - ShowBigImgDiv.clientWidth) / 2 + "px";
     ShowBigImgDiv.style.right = (window.screen.width - ShowBigImgDiv.clientWidth) / 2 + "px";
 }
