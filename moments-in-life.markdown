@@ -3,16 +3,35 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2014-11-07 00:26
+
+> 今天发现刚进行完B轮融资的 Face++ 团队技术背景如此出色。
+> 更让我惊讶的是创始人印奇是博士两年中途退学回国创业，
+> 很有当年王兴的风范，深感钦佩。
+> 我觉得，只有当这个行业的优秀人才不安分于追求一份高薪工作，
+> 而是出来创造对这个社会有价值的东西，这个行业才会更加健康。
+
+&raquo; 2014-11-06 20:11
+
+> 装了微博上看到的 GitHub 3D 插件，感觉确实很酷炫。
+> 一股城市绿化带风格。
+
+> <a
+href="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
+data-lightbox="image-1" title="my caption">
+<img class="thumbnail" 
+src="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
+
 &raquo; 2014-11-04 22:44
 
 > 这几天心情比较低落，想起之前老罗的一条微博，
 > 重新照出来再看一遍，还是觉得非常好的文章，如下图：
 
-> <img
-class="ShowAndHide"
-src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
-onclick="BackFullScreen(this.src)"
-/>
+> <a
+href="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
+data-lightbox="image-1" title="my caption">
+<img class="thumbnail" 
+src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 
 &raquo; 2014-11-02 00:01
 
@@ -22,11 +41,11 @@ onclick="BackFullScreen(this.src)"
 > 实在很难说服自己放弃 iOS ，改用安卓。唉。
 > 这个选择简直比当时选择是否退学还难，再说吧。
 
-> <img 
-class="ShowAndHide" 
-src="/weedfs/1/19bc893b5b/smartisan_t1.jpg" 
-onclick="BackFullScreen(this.src)" 
-/>
+> <a
+href="/weedfs/1/19bc893b5b/smartisan_t1.jpg"
+data-lightbox="image-1" title="my caption">
+<img class="thumbnail" 
+src="/weedfs/1/19bc893b5b/smartisan_t1.jpg"/></a>
 
 &raquo; 2014-11-01 17:30
 

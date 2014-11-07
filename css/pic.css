@@ -1,22 +1,4 @@
-#ShowBigImgDiv
-{
-    position: absolute;
-    z-index: 10001;
-    display: none;
-    cursor: pointer;
-}
-#FullScreenDiv
-{
-    position: absolute;
-    z-index: 10000;
-    display: none;
-    background-color: #FFFFFF;
-    filter: alpha(opacity=50);
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.ShowAndHide
+.thumbnail
 {
     width: 160px;
     height: 130px;
