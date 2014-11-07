@@ -40,7 +40,6 @@ href="/weedfs/1/22ed7bea40/968975B1D7CA574ABFAFE56076C99516.jpeg"
 data-lightbox="image-1" title="my caption">
 <img class="thumbnail" 
 src="/weedfs/1/22ed7bea40/968975B1D7CA574ABFAFE56076C99516.jpeg" /></a>
-
 > <a
 href="/weedfs/2/238df55e45/4C6A128F107202EDFA4BC50A8651D18A.png"
 data-lightbox="image-1" title="my caption">
@@ -56,7 +55,6 @@ href="/weedfs/1/1e6bd45776/11.1.3.pic.jpg"
 data-lightbox="image-1" title="my caption">
 <img class="thumbnail" 
 src="/weedfs/1/1e6bd45776/11.1.3.pic.jpg" /></a>
-
 > <a
 href="/weedfs/4/2097ef4bf8/zaocan.pic.jpg"
 data-lightbox="image-1" title="my caption">
