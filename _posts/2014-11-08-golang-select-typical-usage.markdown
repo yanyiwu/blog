@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "golang的select典型用法"
+title:  "Golang的select典型用法"
 date:   2014-11-08
 category: work
 ---
