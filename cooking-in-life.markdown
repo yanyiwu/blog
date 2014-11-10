@@ -9,7 +9,7 @@ title: 大厨的日常
 
 > <a
 href="/weedfs/4/25a7bf1c8e/28E73C76D122A7B6CCCA03A35025D8C1.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/25a7bf1c8e/28E73C76D122A7B6CCCA03A35025D8C1.png" /></a>
 
@@ -18,7 +18,7 @@ src="/weedfs/4/25a7bf1c8e/28E73C76D122A7B6CCCA03A35025D8C1.png" /></a>
 
 > <a
 href="/weedfs/4/260433a4c2/6CF697B2E869546A424137232E1D4946.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/260433a4c2/6CF697B2E869546A424137232E1D4946.png" /></a>
 
@@ -26,7 +26,7 @@ src="/weedfs/4/260433a4c2/6CF697B2E869546A424137232E1D4946.png" /></a>
 
 > <a
 href="/weedfs/3/277a70f7b3/D6F98D3E53F5C6FB2E082F910584412B.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/3/277a70f7b3/D6F98D3E53F5C6FB2E082F910584412B.png" /></a>
 
@@ -37,12 +37,12 @@ src="/weedfs/3/277a70f7b3/D6F98D3E53F5C6FB2E082F910584412B.png" /></a>
 
 > <a
 href="/weedfs/1/22ed7bea40/968975B1D7CA574ABFAFE56076C99516.jpeg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/22ed7bea40/968975B1D7CA574ABFAFE56076C99516.jpeg" /></a>
 > <a
 href="/weedfs/2/238df55e45/4C6A128F107202EDFA4BC50A8651D18A.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/2/238df55e45/4C6A128F107202EDFA4BC50A8651D18A.png" /></a>
 
@@ -52,12 +52,12 @@ src="/weedfs/2/238df55e45/4C6A128F107202EDFA4BC50A8651D18A.png" /></a>
 
 > <a
 href="/weedfs/1/1e6bd45776/11.1.3.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/1e6bd45776/11.1.3.pic.jpg" /></a>
 > <a
 href="/weedfs/4/2097ef4bf8/zaocan.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/2097ef4bf8/zaocan.pic.jpg"/></a>
 
@@ -67,7 +67,7 @@ src="/weedfs/4/2097ef4bf8/zaocan.pic.jpg"/></a>
 
 > <a
 href="/weedfs/4/1da742f138/11.1.1.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/1da742f138/11.1.1.pic.jpg"/></a>
 
@@ -80,12 +80,12 @@ src="/weedfs/4/1da742f138/11.1.1.pic.jpg"/></a>
 
 > <a
 href="/weedfs/1/1725fdf81b/6.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/1725fdf81b/6.pic.jpg"/></a>
 > <a
 href="/weedfs/5/1815e21794/luobo.pic_hd.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/5/1815e21794/luobo.pic_hd.jpg"/></a>
 
@@ -95,12 +95,12 @@ src="/weedfs/5/1815e21794/luobo.pic_hd.jpg"/></a>
 
 > <a
 href="/weedfs/2/12bdb36a57/1.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/2/12bdb36a57/1.pic.jpg"/></a>
 > <a
 href="/weedfs/1/13211027be/2.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/13211027be/2.pic.jpg"/></a>
 
@@ -108,7 +108,7 @@ src="/weedfs/1/13211027be/2.pic.jpg"/></a>
 
 > <a
 href="/weedfs/5/168f901333/5.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/5/168f901333/5.pic.jpg"/></a>
 
@@ -117,7 +117,7 @@ src="/weedfs/5/168f901333/5.pic.jpg"/></a>
 
 > <a
 href="/weedfs/4/1436eabbf9/3.pic.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/1436eabbf9/3.pic.jpg"/></a>
 
@@ -125,41 +125,41 @@ src="/weedfs/4/1436eabbf9/3.pic.jpg"/></a>
 
 > <a
 href="/weedfs/2/02a4114c08/7496AAD14F23C29D45E3DB7F0B970B0F.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/2/02a4114c08/7496AAD14F23C29D45E3DB7F0B970B0F.png"/></a>
 > <a
 href="/weedfs/1/03f1561b20/7ABA4A07583294EB85AA52B5B6AEF129.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/03f1561b20/7ABA4A07583294EB85AA52B5B6AEF129.png"/></a>
 > <a
 href="/weedfs/1/043f2b09e3/8A86FBE06F8DC98A2CEF3591AB47E6DD.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/043f2b09e3/8A86FBE06F8DC98A2CEF3591AB47E6DD.png"/></a>
 > <a
 href="/weedfs/1/043f2b09e3/8A86FBE06F8DC98A2CEF3591AB47E6DD.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/043f2b09e3/8A86FBE06F8DC98A2CEF3591AB47E6DD.png"/></a>
 > <a
 href="/weedfs/1/0147cdfce0/3DC2EEAFB5939C4DB74C93981189728C.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/0147cdfce0/3DC2EEAFB5939C4DB74C93981189728C.png"/></a>
 > <a
 href="/weedfs/5/055d1ff29d/3929586CBC711058EBE113A64D747012.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/5/055d1ff29d/3929586CBC711058EBE113A64D747012.png"/></a>
 > <a
 href="/weedfs/3/07993bf975/ECFDF70328611AE02316CA7E1AD33826.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/3/07993bf975/ECFDF70328611AE02316CA7E1AD33826.png"/></a>
 > <a
 href="/weedfs/5/0804e6f4a0/E493A8DF1800DD5E4696ACEA57AB4D4E.png"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/5/0804e6f4a0/E493A8DF1800DD5E4696ACEA57AB4D4E.png"/></a>

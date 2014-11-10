@@ -18,7 +18,7 @@ title: 时间线
 
 > <a
 href="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
 
@@ -29,7 +29,7 @@ src="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
 
 > <a
 href="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 
@@ -43,7 +43,7 @@ src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 
 > <a
 href="/weedfs/1/19bc893b5b/smartisan_t1.jpg"
-data-lightbox="image-1" title="my caption">
+data-lightbox="image-1" >
 <img class="thumbnail" 
 src="/weedfs/1/19bc893b5b/smartisan_t1.jpg"/></a>
 
