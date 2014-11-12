@@ -167,4 +167,8 @@ C 是常数。
 往往经常在某些点上理解有偏差，会导致在调优方面的尝试做了不少无用功，并且还想不通为什么。  
 所以写篇文章梳理一遍，查缺补漏，是为了更好的使用。  
 
-[Wand经典论文]:http://pan.baidu.com/s/1c0kvhOc
+## 参考
+
++ [Wand经典论文]
+
+[Wand经典论文]:http://yanyiwu.com/weedfs/4/4331f68fcd/wand.pdf
