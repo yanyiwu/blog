@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "Golang初体验"
+title:  "golang初体验"
 date:   2014-08-11
 category: work
 ---
