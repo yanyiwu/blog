@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "创业的热潮与寒潮"
-date:   2014-11-10
+date:   2014-11-09
 category: work
 ---
 
