@@ -13,3 +13,10 @@ title: AboutMe
 
 + `C/C++/Golang/Python/Node.js/Erlang`
 + 自然语言处理/搜索引擎/推荐系统/分布式存储/即时通信消息引擎
+
+
+## 友链
+
++ [armsword]
+
+[armsword]:http://armsword.com

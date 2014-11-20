@@ -3,6 +3,78 @@ layout: post_without_date
 title: 时间线
 ---
 
+
+&raquo; 2014-11-21 01:08
+
+> 锤子用了几天了，爱不释手，实体机比照片漂亮太多。
+> 系统优化的各种小细节都非常贴心，
+> 从 iPhone 5s 换过来使用安卓没有落差而且反而惊喜不断。
+
+> <a
+href="/weedfs/5/4bd360ce7e/smartisan_4bd.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/5/4bd360ce7e/smartisan_4bd.png"/></a>
+> <a
+href="/weedfs/2/4a7238e2e3/smartisan_4a7.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/2/4a7238e2e3/smartisan_4a7.png"/></a>
+> <a
+href="/weedfs/4/4ca93fdcb2/smartisan_4ca.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/4/4ca93fdcb2/smartisan_4ca.png"/></a>
+
+&raquo; 2014-11-18 01:02
+
+> 《周鸿祎自述:我的互联网方法论》终于读完了，
+> 不管喜欢老周也好，讨厌老周也好，都是很值得看的一本书。
+> 看完最大的一个感想是：
+> 老周职业生涯的终点如果是奇虎的话，
+> 是中国互联网的遗憾。
+
+&raquo; 2014-11-18 00:19
+
+> 等锤子发货的时间异常的难熬，
+> 听说在天猫上买会更快一些，
+> 真后悔在官网上下单。
+
+&raquo; 2014-11-18 00:04
+
+> 今天想明白了一个道理，软件产品的品味是天生的，就好像幽默感一样。
+
+&raquo; 2014-11-17 23:50
+
+> 陪女朋友去她的学校(对外经贸大学)咖啡厅看书，
+> 你没有看错，我在那里写 `erlang` 。
+
+> <a
+href="/weedfs/2/486b90b40e/06182C450B9785E6C17D20547B464DB4.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/2/486b90b40e/06182C450B9785E6C17D20547B464DB4.png"/></a>
+
+&raquo; 2014-11-16 16:20
+
+> 去英国读研的同学送的纪念品，感觉很不错。
+
+> <a
+href="/weedfs/3/457e3856ef/4D7F79EC58BD0D2CFCC1B168E944B215.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/3/457e3856ef/4D7F79EC58BD0D2CFCC1B168E944B215.png"/></a>
+> <a
+href="/weedfs/1/4671a234cc/D987428381F9EB5FE82C7E53CD5CF9DB.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/1/4671a234cc/D987428381F9EB5FE82C7E53CD5CF9DB.png"/></a>
+> <a
+href="/weedfs/4/475d485051/80823CC02E30ED85C9B6A19ED004722B.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/4/475d485051/80823CC02E30ED85C9B6A19ED004722B.png"/></a>
+
 &raquo; 2014-11-13 01:06
 
 > 今天优化了好久 [CppJieba] ，还使用了同事提起的 `Aho-Corasick-Automation` (AC自动机) 

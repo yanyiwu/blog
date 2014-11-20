@@ -3,6 +3,16 @@ layout: post_without_date
 title: 大厨的日常
 ---
 
+&raquo; 2014-11-18 01:25
+
+> 在北京吃过的最好的油焖紫菜
+
+> <a
+href="/weedfs/2/49a4c1d13b/42F8B1BDF3CE72B99619D0780F951A65.png"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/2/49a4c1d13b/42F8B1BDF3CE72B99619D0780F951A65.png" /></a>
+
 &raquo; 2014-11-07 01:01
 
 > 肉沫藕丁
