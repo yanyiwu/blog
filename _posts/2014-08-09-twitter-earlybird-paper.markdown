@@ -9,7 +9,7 @@ category: work
 
 【背景】
 
-工作的需要最近参看了 Twitter 的关于实时搜索引擎 EarlyBird 的论文。算是很通俗易懂的架构性的论文，论文[分享地址]。
+工作的需要最近参看了 Twitter 的关于实时搜索引擎 EarlyBird 的论文。算是很通俗易懂的架构性的论文: [earlybird]。
 
 【索引】
 
@@ -51,4 +51,4 @@ tweet 进来之后，先对每一个 term 查找词典，如果词典中存在�
 这篇论文算是非常朴实和实用的设计，没有什么花哨且高大上的设计，但是却能解决很实际的问题。  
 
 
-[分享地址]:http://pan.baidu.com/s/1dD4BGp7 
+[earlybird]:http://yanyiwu.com/weedfs/4/4d6cc19893/earlybird.pdf
