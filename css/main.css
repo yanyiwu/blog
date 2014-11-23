@@ -18,12 +18,12 @@ H1 {
 
 H2 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    font-size: 1.5em;
-    margin-bottom: 60px;
-    margin-bottom: 40px;
-    padding: 5px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    padding: -5px 0px 5px 0px;;
     border-bottom: 1px LightGrey solid;
-    width: 90%;
+    width: 100%;
     line-height: 150%;
     color: DarkGreen;
 }
@@ -53,7 +53,7 @@ H4 {
 
 
 li {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 
@@ -85,7 +85,7 @@ code {
 
 a {
     text-decoration: none;
-    border-bottom: 1px dashed Red;
+    border-bottom: 1px solid rgb(6, 7, 18);
     padding: 1px;
     color: black;
 }
@@ -104,6 +104,14 @@ a:hover {
 
 hr {
     color: LightGrey;
+}
+
+ul {
+    padding: 5px 5px 5px 20px;
+}
+
+ol {
+    padding: 5px 5px 5px 30px;
 }
 
 #footer {border-top:1px solid #fff; font-size:0.8em; padding-bottom:1em; padding-top:1em; color:#292f34; text-shadow:1px 1px #adafb1;}
