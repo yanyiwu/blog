@@ -48,6 +48,7 @@ MacBook Air 用户，
 4. {[ejabberd]}  分布式消息通信引擎，erlang 开发，使用 erlang 自带的分布式数据库 mnesia 作为消息的存储引擎，天生分布式，不过性能可能不算太高。
 5. {[libevent]}  
 6. {[thrift]}
+7. {[docker]}
 
 待续...
 
@@ -64,6 +65,8 @@ MacBook Air 用户，
 1. {[推荐系统的那点事]}      是本博客中流传最广的文章，技术相关网站几乎都有转载，可惜当时博客不够完善，甚至连评论等功能都没有。主要靠微博转发传播。因为文章指出了一些推荐系统的误区，俗称打脸，因此也因为惹一些人不开心。唉。
 2. {[golang初体验]}          是本博客中阅读量第二的文章，也因此有幸结识了牛人{[许式伟]}，收获良多。
 3. {[Nginx模块开发的那些事]} Nginx 是非常优秀的高性能服务器，开发 Nginx 扩展模块就需要清楚 Nginx 的设计原理，本博文主要介绍的就是模块开发的一些相关知识。
+4. {[影响我一生的两个选择]} 文如题名，不过后来发现其实人生还很长，处处都是影响整个人生的选择。
+5. {[那些年追过的创业团队]} 关注过的一些创业团队和现象，不时回顾看看还是很有意思的。
 
 待续...
 
@@ -96,3 +99,5 @@ MacBook Air 用户，
 [thrift]:https://github.com/apache/thrift
 [xushiwei]:http://xushiwei.com/
 [许式伟]:http://xushiwei.com/
+[影响我一生的两个选择]:http://yanyiwu.com/life/2014/10/11/choices-change-my-life.html
+[那些年追过的创业团队]:http://yanyiwu.com/work/2014/08/21/naxienian-startup.html
