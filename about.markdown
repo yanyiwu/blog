@@ -86,7 +86,7 @@ MacBook Air 用户，
 [推荐系统的那点事]:http://yanyiwu.com/work/2014/06/01/tuijian-xitong-de-nadianshi.html
 [GitHub]::http://github.com/aszxqw
 [golang初体验]:http://yanyiwu.com/work/2014/08/11/golang-chutiyan.html
-[Simhash]:http://yanyiwu.com/aszxqw/simhash
+[Simhash]:http://github.com/aszxqw/simhash
 [weed-fs]:https://github.com/chrislusf/weed-fs
 [icomet]:https://github.com/ideawu/icomet
 [Nginx模块开发的那些事]:http://yanyiwu.com/work/2014/09/21/Nginx-module-development-stuff.html

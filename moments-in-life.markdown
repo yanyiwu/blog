@@ -3,6 +3,20 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2014-11-28 01:22
+
+> - 眼界有多远，心就有多谦虚。
+> - 长尾挖掘是一种钱途不好，但是很有价值的东西。
+> - 互联网最让我遗憾的就是把音乐出版这个行业很糟蹋了，希望能越来越重视版权。
+> - 不懂业务场景，只知道吹嘘各种算法概念，都是精通各种体位的太监。
+> - 这几年，传统行业都是抱怨毕业生工作难找；互联网行业都是在抱怨招聘难招；以前我以为这是病态，现在我觉得这其实是过渡态。
+> - 聪明反被聪明误基本上都是因为太过于趋利避害造成的。
+
+&raquo; 2014-11-28 01:12
+
+> 今天发现一个非常好的技术分享 [实时系统架构与实现]
+> 满满的干货，特别是当你了解 Erlang / golang / Node.js ，
+> 并正关注高并发实时推送这个领域的话。
 
 &raquo; 2014-11-25 21:46
 
@@ -166,3 +180,4 @@ src="/weedfs/1/19bc893b5b/smartisan_t1.jpg"/></a>
 > 所以今天专门在主页上搞一个专门的分类【MOMENT】，记录一些日常事宜。
 
 [CppJieba]:http://github.com/aszxqw/cppjieba
+[实时系统架构与实现]:http://www.infoq.com/cn/presentations/framework-and-implementation-of-real-time-system

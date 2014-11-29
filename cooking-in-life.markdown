@@ -3,6 +3,16 @@ layout: post_without_date
 title: 大厨的日常
 ---
 
+&raquo; 2014-11-28 23:35
+
+> 久违的海带排骨
+
+> <a
+href="/weedfs/2/4e35fef08b/BEB2192089784EE0B371CD199082214B.jpg"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/2/4e35fef08b/BEB2192089784EE0B371CD199082214B.jpg" /></a>
+
 &raquo; 2014-11-18 01:25
 
 > 在北京吃过的最好的油焖紫菜
