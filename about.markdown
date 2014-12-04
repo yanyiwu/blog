@@ -76,6 +76,7 @@ MacBook Air 用户，
 
 + [armsword]
 + [xushiwei]
++ [ruochenxu]
 
 [armsword]:http://armsword.com
 [生活随笔]:http://yanyiwu.com/moments-in-life.html
@@ -102,3 +103,4 @@ MacBook Air 用户，
 [影响我一生的两个选择]:http://yanyiwu.com/life/2014/10/11/choices-change-my-life.html
 [那些年追过的创业团队]:http://yanyiwu.com/work/2014/08/21/naxienian-startup.html
 [docker]:http://www.docker.com/
+[ruochenxu]:http://cstdlib.com/
