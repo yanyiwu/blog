@@ -79,7 +79,7 @@ MacBook Air 用户，
 + [ruochenxu]
 
 [armsword]:http://armsword.com
-[生活随笔]:http://yanyiwu.com/moments-in-life.html
+[生活随笔]:http://yanyiwu.com/moments/moment.html
 [厨艺展示]:http://yanyiwu.com/cooking-in-life.html
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/aszxqw/cppjieba
