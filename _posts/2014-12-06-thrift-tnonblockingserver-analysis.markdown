@@ -25,6 +25,8 @@ category: work
 驱动和状态的转换，只要有些 [libevent] 经验的人就很容易
 能看懂。
 
+> 想进一步了解 [libevent] 可以看看 [C1000K之Libevent源码分析] 。
+
 ## 事件注册
 
 Thrift 使用 [libevent] 作为服务的事件驱动器，
@@ -283,3 +285,4 @@ TNonblockingServer.cpp448SOCKET_RECV_FRAMING
 [libevent]:http://libevent.org/
 [Thrift源码剖析]:http://yanyiwu.com/work/2014/10/17/thrift-source-code-illustration.html
 [MyTNonblockingServer]:http://yanyiwu.com/weedfs/4/4f6bc786c4/TNonblockingServer.cpp
+[C1000K之Libevent源码分析]:http://yanyiwu.com/work/2014/12/10/asyncronous-io-libevent.html
