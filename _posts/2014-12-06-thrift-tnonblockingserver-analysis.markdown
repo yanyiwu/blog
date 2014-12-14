@@ -150,9 +150,9 @@ void workSocket();
 
 上面的 socket 状态转移，是针对每个连接的数据收发状态转移，
 和 socket 紧密相关，而这里的 app状态转移则是针对整个 rpc 
-远程函数调用。
+远程函数调用(不过每次rpc调用其实也是建立在某个连接的基础之上)。
 
-server状态的代码如下：
+app状态的代码如下：
 
 ```
 enum TAppState {
@@ -175,7 +175,7 @@ enum TAppState {
 5. APP\_SEND\_RESULT 任务已经完成，将任务结果发送。
 6. APP\_CLOSE\_CONNECTION 关闭连接。
 
-每次app状态转移由 transition 函数完成：
+每次app状态转移由 TConnetion::transition 函数完成：
 
 ```
 /**
