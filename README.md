@@ -10,6 +10,6 @@
 
 ## 客服
 
-`i@yanyiwu.com`
+> - i@yanyiwu.com
 
 [yanyiwu]:http://yanyiwu.com
