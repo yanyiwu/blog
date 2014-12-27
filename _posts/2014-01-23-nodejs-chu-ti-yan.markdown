@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "node.js初体验"
+title:  "Node.js初体验"
 date:   2014-01-23
 category: work
 ---

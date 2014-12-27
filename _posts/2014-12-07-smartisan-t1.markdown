@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "Smartisan T1"
+title:  "锤子科技 Smartisan T1"
 date:   2014-12-07
 category: life
 ---
