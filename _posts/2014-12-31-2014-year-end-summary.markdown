@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "2014年终总结"
-date:   2015-12-31
+date:   2014-12-31
 category: life
 ---
 
