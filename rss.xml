@@ -6,14 +6,8 @@ layout : nil
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 <channel>
 <title>{{site.name |append:' ' xml_escape}}</title>
-<image>
-    <link>http://jser.me</link>
-    <url>http://jser.me/images/logo.png</url>
-</image>
-<link>http://jser.me</link>
 <description/>
 <language>zh-cn</language>
-<generator>http://jser.me</generator>
 <ttl>5</ttl>
 <copyright><![CDATA[Copyright &copy; jser.me]]></copyright>
 {% for post in site.posts limit: 20 %}
@@ -22,7 +16,7 @@ layout : nil
          <link>{{ site.url }}{{ post.url }}</link>
          <guid>{{ site.url }}{{ post.id }}</guid>
          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-         <author><![CDATA[草依山]]></author>
+         <author><![CDATA[YanyiWu]]></author>
          <description><![CDATA[{{ post.content | expand_urls: site.url }}]]></description>
      </item>
 {% endfor %}
