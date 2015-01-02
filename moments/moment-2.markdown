@@ -2,6 +2,16 @@
 layout: sharebutton
 title: 时间线
 ---
+&raquo; 2015-01-01 18:23
+
+> 去年下单的 MacBookPro ，今年快递刚到。送给女朋友的礼物。
+> 看了看 Pro 的 Retina 屏幕再看自己的 MacBookAir，感觉好忧伤。
+
+> <a
+href="/weedfs/4/55f96a8286/MacBookPro.jpg"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="/weedfs/4/55f96a8286/MacBookPro.jpg"/></a>
 
 &raquo; 2014-12-27 10:24
 
