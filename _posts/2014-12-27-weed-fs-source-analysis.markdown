@@ -6,6 +6,9 @@ date:   2014-12-27
 category: work
 ---
 
+
+基于源码版本是 0.67 版本
+
 [WeedFS] 是一个非常优秀的由 golang 开发的分布式存储开源项目，
 虽然在我刚开始关注的时候它在 github.com 上面只有 几十个 star，
 但是我觉得这个项目是一个几千star量级的优秀开源项目。
@@ -30,7 +33,7 @@ curl -F "file=@/tmp/test.mp3" http://127.0.0.1:9333/submit
 - weed/weed\_server 入口目录与HTTP服务相关
 - storage 核心模块，主要包括【store, volume, needle】这三大块存储相关的源码。
 - topology  
-- sequence  负责FileID每次生成的
+- sequence  负责FileID的全局有序生成
 
 
 - filer 提供支持 HTTP REST 操作的文件服务器，其实就是基于 leveldb 把文件名和目录结构存储起来。
@@ -55,6 +58,104 @@ curl -F "file=@/tmp/test.mp3" http://127.0.0.1:9333/submit
 然后再经过一段合适的时间后由 VolumeServer 将这个 Volume 从磁盘上安全的删除掉。
 详细请看在[WeedFS]自带的文档[ttl]，
 
+## Topology
 
-[WeedFS]
+topology 整个模块最核心的数据结构是三个：
+
++ DataCenter
++ Rack
++ DataNode
+
+topology 是树状结构，DataNode 是树的叶子节点，
+DataCenter 和 Rack 是树的非叶子节点，
+DataCenter 是 Rack 的父母节点。
+如下图
+
+```
+            DataCenter
+                |
+                |
+       ------------------
+       |                |
+       |                |
+      Rack            Rack
+       |
+       |
+   ------------
+   |          |
+   |          |
+ DataNode  DataNode
+```
+
+也就是在 MasterServer 维护的拓扑结构里，
+是把 VolumeServer 的相关信息存储在 DataNode 里，
+所以在代码里面可以看到如下：
+
+```
+dc := t.GetOrCreateDataCenter(dcName)
+rack := dc.GetOrCreateRack(rackName)
+dn := rack.FindDataNode(*joinMessage.Ip, int(*joinMessage.Port))
+```
+
+每次查找对应的DataNode，都需要从 DataCenter -> Rack -> DataNode 依次找下去。
+
+通过 `curl "http://localhost:9333/vol/vacuum"`
+
+## Replication
+
+Replication 和 Topology 严重相关，
+在配置文件中可以配置多种备份模式，详见 [weed-fs/docs] 。
+
+```
++-----+---------------------------------------------------------------------------+
+|001  |replicate once on the same rack                                            |
++-----+---------------------------------------------------------------------------+
+|010  |replicate once on a different rack in the same data center                 |
++-----+---------------------------------------------------------------------------+
+|100  |replicate once on a different data center                                  |
++-----+---------------------------------------------------------------------------+
+|200  |replicate twice on two other different data center                         |
++-----+---------------------------------------------------------------------------+
+```
+
+比如在 001 模式，即在同一个 rack 中的不同 DataNode 中备份一份。
+假设在 rack1 中含有 DataNode1, DataNode2, DataNode3 三个数据节点中随机选出两个数据节点，
+比如选出 DataNode1, DataNode2 然后同时写入这两个数据节点。
+假设 rack1 只有一个数据节点的时候，而备份模式是 001 模式，
+则无法正常备份，服务会报错。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[weed-fs/docs]:
+[WeedFS]:https://github.com/chrislusf/weed-fs
 [ttl]:http://weed-fs.readthedocs.org/en/latest/ttl.html
