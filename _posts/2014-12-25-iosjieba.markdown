@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "iOS开发初体验之iOSJieba"
+title:  "iOS开发初体验之iosjieba"
 date:   2014-12-25
 category: work
 ---
