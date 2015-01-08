@@ -141,6 +141,52 @@ topo.NextVolumeId 负责生成 VolumeId ，
 
 Replication 是根据 VolumeId 分配的，
 
+
+### 强一致性
+
+Weed-FS 的备份实现是强一致性的。
+当一个 VolumeServer 接受到上传文件的 POST 请求时，
+将该文件作为一个 Needle 写入本地 Volume 之后，
+会根据该文件所分配的 VolumeId 判断是否需要备份，
+如果需要备份，则进行备份（需要请求另外其它的 VolumeServer 服务器）。
+过程详见 `ReplicatedWrite` (topology/store_replicate.go)。
+当备份完毕后，再对该 POST 请求进行答复。
+所以用户每次上传图片时，当收到了答复之后，
+则可以认为此备份已完成。这个和最终一致性不同，属于强一致性。
+
+上述实现强一致性的过程中，
+有个必要条件就是【 VolumeServer 需要知道往其它那些 VolumeServer 备份】。
+在 Weed-FS 的实现中是借助 MasterServer 来实现，
+因为备份的基本单位是 Volume, 
+在 MasterServer 中，对每个 VolumeId 都维护对应的备份机器列表。
+可以通过如下示例命令查看:
+
+```
+curl "localhost:9333/dir/lookup?volumeId=4&pretty=y"
+{
+  "volumeId": "4",
+  "locations": [
+    {
+      "url": "127.0.0.1:8081",
+      "publicUrl": "localhost:8081"
+    },
+    {
+      "url": "127.0.0.1:8080",
+      "publicUrl": "localhost:8080"
+    }
+  ]
+}
+```
+
+如上示例中可以看出，对应的 volumeId=4 的 Volume,
+可以看出对应的备份机器列表有两台，分别是 "127.0.0.1:8081" 和 "127.0.0.1:8080" 。
+
+实际上对于每台 VolumeServer 查找其它备份机器的时候，
+也是通过如上 HTTP api 向 MasterServer 询问。
+只不过不是每次都询问，因为只要询问过了之后就会缓存下来，只有在缓存里面找不到才询问。
+
+
+
 ## Volume
 
 ```
@@ -271,11 +317,9 @@ pictures_1.dat pictures_1.idx pictures_2.dat pictures_2.idx pictures_3.dat pictu
 当申请一个属于 pictures Collection 的 Fid 成功。
 
 也就是在每次申请 Fid 时，会针对 Collection 进行检查，来保证存入 Volume 的每个 Needle 所属的 Collection 一致。
-在实际应用中
+在实际应用中可以通过 Collection 来类别的分片。
 
-
-
-
+##
 
 
 
