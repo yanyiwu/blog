@@ -1,6 +1,7 @@
-name: _不是我干的_
+name: 不是我干的
 markdown: redcarpet
 pygments: true
 author: yanyiwu
 author_email: wuyanyi09@gmail.com
 safe: false
+url: http://yanyiwu.com

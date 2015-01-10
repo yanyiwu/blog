@@ -9,7 +9,6 @@ layout : nil
 <description/>
 <language>zh-cn</language>
 <ttl>5</ttl>
-<copyright><![CDATA[Copyright &copy; jser.me]]></copyright>
 {% for post in site.posts limit: 20 %}
      <item>
          <title>{{ post.title | append:' ' xml_escape }}</title>
@@ -17,7 +16,7 @@ layout : nil
          <guid>{{ site.url }}{{ post.id }}</guid>
          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
          <author><![CDATA[YanyiWu]]></author>
-         <description><![CDATA[{{ post.content | expand_urls: site.url }}]]></description>
+         <description><![CDATA[{{ post.content }}]]></description>
      </item>
 {% endfor %}
 </channel>
