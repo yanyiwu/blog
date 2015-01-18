@@ -9,7 +9,7 @@ category: work
 
 尽可能的撇开公式，撇开推导。结合实际开源代码作为例子，争取做到**雅俗共赏，童叟无欺**。
 
-**没有公式，就没有伤害**
+**没有公式，就没有伤害。**
 
 ## 模型介绍
 
@@ -21,7 +21,7 @@ category: work
 
 出处[点我][KaifuLeeHMM]
 
-咋一听似乎很玄乎，但是其实很简单。下面是相关参数介绍，也是咋一看很抽象，但是慢慢看下去随着具体含义的解释就渐渐清晰。
+乍一听似乎很玄妙，但是其实很简单。下面是相关参数介绍，也是第一眼觉得很抽象，但是慢慢看下去随着具体含义的解释就渐渐清晰。
 
 HMM(Hidden Markov Model): 隐式马尔科夫模型。
 
@@ -37,11 +37,11 @@ HMM的典型介绍就是这个模型是一个五元组:
 
 HMM模型可以用来解决三种问题：
 
-1. 其它参数(StatusSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**观察值序列**。(`Forward-backward`算法)
-2. 其它参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(`viterbi`算法)
-3. 其它参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(`Baum-Welch`算法)
+1. 参数(StatusSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**观察值序列**。(`Forward-backward`算法)
+2. 参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(`viterbi`算法)
+3. 参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(`Baum-Welch`算法)
 
-其中，第三种问题最玄乎也最不常用，第二种问题最常用，**中文分词**，**语音识别**, **新词发现**， **词性标注** 都有它的一席之地。所以本文主要介绍第二种问题，即**viterbi算法求解状态值序列**的方法。
+其中，第三种问题最玄乎也最不常用，第二种问题最常用，【中文分词】，【语音识别】, 【新词发现】， 【词性标注】 都有它的一席之地。所以本文主要介绍第二种问题，即【viterbi算法求解状态值序列】的方法。
 
 
 ## 五元组参数在中文分词中的具体含义
@@ -85,7 +85,7 @@ BE/BE/BME/BE/BME/BE/S
 
 没错，就是这么简单，现在输入输出都明确了，下文讲讲输入和输出之间的具体过程，里面究竟发生了什么不可告人的秘密，请看下文：
 
-上文只介绍了五元组中的两元**`StatusSet, ObservedSet`**，下文介绍剩下的三元**`InitStatus, TransProbMatrix, EmitProbMatrix`**。
+上文只介绍了五元组中的两元【StatusSet, ObservedSet】，下文介绍剩下的三元【InitStatus, TransProbMatrix, EmitProbMatrix】。
 
 这五元的关系是通过一个叫`Viterbi`的算法串接起来，`ObservedSet`序列值是`Viterbi`的输入，而`StatusSet`序列值是`Viterbi`的输出，输入和输出之间`Viterbi`算法还需要借助三个模型参数，分别是`InitStatus, TransProbMatrix, EmitProbMatrix`，接下来一一讲解：
 
@@ -104,7 +104,7 @@ BE/BE/BME/BE/BME/BE/S
 -1.4652633398537678
 ```
 
- 示例数值是对概率值取对数之后的结果(可以让概率相乘的计算变成对数相加)，其中`-3.14e+100`作为负无穷，也就是对应的概率值是0。下同。
+示例数值是对概率值取对数之后的结果(可以让概率相乘的计算变成对数相加)，其中`-3.14e+100`作为负无穷，也就是对应的概率值是0。下同。
 
 也就是句子的第一个字属于`{B,E,M,S}`这四种状态的概率，如上可以看出，E和M的概率都是0，这和实际相符合，开头的第一个字只可能是词语的首字(B)，或者是单字成词(S)。
 
@@ -116,7 +116,7 @@ BE/BE/BME/BE/BME/BE/S
 {Status(i-1), Status(i-2), Status(i-3), ... Status(i - n)}
 ```
 
-更进一步的说，HMM模型有三个基本假设(具体哪三个请看文末备注)作为模型的前提，其中有个`有限历史性假设`，也就是马尔科夫链的`n=1`。即Status(i)只和Status(i-1)相关，这个假设能大大简化问题。
+更进一步的说，HMM模型有三个基本假设(具体哪三个请看文末备注)作为模型的前提，其中有个【有限历史性假设】，也就是马尔科夫链的`n=1`。即Status(i)只和Status(i-1)相关，这个假设能大大简化问题。
 
 回过头看`TransProbMatrix`，其实就是一个`4x4`(4就是状态值集合的大小)的二维矩阵，示例如下：
 
@@ -146,7 +146,7 @@ BE/BE/BME/BE/BME/BE/S
 
 ### EmitProbMatrix
 
-这里的发射概率(EmitProb)其实也是一个条件概率而已，根据HMM模型三个基本假设(哪三个请看文末备注)里的`观察值独立性假设`，观察值只取决于当前状态值，也就是:
+这里的发射概率(EmitProb)其实也是一个条件概率而已，根据HMM模型三个基本假设(哪三个请看文末备注)里的【观察值独立性假设】，观察值只取决于当前状态值，也就是:
 
 ```
 P(Observed[i], Status[j]) = P(Status[j]) * P(Observed[i]|Status[j])
@@ -249,7 +249,7 @@ for(size_t i = 1; i < 15; i++)
 }
 ```
 
-如此遍历下来，weight[4][15] 和 path[4][15] 就都计算完毕。
+如此遍历下来，`weight[4][15]` 和 `path[4][15]` 就都计算完毕。
 
 #### 确定边界条件和路径回溯
 
@@ -259,7 +259,7 @@ for(size_t i = 1; i < 15; i++)
 对于每个句子，最后一个字的状态只可能是 E 或者 S，不可能是 M 或者 B。
 ```
 
-所以在本文的例子中我们只需要比较 weight[1(E)][14] 和 weight[3(S)][14] 的大小即可。
+所以在本文的例子中我们只需要比较 `weight[1(E)][14]` 和 `weight[3(S)][14]` 的大小即可。
 
 在本例中：
 
@@ -268,7 +268,7 @@ weight[1][14] = -102.492;
 weight[3][14] = -101.632;
 ```
 
-所以 S > E，也就是对于路径回溯的起点是 path[3][14]。
+所以 S > E，也就是对于路径回溯的起点是 `path[3][14]`。
 
 回溯的路径是:
 
@@ -326,7 +326,7 @@ P(Observed[i]|Status[i],Status[i-1],...,Status[1]) = P(Observed[i]|Status[i])
 
 ## 客服
 
-wuyanyi09 at. foxmail.com
+i@yanyiwu.com
 
 [HMMSegment]:https://github.com/aszxqw/cppjieba/blob/master/src/HMMSegment.hpp
 [HMMDict]:https://github.com/aszxqw/cppjieba/tree/master/dict
