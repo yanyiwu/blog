@@ -32,7 +32,8 @@ nav a {
 
         color: #555;
         text-shadow: 0 1px 0 rgba(255,255,255,.5);
-        font: bold 0.1em/1 'trebuchet MS', Arial, Helvetica;
+        /*font: bold 0.1em/1 'trebuchet', Arial, Helvetica; */
+        font:  bold 0.7em Arial, Helvetica, sans-serif;
         letter-spacing: 1px;
         text-transform: uppercase;
         border-width: 1px;
