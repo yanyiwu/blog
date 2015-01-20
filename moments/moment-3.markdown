@@ -3,6 +3,23 @@ layout: sharebutton
 title: 时间线
 ---
 
+&raquo; 2015-01-20 22:40
+
+【阿里分布式数据库服务实践】里有关耗时的笔记
+
++ L1 cache reference 0.5 ns
++ Branch mispredict 5 ns
++ L2 cache reference 7 ns
++ Mutex lock/unlock 25 ns
++ Main memory reference 100 ns
++ Compress 1K bytes with Zippy 3 us
++ Send 2K bytes over 1 Gbps network 20 us 
++ Read 1 MB sequentially from memory 250 us
++ Round trip within same datacenter 500 us
++ Disk seek 10 ms
++ Read 1 MB sequentially from disk 20 ms
++ Send packet CA->Netherlands->CA 150 ms
+
 &raquo; 2015-01-18 15:43
 
 > - 昨天看了 [ECUG专题回顾] 里面 [@goroutine] 分享的 [豌豆荚分布式REDIS设计与实现] ，真是码农的精神食粮啊。
