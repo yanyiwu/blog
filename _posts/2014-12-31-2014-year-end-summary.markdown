@@ -1,5 +1,6 @@
 ---
 published: true
+hot: "yes"
 layout: post
 title:  "2014年终总结"
 date:   2014-12-31

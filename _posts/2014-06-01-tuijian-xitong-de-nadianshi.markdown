@@ -1,5 +1,6 @@
 ---
 layout: post
+hot: "yes"
 title:  "推荐系统的那点事"
 date:   2014-06-01
 category: work

@@ -5,7 +5,9 @@ title: 时间线
 
 &raquo; 2015-01-20 22:40
 
-【阿里分布式数据库服务实践】里有关耗时的笔记
+[阿里分布式数据库服务实践] 里有关耗时的笔记，
+因为在视频里面有，但是PPT里面没找到，
+所以就自己先记下来。
 
 + L1 cache reference 0.5 ns
 + Branch mispredict 5 ns
@@ -38,3 +40,4 @@ title: 时间线
 [ECUG专题回顾]:http://blog.qiniu.com/?p=871
 [@goroutine]:http://www.weibo.com/chuangyiyongpin#1421567595227
 [豌豆荚分布式REDIS设计与实现]:http://blog.qiniu.com/?p=871
+[阿里分布式数据库服务实践]:http://v.youku.com/v_show/id_XODMyMzk2OTUy.html

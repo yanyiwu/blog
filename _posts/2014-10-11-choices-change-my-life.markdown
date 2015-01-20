@@ -1,5 +1,6 @@
 ---
 published: true
+hot: "yes"
 layout: post
 title:  "影响我一生的两个选择"
 date:   2014-10-11

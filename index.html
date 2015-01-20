@@ -5,9 +5,14 @@ title: 不是我干的
 
 <div id="home">
     <h1>{{ site.name }}</h1>
-    <ul class="posts">
+    <!--<ul class="posts"> -->
+    <ul>
         {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% if post.hot == "yes" %}
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a style="color:#900; border-bottom-color:#900" href="{{ post.url }}">{{ post.title }}</a></li>
+            {% else %}
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %}
         {% endfor %}
     </ul>
 </div>
