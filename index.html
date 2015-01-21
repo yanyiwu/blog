@@ -10,7 +10,10 @@ title: 不是我干的
         {% for post in site.posts %}
             {% if post.hot == "yes" %}
                 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a style="color:#900; border-bottom-color:#900" href="{{ post.url }}">{{ post.title }}</a></li>
-            {% else %}
+            {% endif %}
+        {% endfor %}
+        {% for post in site.posts %}
+            {% if post.hot != "yes" %}
                 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endif %}
         {% endfor %}
