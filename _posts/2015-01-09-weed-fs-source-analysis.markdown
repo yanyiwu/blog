@@ -6,7 +6,7 @@ date:   2015-01-09
 category: work
 ---
 
-基于源码版本号 0.67 
+基于源码版本号 0.67 ， 【Weed-FS又名叫Seaweed-FS】。
 
 [Weed-FS] 是一个非常优秀的由 golang 开发的分布式存储开源项目，
 虽然在我刚开始关注的时候它在 github.com 上面只有 star 50+，

@@ -4,7 +4,18 @@ title: 不是我干的
 ---
 
 <div id="home">
-    <h1>{{ site.name }}</h1>
+    {% raw %}
+    <?php 
+        $iipp=$_SERVER["REMOTE_ADDR"];  
+        if ($iipp === "x.x.x.x") {
+            echo "<h1>哥们你今天来访次数有点频繁啊</h1>";
+        } else {
+            echo "<h1>不是我干的</h1>";
+        }
+    ?>
+    {% endraw %}
+
+    <!--<h1>{{ site.name }}</h1>-->
     <!--<ul class="posts"> -->
     <ul>
         {% for post in site.posts %}
@@ -19,3 +30,4 @@ title: 不是我干的
         {% endfor %}
     </ul>
 </div>
+
