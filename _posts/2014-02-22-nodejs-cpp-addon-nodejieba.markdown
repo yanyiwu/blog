@@ -106,11 +106,11 @@ void init(Handle<Object> exports) {
 
 ## 参考
 
-[v8HandleHandlescope]
+[v8HandleScope]
 
 
 [NodeJieba]:https://github.com/aszxqw/nodejieba
 [CppJieba]:https://github.com/aszxqw/cppjieba
 [gyp]:http://en.wikipedia.org/wiki/Generate_Your_Projects
-[v8HandleHandlescope]:http://blog.csdn.net/feiyinzilgd/article/details/8249180
+[v8HandleScope]:http://blog.csdn.net/feiyinzilgd/article/details/8249180
 
