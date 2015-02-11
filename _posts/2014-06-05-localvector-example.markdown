@@ -42,5 +42,5 @@ private:
 
 LocalVector 是在 [CppJieba] 优化的时候尝试的方法之一，经尝试发现这样的办法简单实用，性能也有显著提高。
 
-[LocalVectorCodeUrl]:https://github.com/aszxqw/limonp/blob/master/include/LocalVector.hpp
-[CppJieba]:https://github.com/aszxqw/cppjieba.git
+[LocalVectorCodeUrl]:https://github.com/yanyiwu/limonp/blob/master/include/LocalVector.hpp
+[CppJieba]:https://github.com/yanyiwu/cppjieba.git

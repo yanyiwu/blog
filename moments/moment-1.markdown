@@ -171,5 +171,5 @@ src="/weedfs/1/19bc893b5b/smartisan_t1.jpg"/></a>
 > 所以一直更倾向于微博，可是现在微博上的熟人越来越多，也变得越来越不自在。
 > 所以今天专门在主页上搞一个专门的分类【MOMENT】，记录一些日常事宜。
 
-[CppJieba]:http://github.com/aszxqw/cppjieba
+[CppJieba]:http://github.com/yanyiwu/cppjieba
 [实时系统架构与实现]:http://www.infoq.com/cn/presentations/framework-and-implementation-of-real-time-system

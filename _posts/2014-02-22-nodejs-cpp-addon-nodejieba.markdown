@@ -109,8 +109,8 @@ void init(Handle<Object> exports) {
 [v8HandleScope]
 
 
-[NodeJieba]:https://github.com/aszxqw/nodejieba
-[CppJieba]:https://github.com/aszxqw/cppjieba
+[NodeJieba]:https://github.com/yanyiwu/nodejieba
+[CppJieba]:https://github.com/yanyiwu/cppjieba
 [gyp]:http://en.wikipedia.org/wiki/Generate_Your_Projects
 [v8HandleScope]:http://blog.csdn.net/feiyinzilgd/article/details/8249180
 

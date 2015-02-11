@@ -84,7 +84,7 @@ makecontext 和 swapcontext 稍微再复杂一点点，
 学习之余也 fork 并修改了一份云风的协程实现：[fork-coroutine] ，
 没什么高明的改进，只是对我来说更加简单易懂。
 
-[fork-coroutine]:https://github.com/aszxqw/coroutine
+[fork-coroutine]:https://github.com/yanyiwu/coroutine
 [ucontext]:http://pubs.opengroup.org/onlinepubs/7908799/xsh/ucontext.h.html
 [云风]:http://blog.codingnow.com/
 [C10K]:http://www.kegel.com/c10k.html

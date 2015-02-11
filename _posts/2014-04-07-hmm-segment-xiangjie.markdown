@@ -328,6 +328,6 @@ P(Observed[i]|Status[i],Status[i-1],...,Status[1]) = P(Observed[i]|Status[i])
 
 i@yanyiwu.com
 
-[HMMSegment]:https://github.com/aszxqw/cppjieba/blob/master/src/HMMSegment.hpp
-[HMMDict]:https://github.com/aszxqw/cppjieba/tree/master/dict
+[HMMSegment]:https://github.com/yanyiwu/cppjieba/blob/master/src/HMMSegment.hpp
+[HMMDict]:https://github.com/yanyiwu/cppjieba/tree/master/dict
 [KaifuLeeHMM]:http://tech.sina.com.cn/zl/post/detail/it/2014-04-09/pid_8446205.htm#483253-tsina-1-23485-1cf60a7c37a7bc296a2ba7aba0120190

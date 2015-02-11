@@ -73,7 +73,7 @@ bool isEqual(uint64_t lhs, uint64_t rhs, unsigned short n = 3)
 
 ## simhash实现的工程项目
 
-[我自己写的simhash](https://github.com/aszxqw/simhash)
+[我自己写的simhash](https://github.com/yanyiwu/simhash)
 
 主要是针对中文文档，也就是此项目进行simhash之前同时还进行了分词和关键词的抽取。
 

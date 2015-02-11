@@ -61,5 +61,5 @@ category: work
 可能就是觉得挺好玩的吧。
 哈哈哈
 
-[iosjieba]:https://github.com/aszxqw/iosjieba
-[CppJieba]:https://github.com/aszxqw/cppjieba
+[iosjieba]:https://github.com/yanyiwu/iosjieba
+[CppJieba]:https://github.com/yanyiwu/cppjieba

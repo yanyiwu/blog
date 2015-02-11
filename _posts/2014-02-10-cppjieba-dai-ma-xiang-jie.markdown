@@ -189,10 +189,10 @@ if(!segment)
 
 [cmake]:http://zh.wikipedia.org/wiki/CMake
 [hpp]:http://baike.baidu.com/view/3779455.htm
-[CppJieba]:https://github.com/aszxqw/cppjieba
-[Limonp]:https://github.com/aszxqw/limonp
-[Husky]:https://github.com/aszxqw/husky
+[CppJieba]:https://github.com/yanyiwu/cppjieba
+[Limonp]:https://github.com/yanyiwu/limonp
+[Husky]:https://github.com/yanyiwu/husky
 [gtest]:https://code.google.com/p/googletest/
 [白话中文分词之HMM模型]:http://yanyiwu.com/work/2014/04/07/hmm-segment-xiangjie.html
-[ChangeLog]:https://github.com/aszxqw/cppjieba/blob/master/ChangeLog.md
-[wiki]:https://github.com/aszxqw/cppjieba/wiki/CppJieba%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3
+[ChangeLog]:https://github.com/yanyiwu/cppjieba/blob/master/ChangeLog.md
+[wiki]:https://github.com/yanyiwu/cppjieba/wiki/CppJieba%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3

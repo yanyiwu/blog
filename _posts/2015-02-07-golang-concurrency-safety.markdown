@@ -108,7 +108,7 @@ go run/build/test -race
 [建议]:https://golang.org/ref/mem#tmp_1
 [Weed-FS-PullRequest-75]:https://github.com/chrislusf/weed-fs/pull/75
 [Weed-FS-PullRequest-79]:https://github.com/chrislusf/weed-fs/pull/79
-[BlockingQueue]:https://github.com/aszxqw/limonp/blob/master/include/BlockingQueue.hpp
+[BlockingQueue]:https://github.com/yanyiwu/limonp/blob/master/include/BlockingQueue.hpp
 [go-nuts]:https://groups.google.com/forum/#!topic/golang-nuts/zyQnord8hyc
 [疫苗:Java HashMap的死循环]:http://coolshell.cn/articles/9606.html
 [Benign data races: what could possibly go wrong?]:https://software.intel.com/en-us/blogs/2013/01/06/benign-data-races-what-could-possibly-go-wrong

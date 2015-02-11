@@ -34,4 +34,4 @@ categories: life
 
 大概就这些了，但愿新的一年多走好运。生活顺心才是最重要的。
 
-[CppJieba]:https://github.com/aszxqw/cppjieba
+[CppJieba]:https://github.com/yanyiwu/cppjieba

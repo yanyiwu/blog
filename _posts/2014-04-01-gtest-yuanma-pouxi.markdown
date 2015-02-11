@@ -85,4 +85,4 @@ gtest用了有一段时间了，也是最近有空才琢磨源码看看具体的
 
 wuyanyi09 at. foxmail.com
 
-[gtest-example]:https://github.com/aszxqw/gtest-example.git
+[gtest-example]:https://github.com/yanyiwu/gtest-example.git

@@ -138,7 +138,7 @@ Nginx 对于每次发送静态文件到远端 client 的时候，会先把 socke
 + [nginx-sendfile-tcp\_nodelay-tcp\_nopush]
 
 [Trouble-getting-the-Request-Body-of-a-HTTP-Post]:http://www.serverphorums.com/read.php?5,79835
-[ngx\_http\_cppjieba\_module]:http://github.com/aszxqw/ngx_http_cppjieba_module
+[ngx\_http\_cppjieba\_module]:http://github.com/yanyiwu/ngx_http_cppjieba_module
 [nginx-sendfile-tcp\_nodelay-tcp\_nopush]:https://t37.net/nginx-optimization-understanding-sendfile-tcp_nodelay-and-tcp_nopush.html
 
 

@@ -21,5 +21,5 @@ category: work
 
 [Thrift异步IO服务器源码分析]:http://yanyiwu.com/work/2014/12/06/thrift-tnonblockingserver-analysis.html
 [C1000K之Libevent源码分析]:http://yanyiwu.com/work/2014/12/10/asyncronous-io-libevent.html
-[简易HTTP服务框架Husky]:https://github.com/aszxqw/husky
-[NonblockingServer]:https://github.com/aszxqw/husky/blob/master/include/NonblockingServer.hpp
+[简易HTTP服务框架Husky]:https://github.com/yanyiwu/husky
+[NonblockingServer]:https://github.com/yanyiwu/husky/blob/master/include/NonblockingServer.hpp

@@ -87,4 +87,4 @@ weed volume -dir=/tmp/vol2/ -mserver="localhost:9334" -ip="localhost" -port=8082
 
 
 [分布式存储Weed-FS源码分析]:http://yanyiwu.com/work/2015/01/09/weed-fs-source-analysis.html
-[example]:https://github.com/aszxqw/practice/tree/master/weedfs/example1
+[example]:https://github.com/yanyiwu/practice/tree/master/weedfs/example1

@@ -77,5 +77,5 @@ for(size_t i = 0; i < 130; i++)
 如果连STL常用容器的性能都没有榨干利用到极致，就去大谈特谈放弃STL的，基本上不是无知就是装逼。
 
 
-[CppJieba]:https://github.com/aszxqw/cppjieba.git
+[CppJieba]:https://github.com/yanyiwu/cppjieba.git
 

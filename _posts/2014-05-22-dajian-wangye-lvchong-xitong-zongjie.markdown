@@ -97,6 +97,6 @@ category: work
 `3.` 幸亏当时果断重写旧项目，否则我到现在估计还在修旧代码的bug。。
  
 
-[simhash]:https://github.com/aszxqw/simhash.git
-[SimhashBlog]:http://www.aszxqw.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html
-[ThriftBlog]:http://www.aszxqw.com/work/2014/03/30/thrift-python-zhichibuhao.html
+[simhash]:https://github.com/yanyiwu/simhash.git
+[SimhashBlog]:http://www.yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html
+[ThriftBlog]:http://www.yanyiwu.com/work/2014/03/30/thrift-python-zhichibuhao.html

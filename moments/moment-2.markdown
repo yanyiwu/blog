@@ -256,7 +256,7 @@ src="/weedfs/1/5294d2c4d9/E61C49CB-39A9-4BE0-92F9-241BFE641FDF-thumbnail.jpeg"/>
 [Next]
 
 [Next]:http://yanyiwu.com/moments/moment-1.html
-[GitHub]:http://github.com/aszxqw
+[GitHub]:http://github.com/yanyiwu
 [我是创业者]:http://www.36kr.com/p/218159.html
 [刘成城]:http://www.weibo.com/techfans
 [UI中国]:http://ui.cn/

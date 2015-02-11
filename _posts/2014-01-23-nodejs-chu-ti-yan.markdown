@@ -39,7 +39,7 @@ node是著名的__异步IO高并发单线程的server__
 写扩展说起来很屌，但是其实在node里面，重点主要是要了解v8的相关api，
 了解v8里面定义的Handle，Scope等概念，依样画葫芦即可。
 
-作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。 [详见这里](https://github.com/aszxqw/nodejieba)
+作为练手将之前写的[CppJieba]包装了一下，成了[NodeJieba]，算是能用，但是因为也是node新手，很多不好的地方之后再慢慢完善了。 [详见这里](https://github.com/yanyiwu/nodejieba)
 
 关于具体如何写和如何在npm上发布，[详见这里](http://9.ap01.aws.af.cm/create-and-publish-node-js-c-addon/)
 
@@ -54,5 +54,5 @@ node是著名的__异步IO高并发单线程的server__
 * [node.js源码研究—模块组织加载](http://cnodejs.org/topic/4f571a16a680d212781ccf9f)
 * [初探Node.js的异步I/O实现](http://www.infoq.com/cn/articles/nodejs-asynchronous-io)
 
-[CppJieba]: https://github.com/aszxqw/cppjieba.git
-[NodeJieba]: https://github.com/aszxqw/nodejieba.git
+[CppJieba]: https://github.com/yanyiwu/cppjieba.git
+[NodeJieba]: https://github.com/yanyiwu/nodejieba.git
