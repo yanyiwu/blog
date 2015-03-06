@@ -3,6 +3,18 @@ layout: sharebutton
 title: 时间线
 ---
 
+&raquo; 2015-03-03 22:45
+
+> - 因为别人找我要简历模板的原因，
+重新扫了一眼自己不到一年之前的简历，
+才发现自己这几个月确实成长了很多，
+希望来年也能有同感。
+
+&raquo; 2015-02-12 16:10
+
+> - [Baby's First Garbage Collector] 是我见过的最好的关于垃圾回收入门的文章，
+外国人的文章比国内用心太多了，通俗易懂不装逼。
+
 &raquo; 2015-01-24 14:35
 
 > - Rust 很优秀，
@@ -61,3 +73,4 @@ title: 时间线
 [@goroutine]:http://www.weibo.com/chuangyiyongpin#1421567595227
 [豌豆荚分布式REDIS设计与实现]:http://blog.qiniu.com/?p=871
 [阿里分布式数据库服务实践]:http://v.youku.com/v_show/id_XODMyMzk2OTUy.html
+[Baby's First Garbage Collector]:http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/
