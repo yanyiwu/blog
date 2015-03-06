@@ -1,3 +1,151 @@
+#blog_index {
+    font-family: SimSun, Heiti, sans-serif;
+    font-size: 18px;
+    margin: 3% 20% 5% 20%;
+    padding: 2% 5% 5% 5%;
+    width: 50%;
+    line-height: 150%;
+    border: 1px solid LightGrey;
+}
+
+H1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 2em;
+    border-bottom: 2px LightGrey solid;
+    line-height: 150%;
+    color: DarkRed;
+}
+
+H2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: -5px 0px 5px 0px;;
+    border-bottom: 1px LightGrey solid;
+    width: 100%;
+    line-height: 150%;
+    color: DarkGreen;
+}
+
+
+H3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
+
+
+H4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
+
+
+li {
+    margin-left: 5px;
+}
+
+
+blockquote {
+    border-left: 4px lightgrey solid;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+
+pre {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 75%;
+    border: solid 1px lightgrey;
+    background-color: Ivory;
+    padding: 5px;
+    line-height: 130%;
+    margin-left: 10px;
+    width: 95%;
+    overflow-x: auto;
+}
+
+
+code {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+}
+
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(6, 7, 18);
+    padding: 1px;
+    color: black;
+}
+
+img {
+    width:100%;
+}
+
+
+a:hover {
+	background-color: LightGrey;
+}
+
+
+
+
+hr {
+    color: LightGrey;
+}
+
+ul {
+    padding: 5px 5px 5px 20px;
+}
+
+ol {
+    padding: 5px 5px 5px 30px;
+}
+
+#footer {border-top:1px solid #fff; font-size:0.8em; padding-bottom:1em; padding-top:1em; color:#292f34; text-shadow:1px 1px #adafb1;}
+#footer a {
+color:#292f34;
+border-bottom: 0px;
+}
+#footer p {text-align:center; margin-bottom:0; font-size:1em;}
+
+#forkmeongithub img {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+#logo a{
+    display: inline-block;
+    z-index: 5;
+    top: 0;
+    float: right;
+    margin: 0px;
+    border: 0;
+    width: 34px;
+    height: 25px;
+}
+
+.thumbnail
+{
+    width: 160px;
+    height: 130px;
+}
+
 nav  {
         display: block;
         width: 60%;
