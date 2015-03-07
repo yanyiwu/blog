@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "白话中文分词之HMM模型"
+title:  "中文分词之HMM模型详解"
 date:   2014-04-07
 category: work
 ---
