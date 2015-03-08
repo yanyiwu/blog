@@ -55,20 +55,20 @@ title: 时间线
 > 从 iPhone 5s 换过来使用安卓没有落差而且反而惊喜不断。
 
 > <a
-href="/weedfs/5/4bd360ce7e/smartisan_4bd.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/4bd360ce7e_smartisan_4bd.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/5/4bd360ce7e/smartisan_4bd.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/4bd360ce7e_smartisan_4bd.png"/></a>
 > <a
-href="/weedfs/2/4a7238e2e3/smartisan_4a7.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/4a7238e2e3_smartisan_4a7.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/2/4a7238e2e3/smartisan_4a7.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/4a7238e2e3_smartisan_4a7.png"/></a>
 > <a
-href="/weedfs/4/4ca93fdcb2/smartisan_4ca.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/4ca93fdcb2_smartisan_4ca.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/4/4ca93fdcb2/smartisan_4ca.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/4ca93fdcb2_smartisan_4ca.png"/></a>
 
 &raquo; 2014-11-18 00:19
 
@@ -86,30 +86,30 @@ src="/weedfs/4/4ca93fdcb2/smartisan_4ca.png"/></a>
 > 你没有看错，我在那里写 `erlang` 。
 
 > <a
-href="/weedfs/2/486b90b40e/06182C450B9785E6C17D20547B464DB4.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/2/486b90b40e/06182C450B9785E6C17D20547B464DB4.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"/></a>
 
 &raquo; 2014-11-16 16:20
 
 > 去英国读研的同学送的纪念品，感觉很不错。
 
 > <a
-href="/weedfs/3/457e3856ef/4D7F79EC58BD0D2CFCC1B168E944B215.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/3/457e3856ef/4D7F79EC58BD0D2CFCC1B168E944B215.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"/></a>
 > <a
-href="/weedfs/1/4671a234cc/D987428381F9EB5FE82C7E53CD5CF9DB.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/1/4671a234cc/D987428381F9EB5FE82C7E53CD5CF9DB.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"/></a>
 > <a
-href="/weedfs/4/475d485051/80823CC02E30ED85C9B6A19ED004722B.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/4/475d485051/80823CC02E30ED85C9B6A19ED004722B.png"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"/></a>
 
 &raquo; 2014-11-13 01:06
 
@@ -134,10 +134,10 @@ src="/weedfs/4/475d485051/80823CC02E30ED85C9B6A19ED004722B.png"/></a>
 > 一股城市绿化带风格。
 
 > <a
-href="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
+href="http://7viirv.com1.z0.glb.clouddn.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
 
 &raquo; 2014-11-04 22:44
 
@@ -145,10 +145,10 @@ src="/weedfs/4/24931338bd/26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
 > 重新照出来再看一遍，还是觉得非常好的文章，如下图：
 
 > <a
-href="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
+href="http://7viirv.com1.z0.glb.clouddn.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 
 &raquo; 2014-11-02 00:01
 
@@ -159,10 +159,10 @@ src="/weedfs/3/21028a652d/61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 > 这个选择简直比当时选择是否退学还难，再说吧。
 
 > <a
-href="/weedfs/1/19bc893b5b/smartisan_t1.jpg"
+href="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/1/19bc893b5b/smartisan_t1.jpg"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 
 &raquo; 2014-11-01 17:30
 

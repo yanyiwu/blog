@@ -80,10 +80,10 @@ title: 时间线
 > 看了看 Pro 的 Retina 屏幕再看自己的 MacBookAir，感觉好忧伤。
 
 > <a
-href="/weedfs/4/55f96a8286/MacBookPro.jpg"
+href="http://7viirv.com1.z0.glb.clouddn.com/55f96a8286_MacBookPro.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/4/55f96a8286/MacBookPro.jpg"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/55f96a8286_MacBookPro.jpg"/></a>
 
 &raquo; 2014-12-27 10:24
 
@@ -211,10 +211,10 @@ go get 还是太原始，比如 npm 和 gem 都可以帮你管理库的编译，
 > - [GitHub] follower 数量 99 了，截图纪念一下。
 
 > - <a
-href="/weedfs/3/53e2ef1616/E61C49CB-39A9-4BE0-92F9-241BFE641FDF.png"
+href="http://7viirv.com1.z0.glb.clouddn.com/53e2ef1616_E61C49CB-39A9-4BE0-92F9-241BFE641FDF.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="/weedfs/1/5294d2c4d9/E61C49CB-39A9-4BE0-92F9-241BFE641FDF-thumbnail.jpeg"/></a>
+src="http://7viirv.com1.z0.glb.clouddn.com/5294d2c4d9_E61C49CB-39A9-4BE0-92F9-241BFE641FDF-thumbnail.jpeg"/></a>
 
 &raquo; 2014-12-14 14:51
 

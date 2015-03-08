@@ -112,6 +112,6 @@ iOS 7 刚出来的时候各种被骂丑，当时苹果走扁平化的路线让�
 
 最后相应老罗演讲里号召的【天生骄傲】主题图：
 
-<img src="/weedfs/4/504a73b271/proud.jpg" alt="天生骄傲" ></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/504a73b271_proud.jpg" alt="天生骄傲" ></img>
 
 [罗永浩2014 一个理想主义者的创业故事]:http://v.youku.com/v_show/id_XODQzMDQ0NTQ0.html?f=23165978&ev=1&from=y1.1-2.10001-0.1-1

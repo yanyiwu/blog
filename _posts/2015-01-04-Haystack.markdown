@@ -27,7 +27,7 @@ category: work
 图片存储的应用场景如图：
 
 > <img
-src="/weedfs/2/57e1b0d39d/haystack-fig1.png"/>
+src="http://7viirv.com1.z0.glb.clouddn.com/57e1b0d39d_haystack-fig1.png"/>
 
 在 PhotoStorage 之前还有一些 CDN 保驾护航，
 CDN 就是靠缓存吃饭的，对于那些热门的图片都能被 CDN 很好的缓存下来，
@@ -41,7 +41,7 @@ CDN 就是靠缓存吃饭的，对于那些热门的图片都能被 CDN 很好�
 ## 多个图片信息存在同一个文件中
 
 > <img
-src="/weedfs/2/588535155a/haystack-fig5.png"/>
+src="http://7viirv.com1.z0.glb.clouddn.com/588535155a_haystack-fig5.png"/>
 
 每次读取一个图片需要多次磁盘IO的原因是因为一个图片存成一个文件，
 文件系统里面每次读取文件需要先读取文件的元信息等，导致多次磁盘IO，
