@@ -11,6 +11,8 @@
 H1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     font-size: 2em;
+    margin-top: 26px;
+    margin-bottom: 0px;
     border-bottom: 2px LightGrey solid;
     line-height: 150%;
     color: DarkRed;
@@ -134,16 +136,21 @@ border-bottom: 0px;
     z-index: 5;
     top: 0;
     float: right;
-    margin: 0px;
+    margin: 0;
     border: 0;
     width: 34px;
     height: 25px;
+    padding: 0;
 }
 
-.thumbnail
-{
+.thumbnail {
     width: 160px;
     height: 130px;
+}
+
+.datetime {
+    text-align:right;
+    margin: 0;
 }
 
 nav  {
