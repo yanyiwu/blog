@@ -153,30 +153,39 @@ border-bottom: 0px;
 }
 
 nav  {
-	margin:25.8px 20% 31.8px 20%;
-	height:16px;
-	padding:10px 0px;
-	background-color:rgba(156, 93, 103, 0.02);
+	margin:20px 20% 30px 20%;
+	height:27px;
+	padding:10px 0px 0px 0px;
+	background-image:url('http://7viirv.com1.z0.glb.clouddn.com/nav_starry_sky.jpg');
+	border-radius:8px;
 }
 nav ul {
-    width:100%;
 	height:100%;
-	margin:0;
+	margin:0 10%;
 	padding:0;
 	list-style:none;
+	
 }
 nav li {
     float:left;
-	width:16.6%;
-	padding:0;
+	width:16.3%;
+	padding:4px 0;
 	margin:0;
 	text-align:center;
+	background-color: rgb(223, 223, 211);
+	border:1px solid #CCC;
 }
-nav a {
-   font-size:16px;
+nav li:hover{
+	background-color:#CCC;
+}
+nav a{
+   font:  bold 13px Arial, Helvetica, sans-serif;
    margin:0;
    padding:0;
    text-decoration:none;
    border:0px;
-   color:rgba(119, 12, 51, 0.61);
+   color:rgba(77, 63, 68, 0.9);
  }
+nav a:hover{
+   background:none;
+}
