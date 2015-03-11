@@ -168,12 +168,12 @@ nav ul {
 }
 nav li {
     float:left;
-	width:16.3%;
+	width:24%;
 	padding:4px 0;
 	margin:0;
 	text-align:center;
 	background-color: rgb(223, 223, 211);
-	border:1px solid #CCC;
+	border:0.5% solid #CCC;
 }
 nav li:hover{
 	background-color:#CCC;
