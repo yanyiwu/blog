@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title:  "stl容器内存重新分配导致的指针失效"
 date:   2014-04-05
