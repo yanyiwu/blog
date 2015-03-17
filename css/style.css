@@ -174,11 +174,12 @@ nav li {
 	text-align:center;
 	background-color: rgb(223, 223, 211);
 	border:0.5% solid #CCC;
+    cursor: pointer;
 }
 nav li:hover{
 	background-color:#CCC;
 }
-nav a{
+nav li a{
    font:  bold 13px Arial, Helvetica, sans-serif;
    margin:0;
    padding:0;
