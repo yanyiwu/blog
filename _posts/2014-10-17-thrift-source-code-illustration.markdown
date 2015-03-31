@@ -228,8 +228,7 @@ Task 就是将 `transport`, `protocol`, `processor` 包装起来而已。
 
 第四种 `TNonblockingServer` 就是传说中的 异步服务器模型（非阻塞服务器模型）。
 在 Thrift 中使用该模型需要依赖 `libevent` 。
-这个比较复杂，以后有时间再单独写一篇解析吧。
-
+这个比较复杂，以后有时间再单独写一篇解析吧。（补充:[Thrift异步IO服务器源码分析]）
 
 ## 观码有感
 
@@ -245,3 +244,4 @@ Task 就是将 `transport`, `protocol`, `processor` 包装起来而已。
 
 [thrift-0.9.0]:http://archive.apache.org/dist/thrift/0.9.0/thrift-0.9.0.tar.gz
 [淘叔度]:http://weibo.com/1804559491/BrvrAoRVY?type=comment
+[Thrift异步IO服务器源码分析]:http://yanyiwu.com/work/2014/12/06/thrift-tnonblockingserver-analysis.html
