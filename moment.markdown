@@ -3,6 +3,23 @@ layout: sharebutton
 title: TimeLine
 ---
 
+&raquo; 2015-03-26 20:56
+
+> GitHub上第二个项目的Star数也上百了，纪念一下。
+
+> <a
+href="http://7viirv.com1.z0.glb.clouddn.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"
+data-lightbox="image-1" >
+<img class="thumbnail" 
+src="http://7viirv.com1.z0.glb.clouddn.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"/></a>
+
+
+&raquo; 2015-03-24 00:07
+
+> - 每次别人微信或者私信夸奖说我的xx博文写的好，
+我虽然回复了笑脸，但是心里都是在说：
+那你倒是帮忙分享一下啊。
+
 &raquo; 2015-03-03 22:45
 
 > - 因为别人找我要简历模板的原因，
