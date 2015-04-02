@@ -221,7 +221,7 @@ Needle 结构体里面的 Cookie 和 Id 就是上文提过的 Fid 里面的 Cook
 ## 数据备份之 Replication
 
 Replication 和 Topology 严重相关，
-在配置文件中可以配置多种备份模式，详见 [weed-fs/docs] 。
+在配置文件中可以配置多种备份模式，详见 [weed-fs-wiki] 。
 
 ```
 +-----+---------------------------------------------------------------------------+
@@ -462,9 +462,9 @@ weed volume -dir="/tmp/data2" -max=5  -mserver="localhost:9333" -port=8081
 + 多台 VolumeServer 之间的多机备份实现是强一致性。
 + 多台 MasterServer 之间的主从关系是是通过 [goraft] 实现。
 
-[weed-fs/docs]:http://weed-fs.readthedocs.org/en/latest/
+[weed-fs-wiki]:https://github.com/chrislusf/weed-fs/wiki
 [Weed-FS]:https://github.com/chrislusf/weed-fs
-[ttl]:http://weed-fs.readthedocs.org/en/latest/ttl.html
-[Facebook-Haystack]:http://yanyiwu.com/weedfs/3/564fc3ddb0/Facebook-Haystack.pdf
+[ttl]:https://github.com/chrislusf/weed-fs/wiki/Store-file-with-a-Time-To-Live
+[Facebook-Haystack]:https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf
 [Facebook图片存储系统Haystack]:http://yanyiwu.com/work/2015/01/04/Haystack.html
 [goraft]:https://github.com/goraft/raft
