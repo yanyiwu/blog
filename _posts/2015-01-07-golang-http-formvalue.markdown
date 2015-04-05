@@ -17,7 +17,7 @@ category: work
 
 ## Bug 重现
 
-```
+```go
 package main
 
 import (

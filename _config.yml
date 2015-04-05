@@ -1,6 +1,9 @@
 name: 不是我干的
 markdown: redcarpet
-pygments: true
+#highlighter: pygments
+redcarpet:
+  extensions: [fenced_code_blocks]
+  render_options:
 author: yanyiwu
 author_email: wuyanyi09@gmail.com
 safe: false

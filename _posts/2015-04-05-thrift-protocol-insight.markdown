@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "Thrift序列号协议源码分析"
+title:  "Thrift之Protocol源码分析"
 date:   2015-04-05
 category: work
 ---
@@ -17,7 +17,7 @@ category: work
 
 简单搞了一个Thrift的描述文件[Insight.thrift]作为例子。 
 
-```
+```c
 struct Person {
     1: string name,
     2: i32 age,
@@ -43,7 +43,7 @@ service Insight {
 所以协议的序列化过程主要都是体现在 struct 的序列化上面。
 比如像Hi函数的参数序列化过程:
 
-```
+```c
 uint32_t Insight_Hi_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {
   uint32_t xfer = 0;
   xfer += oprot->writeStructBegin("Insight_Hi_pargs");
