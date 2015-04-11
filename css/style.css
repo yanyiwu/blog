@@ -158,22 +158,22 @@ nav  {
 	margin:20px 20% 30px 20%;
 	height:27px;
 	padding:10px 0px 0px 0px;
-	background-image:url('http://7viirv.com1.z0.glb.clouddn.com/nav_starry_sky.jpg');
+	/*background-image:url('http://7viirv.com1.z0.glb.clouddn.com/nav_starry_sky.jpg');*/
 	border-radius:8px;
 }
 nav ul {
 	height:100%;
-	margin:0 10%;
+	margin:0;
 	padding:0;
 	list-style:none;
-	
 }
 nav li {
     float:left;
-	width:24%;
+	width:25%;
 	padding:4px 0;
 	margin:0;
 	text-align:center;
+    border-radius: 10px;
 	background-color: rgb(223, 223, 211);
 	border:0.5% solid #CCC;
     cursor: pointer;
