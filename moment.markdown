@@ -3,6 +3,18 @@ layout: sharebutton
 title: TimeLine
 ---
 
+&raquo; 2015-04-12 00:40
+
+> - 一个神奇的事情：
+女朋友 [kaiyi] 报名百度前端ife初级班居然被选中，
+成了第一批被选召的孩子。。。
+毕竟初级班只招50个，但是我看报名人数都已经500多人了。。
+> - 劳动节回家订婚，所以趁这周周末赶紧去西单买订婚用的戒指。
+发现女生果然是种神奇的动物，去年买了MacBook Pro送她。
+送了和没送一样。。。这次买了也没更贵多少的钻戒送她。
+目测兴奋得晚上要失眠，
+回到住处疯狂拍戒指拍到手机没电了才罢休。。。
+
 &raquo; 2015-03-26 20:56
 
 > GitHub上第二个项目的Star数也上百了，纪念一下。
@@ -512,3 +524,4 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [疯狂的投资]:http://www.ximalaya.com/1412917/sound/4697361
 [CppJieba]:http://github.com/yanyiwu/cppjieba
 [实时系统架构与实现]:http://www.infoq.com/cn/presentations/framework-and-implementation-of-real-time-system
+[kaiyi]:https://github.com/lucky7ky
