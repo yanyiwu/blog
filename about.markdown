@@ -59,6 +59,7 @@ title: AboutMe
 + [armsword]
 + [xushiwei]
 + [ruochenxu]
++ [kaiyizhang]
 
 [生活随笔]:http://yanyiwu.com/moments/moment.html
 [厨艺展示]:http://yanyiwu.com/cooking-in-life.html
@@ -79,3 +80,4 @@ title: AboutMe
 [ruochenxu]:http://cstdlib.com/
 [xushiwei]:http://xushiwei.com/
 [armsword]:http://armsword.com
+[kaiyizhang]:http://luckykaiyi.com/
