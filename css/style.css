@@ -1,6 +1,8 @@
+body {
+    font-size:18px;
+}
 #blog_index {
     font-family: SimSun, Heiti, sans-serif;
-    font-size: 18px;
     margin: 3% 20% 5% 20%;
     padding: 2% 5% 5% 5%;
     line-height: 150%;
