@@ -88,7 +88,7 @@ blockquote {
     margin-left: 20px;
 }
 
-pre code {
+code {
     overflow-x: auto;
 }
 

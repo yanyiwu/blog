@@ -47,10 +47,15 @@ Nginx 是基于 Epoll 异步IO服务的服务器。而且 Nginx 将异步编程�
 讲 socket 的 recv 和 send 都设置成非阻塞形势，并注册回调函数来异步地处理网络请求的每个阶段。
 最典型的例子就拿 [ngx\_http\_cppjieba\_module] 模块开发中 HTTP 协议数据的解析过程来说，当客户端发送HTTP GET 请求过来的时候。
 很简单，因为是 GET 请求。在模块开发中模块初始化的时候，就需要注册一个回调函数。
-在本例中就是函数 `static ngx_int_t ngx_http_cppjieba_handler(ngx_http_request_t* r);` 
+在本例中就是函数 
+
+```
+static ngx_int_t ngx_http_cppjieba_handler(ngx_http_request_t* r);
+``` 
+
 当这个函数被调用的时候，就是 Nginx 就收到了 HTTP 请求，并且 HTTP 的 header 数据已经被解析完毕的时候。
 而 GET 请求通常是只需要 header 数据即可，不需要 body 数据。
-所以当 GET 请求过来的时候，我们只需要在 `static ngx_int_t ngx_http_cppjieba_handler(ngx_http_request_t* r);`  函数中处理完数据，在函数结束前将结果发送给客户端即可，一般是通过 `ngx_http_output_filter(r, &out);`  这样的函数调用来结束 `ngx_http_cppjieba_handler` 。
+所以当 GET 请求过来的时候，我们只需要在 `ngx_http_cppjieba_handler`  函数中处理完数据，在函数结束前将结果发送给客户端即可，一般是通过 `ngx_http_output_filter(r, &out);`  这样的函数调用来结束 `ngx_http_cppjieba_handler` 。
 
 但是处理 POST 请求时，不仅需要 HTTP 的 header，也需要 body 数据，
 body 数据大小是通过 header 里面的 `content-length` 长度指定。
@@ -58,7 +63,13 @@ body 数据是异步收发，就是非阻塞的 recv 函数，当 Epoll 监听�
 并将该数据累加起来，当累计的数据量大于等于 `content-length` 时，代表该请求的 body 数据已经被接收完毕。
 所以在模块开发中，当我们需要完整的 body 数据时，我们需要注册一个回调函数 CallBackFunctForPost 来告诉 Nginx，
 当 body 数据接收完毕之时，就是调用我 CallBackFunctForPost 之日。
-在[ngx\_http\_cppjieba\_module]中，`static void ngx_http_cppjieba_post_handler(ngx_http_request_t* r);` 这个函数就是所需的这个 CallBackFunctForPost 。
+在[ngx\_http\_cppjieba\_module]中，
+
+```
+static void ngx_http_cppjieba_post_handler(ngx_http_request_t* r);
+``` 
+
+就是所需的这个 CallBackFunctForPost 。
 
 ```
 if(r->method & NGX_HTTP_POST) {
