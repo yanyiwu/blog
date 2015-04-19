@@ -71,7 +71,7 @@ title: AboutMe
 [GitHub]:http://github.com/yanyiwu
 [golang初体验]:http://yanyiwu.com/work/2014/08/11/golang-chutiyan.html
 [Simhash]:http://github.com/yanyiwu/simhash
-[Nginx模块开发的那些事]:http://yanyiwu.com/work/2014/09/21/Nginx-module-development-stuff.html
+[Nginx模块开发的那些事]:http://yanyiwu.com/work/2014/09/21/nginx-module-development-stuff.html
 [ExJieba]:https://github.com/falood/exjieba
 [JiebaR]:https://github.com/qinwf/jiebaR
 [许式伟]:http://xushiwei.com/

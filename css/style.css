@@ -1,48 +1,69 @@
 body {
-    font-size:18px;
+    font-family: SimSun, "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+    font-size:36px;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #blog_index {
-    font-family: SimSun, Heiti, sans-serif;
-    margin: 3% 20% 5% 20%;
+    /*font-family: SimSun, Heiti, sans-serif;*/
     padding: 2% 5% 5% 5%;
     line-height: 150%;
     border: 1px solid LightGrey;
 }
 
 H1 {
+    /*
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    font-size: 2em;
-    margin-top: 26px;
+    */
+    font-size: 1.5em;
+    margin:0;
+    margin-top: 5%;
+    /*
     margin-bottom: 0px;
+    */
     border-bottom: 2px LightGrey solid;
     line-height: 150%;
     color: DarkRed;
 }
 
 H2 {
+    /*
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    */
     font-size: 1.4em;
+    margin:0;
+    /*
     margin-bottom: 20px;
     margin-left: 0px;
     padding: -5px 0px 5px 0px;;
+    */
     border-bottom: 1px LightGrey solid;
+    /*
     width: 100%;
+    */
     line-height: 150%;
     color: DarkGreen;
 }
 
 
 H3 {
+    /*
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    font-size: 1.5em;
+    */
+    font-size: 1.3em;
+    margin:0;
+    /*
     margin-top: 40px;
     margin-bottom: 30px;
     width: 80%;
+    */
     line-height: 150%;
     color: DarkBlue;
 }
 
 
+/*
 H4 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     font-size: 1.5em;
@@ -53,6 +74,7 @@ H4 {
     line-height: 150%;
     color: DarkBlue;
 }
+*/
 
 
 li {
@@ -66,6 +88,9 @@ blockquote {
     margin-left: 20px;
 }
 
+pre code {
+    overflow-x: auto;
+}
 
 /*
 pre {
@@ -156,10 +181,14 @@ border-bottom: 0px;
     margin: 0;
 }
 
-nav  {
-	margin:20px 20% 30px 20%;
-	height:27px;
+nav {
+	height:2em;
+    margin:0;
+    padding:0;
+    /*
+	margin:20px 0;
 	padding:10px 0px 0px 0px;
+    */
 	/*background-image:url('http://7viirv.com1.z0.glb.clouddn.com/nav_starry_sky.jpg');*/
 	border-radius:8px;
 }
@@ -193,4 +222,22 @@ nav li a{
  }
 nav a:hover{
    background:none;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) {
+    body {
+        font-size: 17px;
+    };
+}
+
+@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3) {
+    body {
+        font-size: 25px;
+    };
 }
