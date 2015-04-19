@@ -1,7 +1,7 @@
 body {
     font-family: SimSun, "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
     font-size:36px;
-    width: 740px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -227,6 +227,7 @@ nav a:hover{
 @media screen and (min-width:1024px) {
     body {
         font-size: 18px;
+        width: 740px;
     }
 }
 
