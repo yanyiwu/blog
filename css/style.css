@@ -1,37 +1,37 @@
 body {
-    font-family: SimSun, "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
-    font-size:36px;
-    width: 100%;
+    font-family:STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+    font-size: 36px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-#blog_index {
-    /*font-family: SimSun, Heiti, sans-serif;*/
-    padding: 2% 5% 5% 5%;
+
+.blog_index {
+    padding: 0;
     line-height: 150%;
     border: 1px solid LightGrey;
 }
 
-H1 {
-    /*
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    */
-    font-size: 1.5em;
+.blog_post {
+    padding: 0;
+    margin: 2% 4%;
+    line-height: 150%;
+}
+
+.blog_title h1 {
+}
+
+h1 {
+    font-size: 1.4em;
     margin:0;
-    margin-top: 5%;
-    /*
-    margin-bottom: 0px;
-    */
-    border-bottom: 2px LightGrey solid;
+    padding: 1% 3%;
+    border-bottom: 1px LightGrey solid;
     line-height: 150%;
     color: DarkRed;
 }
 
-H2 {
-    /*
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    */
-    font-size: 1.4em;
+h2 {
+    font-size: 1.3em;
     margin:0;
     /*
     margin-bottom: 20px;
@@ -47,11 +47,11 @@ H2 {
 }
 
 
-H3 {
+h3 {
     /*
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     */
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin:0;
     /*
     margin-top: 40px;
@@ -61,20 +61,6 @@ H3 {
     line-height: 150%;
     color: DarkBlue;
 }
-
-
-/*
-H4 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-    font-size: 1.5em;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px LightGrey solid;
-    width: 80%;
-    line-height: 150%;
-    color: DarkBlue;
-}
-*/
 
 
 li {
@@ -136,9 +122,26 @@ hr {
     color: LightGrey;
 }
 
-ul {
+.post_list div {
+    /*
     padding: 5px 5px 5px 20px;
+    */
+    margin: 0;
+    padding: 0;
 }
+
+.post_list_item {
+    display: block;
+    padding: 8px 30px 10px 30px;
+
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    color: #005;
+}
+.post_list_item_hot {
+    color: #97190E;
+}
+
 
 ol {
     padding: 5px 5px 5px 30px;
@@ -159,16 +162,22 @@ border-bottom: 0px;
     border: 0;
 }
 
-#logo a{
+#logo {
+    display: inline-block;
+    float: right;
+    margin: 1% 1%;
+    border: 0;
+    padding: 0;
+}
+
+#logo a {
     display: inline-block;
     z-index: 5;
-    top: 0;
-    float: right;
     margin: 0;
     border: 0;
-    width: 34px;
-    height: 25px;
     padding: 0;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .thumbnail {
@@ -176,10 +185,11 @@ border-bottom: 0px;
     height: 130px;
 }
 
-.datetime {
+.post_date {
     text-align:right;
     margin: 0;
 }
+
 
 nav {
 	height:2em;
@@ -226,11 +236,12 @@ nav a:hover{
 
 @media screen and (min-width:1024px) {
     body {
-        font-size: 18px;
-        width: 740px;
+        font-size: 20px;
+        width: 60%;
     }
 }
 
+/*
 @media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) {
     body {
         font-size: 17px;
@@ -242,3 +253,4 @@ nav a:hover{
         font-size: 25px;
     };
 }
+*/
