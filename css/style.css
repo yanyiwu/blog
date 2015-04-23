@@ -32,17 +32,8 @@ h1 {
 
 h2 {
     font-size: 1.3em;
-    margin:0;
-    /*
-    margin-bottom: 20px;
-    margin-left: 0px;
-    padding: -5px 0px 5px 0px;;
-    */
-    border-bottom: 1px LightGrey solid;
-    /*
-    width: 100%;
-    */
-    line-height: 150%;
+    margin: 0;
+    padding: 0;
     color: DarkGreen;
 }
 
