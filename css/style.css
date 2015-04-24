@@ -1,5 +1,5 @@
 body {
-    font-family:STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+    font-family:Helvetica;
     font-size: 36px;
     width: 90%;
     margin-left: auto;
@@ -227,6 +227,7 @@ nav a:hover{
 
 @media screen and (min-width:1024px) {
     body {
+        font-family:STFangSong, FangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
         font-size: 20px;
         width: 60%;
     }
