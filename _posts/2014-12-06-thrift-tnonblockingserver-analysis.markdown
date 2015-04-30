@@ -284,5 +284,5 @@ TNonblockingServer.cpp448SOCKET_RECV_FRAMING
 [thrift-0.9.0]:http://archive.apache.org/dist/thrift/0.9.0/thrift-0.9.0.tar.gz
 [libevent]:http://libevent.org/
 [Thrift源码剖析]:http://yanyiwu.com/work/2014/10/17/thrift-source-code-illustration.html
-[MyTNonblockingServer]:http://yanyiwu.com/weedfs/4/4f6bc786c4/TNonblockingServer.cpp
+[MyTNonblockingServer]:http://7viirv.com1.z0.glb.clouddn.com/4f6bc786c4_TNonblockingServer.cpp
 [C1000K之Libevent源码分析]:http://yanyiwu.com/work/2014/12/10/asyncronous-io-libevent.html

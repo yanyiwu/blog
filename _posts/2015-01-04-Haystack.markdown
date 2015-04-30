@@ -53,4 +53,4 @@ src="http://7viirv.com1.z0.glb.clouddn.com/588535155a_haystack-fig5.png"/>
 大部分情况下能做到只需要一次磁盘IO即可。
 从而显著提高性能。
 
-[Facebook-Haystack]:http://yanyiwu.com/weedfs/3/564fc3ddb0/Facebook-Haystack.pdf
+[Facebook-Haystack]:http://7viirv.com1.z0.glb.clouddn.com/4d6cc19893_earlybird.pdf
