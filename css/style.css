@@ -64,32 +64,31 @@ blockquote {
     padding-left: 5px;
     margin-left: 20px;
 }
-
 code {
-    overflow-x: auto;
+    font-size: 13px;
+    line-height:13px;
+    padding: 3px;
+    margin: 0 2px;
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    white-space:pre;
 }
-
-/*
+pre code{
+    background:none;
+    padding:0;
+    margin:0;
+    border:0;
+    border-radius:0;
+}
 pre {
-    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
-    font-size: 75%;
-    border: solid 1px lightgrey;
-    background-color: Ivory;
-    padding: 5px;
-    line-height: 130%;
-    margin-left: 10px;
-    width: 95%;
-    overflow-x: auto;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
 }
-
-
-code {
-    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
-    font-size: 90%;
-}
-*/
-
-
 a {
     text-decoration: none;
     border-bottom: 1px solid rgb(6, 7, 18);
