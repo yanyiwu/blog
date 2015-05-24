@@ -56,10 +56,10 @@ title: AboutMe
 
 ## 友情链接(顺序无关)
 
-+ [armsword]
-+ [xushiwei]
-+ [ruochenxu]
 + [kaiyizhang]
++ [xushiwei]
++ [armsword]
++ [ruochenxu]
 
 [生活随笔]:http://yanyiwu.com/moments/moment.html
 [厨艺展示]:http://yanyiwu.com/cooking-in-life.html
