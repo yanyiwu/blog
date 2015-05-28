@@ -3,6 +3,11 @@ layout: sharebutton
 title: TimeLine
 ---
 
+&raquo; 2015-05-28 16:46
+
+> - 互联网发展到现在，低版本的IE已经不再只是浏览器了，
+而是病毒。
+
 &raquo; 2015-05-23 19:09
 
 > - 最近对Node.js的态度发生了微妙的变化：
