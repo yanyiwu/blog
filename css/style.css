@@ -21,6 +21,11 @@ body {
 .blog_title h1 {
 }
 
+.review {
+    margin: 2% 4%;
+    line-height: 150%;
+}
+
 h1 {
     font-size: 1.4em;
     margin:0;
@@ -177,7 +182,7 @@ border-bottom: 0px;
 
 .post_date {
     text-align:right;
-    margin: 0;
+    margin: 2%;
 }
 
 
