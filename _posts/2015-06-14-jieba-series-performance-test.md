@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "Jieba中文分词系列性能评测"
+title:  "\"结巴\"中文分词系列性能评测"
 date:   2015-06-14
 category: work
 ---
