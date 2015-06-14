@@ -182,9 +182,16 @@ border-bottom: 0px;
 
 .post_date {
     text-align:right;
-    margin: 2%;
+    margin: 1% 2%;
 }
 
+#bdshare_weixin_qrcode_dialog_qr table {
+    width:100% !important;
+}
+
+.bdsharebuttonbox a {
+    border-bottom: none !important;
+}
 
 nav {
 	height:2em;
