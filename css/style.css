@@ -193,6 +193,14 @@ border-bottom: 0px;
     border-bottom: none !important;
 }
 
+#ds-reset p {
+    font-size: 30px !important;
+}
+
+#ds-reset a {
+    font-size: 30px !important;
+}
+
 nav {
 	height:2em;
     margin:0;
@@ -241,6 +249,13 @@ nav a:hover{
         font-family:STFangSong, FangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
         font-size: 20px;
         width: 60%;
+    }
+
+    #ds-reset p {
+        font-size: 16px !important;
+    }
+    #ds-reset a {
+        font-size: 16px !important;
     }
 }
 
