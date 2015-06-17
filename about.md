@@ -1,5 +1,5 @@
 ---
-layout: sharebutton
+layout: post_without_date
 title: AboutMe
 ---
 

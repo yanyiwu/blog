@@ -1,6 +1,6 @@
 ---
-layout: sharebutton
-title: TimeLine
+layout: post_without_date
+title: 时间线
 ---
 
 &raquo; 2015-05-28 16:46
