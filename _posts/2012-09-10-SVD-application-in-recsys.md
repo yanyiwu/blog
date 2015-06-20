@@ -15,7 +15,7 @@ category: work
 
 线性代数相关知识：
 
-任意一个`M*N`的矩阵A（`M行*N列`，`M>N`），可以被写成三个矩阵的乘机：
+任意一个`M*N`的矩阵A（`M行*N列`，`M>N`），可以被写成三个矩阵的乘积：
 
 1\. U：（M行M列的列正交矩阵）
 
@@ -199,7 +199,7 @@ Season5，Season6特别靠近。Ben和Fred也特别靠近。
 
 对比Bob的评分向量：【5 5 0 0 0 5】。
 
-然后找出ben评分过而Bob未评分的item并排序，即【season 5：5，season 3：5】。
+然后找出ben评分过而Bob未评分的item并排序，即【season 5：5，season 3：3】。
 
 即推荐给Bob的item依次为 season5 和 season3。
 
