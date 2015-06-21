@@ -3,6 +3,21 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2015-06-21 02:01
+
+> - 不小心搜到一个很不错的PDF 
+[Analyzing-the-performance-of-top-k-retrieval-algorithms] 。
+发现文章作者是个大牛[Marcus Fontoura]。
+在此Mark一下，找时间把他和搜索引擎相关的文章都看看。
+
+&raquo; 2015-06-20 11:43
+
+> - 刚看到一个follow的GitHub作者star了自己的新项目，
+很高兴的点进去看看是什么东西，想跟进看看实现源码。
+可惜一看是C++代码，想跑起来还需要手动安装依赖十几个其他包。
+就泄气了。C++没有包管理是硬伤。其他语言可以一键搞定的时候，
+C++总是要大费周章，甚至还经常有依赖包的版本上的兼容问题。
+
 &raquo; 2015-05-28 16:46
 
 > - 互联网发展到现在，低版本的IE已经不再只是浏览器了，
@@ -551,3 +566,5 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [CppJieba]:http://github.com/yanyiwu/cppjieba
 [实时系统架构与实现]:http://www.infoq.com/cn/presentations/framework-and-implementation-of-real-time-system
 [kaiyi]:https://github.com/lucky7ky
+[Analyzing-the-performance-of-top-k-retrieval-algorithms]:http://fontoura.org/papers/lsdsir2013.pdf
+[Marcus Fontoura]:http://fontoura.org/
