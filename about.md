@@ -23,7 +23,7 @@ title: AboutMe
 ## 开发语言
 
 目前最擅长的是 C/C++ 后端开发;
-兴趣广泛，涉猎过 golang/Python/Node.js/Erlang ;
+兴趣广泛，熟悉 go/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;
 目前最看好 golang 的发展前景；
 
 ## 开源项目
