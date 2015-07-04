@@ -17,7 +17,7 @@ body {
 .blog_post {
     padding: 0;
     margin: 2% 4%;
-    line-height: 150%;
+    font-size: 20px;
 }
 
 .blog_title h1 {
