@@ -120,9 +120,6 @@ hr {
 }
 
 .post_list div {
-    /*
-    padding: 5px 5px 5px 20px;
-    */
     margin: 0;
     padding: 0;
 }
@@ -207,11 +204,6 @@ nav {
 	height:2em;
     margin:0;
     padding:0;
-    /*
-	margin:20px 0;
-	padding:10px 0px 0px 0px;
-    */
-	/*background-image:url('http://7viirv.com1.z0.glb.clouddn.com/nav_starry_sky.jpg');*/
 	border-radius:8px;
 }
 nav ul {
@@ -250,19 +242,15 @@ nav a:hover{
 
 @media screen and (min-width:1024px) {
     body {
-        /*
-        font-family:STFangSong, FangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
-        font-family:STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
-        */
         font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         width: 60%;
     }
 
     .blog_post {
         padding: 0;
         margin: 2% 4%;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #ds-reset p {
