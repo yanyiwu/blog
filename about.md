@@ -44,7 +44,7 @@ title: AboutMe
 
 ## 博文导读
 
-- {[推荐系统的那点事]}      是本博客中流传最广的文章，技术相关网站几乎都有转载，可惜当时博客不够完善，甚至连评论等功能都没有。主要靠微博转发传播。因为文章指出了一些推荐系统的误区，俗称打脸，因此也因为惹一些人不开心。唉。
+- {[推荐系统的那点事]}      是本博客中流传最广的文章，技术相关网站几乎都有转载，可惜当时博客不够完善，甚至连评论等功能都没有。主要靠微博转发传播。因为文章指出了一些推荐系统的误区，俗称打脸，因此也惹一些人不开心。唉。
 - {[影响我一生的两个选择]}  文如题名，不过后来发现其实人生还很长，处处都是影响整个人生的选择。
 - {[golang初体验]}          是本博客中阅读量第二的文章，也因此有幸结识了牛人{[许式伟]}，收获良多。
 - {[那些年追过的创业团队]} 关注过的一些创业团队和现象，不时回顾看看还是很有意思的。
@@ -60,6 +60,7 @@ title: AboutMe
 + [xushiwei]
 + [armsword]
 + [ruochenxu]
++ [evilbinary]
 
 [生活随笔]:http://yanyiwu.com/moments/moment.html
 [厨艺展示]:http://yanyiwu.com/cooking-in-life.html
@@ -81,3 +82,4 @@ title: AboutMe
 [xushiwei]:http://xushiwei.com/
 [armsword]:http://armsword.com
 [kaiyizhang]:http://luckykaiyi.com/
+[evilbinary]:http://evilbinary.org/

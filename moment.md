@@ -3,9 +3,36 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2015-08-23 17:39
+
+> 既要折腾，也要沉淀。
+
+&raquo; 2015-08-18 12:01
+
+> 今天看到[jieba]和[seaweedfs]一个 3000+ star，另一个 1500+ star。
+感觉我对开源项目的敏感度还可以嘛，这两个项目算是我参与度最大的两个项目了。
+我接触到的时候他们都是300多星而已。
+
+&raquo; 2015-07-14 11:29
+
+>  [德约科维奇：夺冠才敢吃一口巧克力] 
+
+&raquo; 2015-07-08 00:36
+
+> 这几天给我亲戚朋友买机票和动车票，机票在去哪儿买。
+动车票正常情况下我都是去12306买，但是这次我也在去哪儿买。
+因为在去哪儿上面有我填过的所有亲戚朋友的身份信息，买动车票的时候直接勾选即可。
+这才是真正的数据变现的力量，把数据存下来增加用户的粘性。
+就好像当年的QQ，把好友关系存放在服务器，而不是用户的电脑上。
+这些都是很好的数据体验。
+
+&raquo; 2015-07-01 00:46
+
+> 更新了博客CSS风格，更好看了，迎接下半年正式开始。
+
 &raquo; 2015-06-21 02:01
 
-> - 不小心搜到一个很不错的PDF 
+> 不小心搜到一个很不错的PDF 
 [Analyzing-the-performance-of-top-k-retrieval-algorithms] 。
 发现文章作者是个大牛[Marcus Fontoura]。
 在此Mark一下，找时间把他和搜索引擎相关的文章都看看。
@@ -568,3 +595,6 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [kaiyi]:https://github.com/lucky7ky
 [Analyzing-the-performance-of-top-k-retrieval-algorithms]:http://fontoura.org/papers/lsdsir2013.pdf
 [Marcus Fontoura]:http://fontoura.org/
+[德约科维奇：夺冠才敢吃一口巧克力]:http://mp.weixin.qq.com/s?__biz=MzA5NTQ1OTExMQ==&mid=207183453&idx=1&sn=8d4a9d5d1fab2054f52e02c02d5aa373
+[jieba]:https://github.com/fxsjy/jieba
+[seaweedfs]:https://github.com/chrislusf/seaweedfs
