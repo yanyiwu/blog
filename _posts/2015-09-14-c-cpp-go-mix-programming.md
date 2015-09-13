@@ -1,10 +1,14 @@
 ---
-published: false
+published: true
 layout: post
 title:  C/C++/Go混合编程实践之GoJieba
 date:   2015-09-14
 category: work
 ---
+
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" style="width:60%"></img>
+</center>
 
 最近想在团队中推动Go在项目中更多场景的应用，提高开发效率。
 但是遇到了一个顾虑，就是有些功能库是 C++ 写的，
@@ -38,7 +42,18 @@ go build 也会自动的识别并重新编译。
 在 Go 中已经被 go build 直接完成了。
 简直是太体贴周到了。
 
-[gojieba]:https://github.com/yanyiwu/gojieba
+当然，上面都是理论上的一些小示例而已，
+实践出真知，顺手搞了一个 Jieba 分词的 Go 版本 [GoJieba] 。
+混合编程非常顺手，比想象中顺畅得多。
+当然，这个项目也是我需要的，虽然现在也有其他的 Jieba 分词的 Go 版本。
+但是和 [CppJieba] 的性能差距略大，而 [CppJieba] 包装而成的 [GoJieba] 性能表现更让我满意。
+还有就是，自己的项目，接口修订，或者一些参数策略的修改，
+这些都是在工作项目中使用时会遇到的，修改和定制都会更加顺手。
+
+对于 Go 对 C/C++ 混合编程支持得很漂亮，『漂亮得不像实力派』。
+
+[GoJieba]:https://github.com/yanyiwu/gojieba
+[CppJieba]:https://github.com/yanyiwu/cppjieba
 [how-to-use-c++-in-go]:http://stackoverflow.com/questions/1713214/how-to-use-c-in-go
 [cgo]:http://golang.org/cmd/cgo/
 [practice-cgo]:https://github.com/yanyiwu/practice/tree/master/go/cgo/foo
