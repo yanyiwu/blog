@@ -3,6 +3,33 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2015-09-21 22:54
+
+> 周末稍微翻了翻《Programming in Scala》，
+大概的印象就是像极了 Erlang ，不过它可以跑到 JVM 上面。
+也可以无缝使用 Java 的库，这些都是开发上的优势。
+适合大数据的地方主要是并发吧，函数式编程其实本身就挺适合数据处理的。
+但是总觉得学过了 Erlang ，再去看 Scala ，
+就好像看熟悉的风景，比较平淡了。 
+
+&raquo; 2015-09-19 10:35
+
+> 做一个让别人乐意帮助你的人。
+
+&raquo; 2015-09-10 19:37
+
+> 今天收到一封招聘 Erlang 工程师的邮件，
+号称是欧洲最大的金融支付公司发来的。
+查了一下，好像如邮件描述，是发展非常好的创业公司。
+显然我无法胜任，毕竟我并没有线上的 Erlang 开发精力。
+但是让我好奇的是，身为一家创业公司，
+而且并不是通讯领域的公司，居然选择了 Erlang 作为开发语言。
+幻想了一下，在线上对 Erlang 代码升级热切换之后的，
+感觉就好像是黑魔法一般刺激。
+
+> 为什么像golang或者Node.js之类代表性的新语言，
+也并没有像 Erlang 这种具有代码热切换的黑魔法呢？
+
 &raquo; 2015-08-30 01:22
 
 > 晚上和强哥吃饭聊天，听了强哥一路走来的经历，
@@ -613,3 +640,4 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [德约科维奇：夺冠才敢吃一口巧克力]:http://mp.weixin.qq.com/s?__biz=MzA5NTQ1OTExMQ==&mid=207183453&idx=1&sn=8d4a9d5d1fab2054f52e02c02d5aa373
 [jieba]:https://github.com/fxsjy/jieba
 [seaweedfs]:https://github.com/chrislusf/seaweedfs
+[NodeJieba]:https://github.com/yanyiwu/nodejieba
