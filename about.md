@@ -18,7 +18,13 @@ title: AboutMe
 
 本博客主要记录工作和技术相关，
 偶尔记录一些{[生活随笔]}和{[厨艺展示]}，
-各种社交资料请点本博客 右上角 图标们。
+
+## 社交资料
+
++ [GitHub]
++ [微博]
++ [知乎]
++ [微信]
 
 ## 开发语言
 
@@ -83,3 +89,7 @@ title: AboutMe
 [armsword]:http://armsword.com
 [kaiyizhang]:http://luckykaiyi.com/
 [evilbinary]:http://evilbinary.org/
+
+[微博]:http://weibo.com/buptwyy
+[微信]:http://7viirv.com1.z0.glb.clouddn.com/5a7d1b5c0d_yanyiwu_personal_qrcodes.jpg
+[知乎]:http://www.zhihu.com/people/bu-shi-wo-gan-de-17
