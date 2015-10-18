@@ -12,7 +12,7 @@ title: 时间线
 
 > 经土豪推荐打算买WASD个人定制的机械键盘，定制了一发如下图：
 
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/wasd.jpg" style="width:60%"></img>
+> <img src="http://7viirv.com1.z0.glb.clouddn.com/wasd.jpg" class="photo"></img>
 
 > 感觉光看这图就心情不错，至少续命一个月。不过因为得走海外代购，听说需要少则一个月，
 多则三个多月的也可能。也是醉了。

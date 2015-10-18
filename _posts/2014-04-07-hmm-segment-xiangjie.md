@@ -16,7 +16,7 @@ category: work
 第一次听说HMM模型是从李开复的博文论文中听说的：
 
 <center>
-<img src="/img/kaifulee.jpg" style="width:60%"></img>
+<img src="/img/kaifulee.jpg" class="photo"></img>
 </center>
 
 > 李开复1988年的博士论文发表了第一个基于隐马尔科夫模型（HMM）的语音识别系统Sphinx，被《商业周刊》评为1988年美国最重要的科技发明。

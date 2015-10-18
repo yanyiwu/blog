@@ -60,7 +60,7 @@ category: work
 比如下图：
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/nothingworkandnooneknowwhy.jpg" style="width:60%"></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/nothingworkandnooneknowwhy.jpg" class="photo"></img>
 </center>
 
 【适度刷题，慎重选择实习】

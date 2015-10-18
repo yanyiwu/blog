@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" style="width:60%"></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" class="photo"></img>
 </center>
 
 最近想在团队中推动Go在项目中更多场景的应用，提高开发效率。

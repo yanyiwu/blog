@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/42df.jpeg" style="width:60%"></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/42df.jpeg" class="photo"></img>
 </center>
 
 下雨天，一整天待在屋里不用出门，也算是人生第一次在落地窗前经历暴雨，码意大发，

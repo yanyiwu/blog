@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/coding-girl.jpg" style="width:60%"></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/coding-girl.jpg" class="photo"></img>
 </center>
 
 原文是在知乎上发表的问题回答：[如何教会非计算机专业的女友写代码并且找到工作？] 。
