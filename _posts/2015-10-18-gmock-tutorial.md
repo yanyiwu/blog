@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  C++ 单元测试之 gmock 使用『指北』
+title:  单元测试之gmock使用『指北』
 date:   2015-10-18
 category: work
 ---
