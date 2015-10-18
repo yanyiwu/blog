@@ -11,9 +11,11 @@ simhash最牛逼的一点就是将一个文档，最后转换成一个64位的�
 
 ## 原理
 
-### simhash值的生成图解如下：
+simhash值的生成图解如下
 
-<img src="/img/simhash.jpg" alt="simhash原理图" ></img>
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/simhash.jpg"></img>
+</center>
 
 大概花三分钟看懂这个图就差不多怎么实现这个simhash算法了。特别简单。谷歌出品嘛，简单实用。
 
@@ -27,7 +29,7 @@ simhash最牛逼的一点就是将一个文档，最后转换成一个64位的�
 到此，如何从一个doc到一个simhash值的过程已经讲明白了。
 但是还有一个重要的部分没讲，
 
-### simhash值的海明距离计算
+『simhash值的海明距离计算』
 
 二进制串A 和 二进制串B 的海明距离 就是 `A xor B` 后二进制中1的个数。
 
@@ -46,7 +48,7 @@ __A和B的海明距离是否小于等于n，这个n值根据经验一般取值�
 simhash本质上是__局部敏感性的hash__，和md5之类的不一样。
 正因为它的局部敏感性，所以我们可以使用海明距离来衡量simhash值的相似度。
 
-### 高效计算二进制序列中1的个数
+『高效计算二进制序列中1的个数』
 
 ```cpp
 /* src/Simhasher.hpp */
@@ -70,31 +72,29 @@ bool isEqual(uint64_t lhs, uint64_t rhs, unsigned short n = 3)
 由上式这个函数来计算的话，时间复杂度是 O(n);
 这里的n默认取值为3。由此可见还是蛮高效的。
 
+## simhash 实现的工程项目
 
-## simhash实现的工程项目
-
-[我自己写的simhash](https://github.com/yanyiwu/simhash)
++ C++ 版本 [simhash](https://github.com/yanyiwu/simhash)
++ Go 版本 [gosimhash](https://github.com/yanyiwu/gosimhash)
 
 主要是针对中文文档，也就是此项目进行simhash之前同时还进行了分词和关键词的抽取。
 
 
 ## 对比其他算法
 
-### 百度的去重算法
+『百度的去重算法』
 
 百度的去重算法最简单，就是直接找出此文章的最长的n句话，做一遍hash签名。n一般取3。
 工程实现巨简单，据说准确率和召回率都能到达80%以上。
 
-### shingle算法
+『shingle算法』
 
 shingle原理略复杂，不细说。
 shingle算法我认为过于学院派，对于工程实现不够友好，速度太慢，基本上无法处理海量数据。
 
-### 其他算法
+『其他算法』
 
 具体看微博上的[讨论](http://weibo.com/1665335994/Alp0uAOL9?type=comment#_rnd1386513153615)
-
-
 
 ## 参考
 
