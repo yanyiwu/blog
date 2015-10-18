@@ -6,6 +6,10 @@ date:   2015-10-18
 category: work
 ---
 
+<center>
+<img src="http://7xloce.com1.z0.glb.clouddn.com/p2273115476.jpg" class="photo"></img>
+</center>
+
 单元测试往往需要借助 Mock 出一些对象，才能进行完整的单元测试。
 
 比如当一个 Engine 类里面有个函数需要调用一个 MysqlClient 去查询 MySQL，
@@ -47,5 +51,12 @@ Mock 的本质是：『狸猫换太子』。
 具体请看我写的一个简单示例：『[gmock-practice]』。
 我举得写的还是比较清楚的。看懂了之后基本上也就全理清楚了。
 剩下的就是熟悉 gmock 的 api 们了。
+
+『题图』和本文无关，是最近上映的『夏洛特烦恼』的一个场景。
+这部电影堪称经典，又搞笑又让人想流泪，
+如果硬要类比一部之前的经典电影的话，
+可能我只能联想到『大话西游』。
+而且台词没一句废话，笑点密度巨高，良心之作。
+建议每个人都去看看。
 
 [gmock-practice]:https://github.com/yanyiwu/practice/tree/master/cpp/gmock
