@@ -1,21 +1,21 @@
 ---
 published: true
 layout: post
-title:  "分布式存储Weed-FS源码分析"
+title:  "分布式存储Seaweedfs源码分析"
 date:   2015-01-09
 category: work
 ---
 
-基于源码版本号 0.67 ， 【Weed-FS又名叫Seaweed-FS】。
+基于源码版本号 0.67 ， 【Seaweedfs以前旧版叫Weedfs】。
 
-[Weed-FS] 是一个非常优秀的由 golang 开发的分布式存储开源项目，
+[Seaweedfs] 是一个非常优秀的由 golang 开发的分布式存储开源项目，
 虽然在我刚开始关注的时候它在 github.com 上面只有 star 50+，
 但是我觉得这个项目是一个几千 star 量级的优秀开源项目。
-[Weed-FS] 的设计原理是基于 Facebook 的一篇图片存储系统的论文 [Facebook-Haystack]，
+[Seaweedfs] 的设计原理是基于 Facebook 的一篇图片存储系统的论文 [Facebook-Haystack]，
 论文很长，但是其实原理就几句话，可以看看 [Facebook图片存储系统Haystack] ，
-我觉得[Weed-FS]是青出于蓝而胜于蓝。
+我觉得[Seaweedfs]是青出于蓝而胜于蓝。
 
-[Weed-FS] 这个开源系统涵盖的面比较多，
+[Seaweedfs] 这个开源系统涵盖的面比较多，
 很难在一篇文章里面说清楚，
 只能尽可能清楚的说说主要的部分。
 
@@ -176,7 +176,7 @@ SuperBlock 内维护的数据基本上就是该 Volume 的元数据。
 
 【TTL】
 
-定时删除功能，这个感觉很酷炫，但是在Weed-FS里面的实现原理很简单，
+定时删除功能，这个感觉很酷炫，但是在Seaweedfs里面的实现原理很简单，
 按 Volume 来进行分块，当每次用户上传一个自带TTL的文件（需要定时删除的文件）时，
 会把这个文件存储在合适的 Volume 里面（如何选出合适的 Volume 之后再说），
 存储的时候每个文件会带有 TTL 这个属性，
@@ -185,7 +185,7 @@ SuperBlock 内维护的数据基本上就是该 Volume 的元数据。
 然后 VolumeServer 通知 MasterServer 这个 Volume 已经被标识为 Dead 状态，
 意味着 MasterServer 不会再为这个 Volume 分配新的 Fid。
 然后再经过一段合适的时间后由 VolumeServer 将这个 Volume 从磁盘上安全的删除掉。
-详细请看在[Weed-FS]自带的文档[ttl]，
+详细请看在[Seaweedfs]自带的文档[ttl]，
 
 
 ### Needle
@@ -221,7 +221,7 @@ Needle 结构体里面的 Cookie 和 Id 就是上文提过的 Fid 里面的 Cook
 ## 数据备份之 Replication
 
 Replication 和 Topology 严重相关，
-在配置文件中可以配置多种备份模式，详见 [weed-fs-wiki] 。
+在配置文件中可以配置多种备份模式，详见 [seaweedfs-wiki] 。
 
 ```
 +-----+---------------------------------------------------------------------------+
@@ -256,7 +256,7 @@ topo.NextVolumeId 负责生成 VolumeId ，
 
 【强一致性】
 
-Weed-FS 的备份实现是强一致性的。
+Seaweedfs 的备份实现是强一致性的。
 当一个 VolumeServer 接受到上传文件的 POST 请求时，
 将该文件作为一个 Needle 写入本地 Volume 之后，
 会根据该文件所分配的 VolumeId 判断是否需要备份，
@@ -268,7 +268,7 @@ Weed-FS 的备份实现是强一致性的。
 
 上述实现强一致性的过程中，
 有个必要条件就是【 VolumeServer 需要知道往其它那些 VolumeServer 备份】。
-在 Weed-FS 的实现中是借助 MasterServer 来实现，
+在 Seaweedfs 的实现中是借助 MasterServer 来实现，
 因为备份的基本单位是 Volume, 
 在 MasterServer 中，对每个 VolumeId 都维护对应的备份机器列表。
 可以通过如下示例命令查看:
@@ -421,7 +421,7 @@ type Store struct {
 
 【扩容】
 
-对于 Weed-FS 来说，扩容非常简单，
+对于 Seaweedfs 来说，扩容非常简单，
 
 启动 MasterServer:
 
@@ -462,9 +462,9 @@ weed volume -dir="/tmp/data2" -max=5  -mserver="localhost:9333" -port=8081
 + 多台 VolumeServer 之间的多机备份实现是强一致性。
 + 多台 MasterServer 之间的主从关系是是通过 [goraft] 实现。
 
-[weed-fs-wiki]:https://github.com/chrislusf/weed-fs/wiki
-[Weed-FS]:https://github.com/chrislusf/weed-fs
-[ttl]:https://github.com/chrislusf/weed-fs/wiki/Store-file-with-a-Time-To-Live
+[seaweedfs-wiki]:https://github.com/chrislusf/seaweedfs/wiki
+[Seaweedfs]:https://github.com/chrislusf/seaweedfs
+[ttl]:https://github.com/chrislusf/seaweedfs/wiki/Store-file-with-a-Time-To-Live
 [Facebook-Haystack]:https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf
 [Facebook图片存储系统Haystack]:http://yanyiwu.com/work/2015/01/04/Haystack.html
 [goraft]:https://github.com/goraft/raft

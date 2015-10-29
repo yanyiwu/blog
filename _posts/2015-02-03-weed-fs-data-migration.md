@@ -1,16 +1,16 @@
 ---
 published: true
 layout: post
-title:  "Weed-FS之Volume数据迁移"
+title:  "Seaweedfs之Volume数据迁移"
 date:   2015-02-04
 category: work
 ---
 
-【Weed-FS又名叫Seaweed-FS】，
+【Seaweedfs以前旧版叫Weedfs】，
 本篇主要是关于数据迁移相关的内容，
-更详细的源码相关的请看[分布式存储Weed-FS源码分析]。
+更详细的源码相关的请看[分布式存储Seaweedfs源码分析]。
 
-很多刚开始接触 Weed-FS 但是又不熟悉它的用户经常会使用以下的方式启动 weed 集群。
+很多刚开始接触 Seaweedfs 但是又不熟悉它的用户经常会使用以下的方式启动 weed 集群。
 
 ```
 weed master -mdir="/tmp/mdata" -defaultReplication="001" -ip="localhost" -port=9334
@@ -37,7 +37,7 @@ vol3:
 也就是总共有6个Volume，分布在三个目录，这三个目录分别属于
 VolumeServer1,VolumeServer2,VolumeServer3 。
 此时如果想要缩减VolumeServer，比如去掉VolumeServer3。
-不熟悉 Weed-FS 的人会很纠结是否可以直接将VolumeServer3的数据挪给
+不熟悉 Seaweedfs 的人会很纠结是否可以直接将VolumeServer3的数据挪给
 VolumeServer1 和 VolumeServer2 ？
 
 其实这个完全是可以的，由 md5 就可以看出来：
@@ -55,8 +55,8 @@ MD5 (vol2/1.idx) = b9edc95795dfb3b0f9063c9cc9ba8095
 即使是属于不同 VolumeServer 的 Volume 
 其实也是一模一样的（不一样就说明数据损坏），因为 Volume 里面并没有含有任何它所属于的 VolumeServer 的相关信息。
 也有人怀疑是否会一模一样，担心备份的时候是采用最终一致性的异步备份方案。
-这个也不用担心，在 [分布式存储Weed-FS源码分析] 里面就说过，
-Weed-FS 是采用的强一致性的方式进行备份。
+这个也不用担心，在 [分布式存储Seaweedfs源码分析] 里面就说过，
+Seaweedfs 是采用的强一致性的方式进行备份。
 每次都是写完所有备份才完成一次上传操作。
 客户端才会收到上传成功的返回值。
 
@@ -86,5 +86,5 @@ weed volume -dir=/tmp/vol2/ -mserver="localhost:9334" -ip="localhost" -port=8082
 所以还是增加这篇博文，丰富一下中文的索引数据吧。
 
 
-[分布式存储Weed-FS源码分析]:http://yanyiwu.com/work/2015/01/09/weed-fs-source-analysis.html
+[分布式存储Seaweedfs源码分析]:http://yanyiwu.com/work/2015/01/09/weed-fs-source-analysis.html
 [example]:https://github.com/yanyiwu/practice/tree/master/weedfs/example1
