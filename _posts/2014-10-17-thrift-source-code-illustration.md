@@ -32,7 +32,7 @@ Thrift 最核心的几个模块目录如下(按自底向上排序)：
 而 `TCP/IP` 协议栈由 `socket` 来实现，也就是现在的网络通信服务器，
 最底层都是通过 `socket` 的， Thrift 也不例外，
 而在 Thrift 源码中，则是通过将 `socket` 包装成各种 `Transport` 来使用。
-对应的源码目录就是 `thrift-0.9.0/lib/cpp/src/thrift/transport` 。
+对应的源码目录就是 thrift-0.9.0/lib/cpp/src/thrift/transport 。
 大部分和网络数据通信相关的代码都是放在这个目录之下。
 
 **Protocol**
@@ -98,13 +98,12 @@ class FooProcessor : public ::apache::thrift::TDispatchProcessor {
 1\. 
 `dispatchCall` 这个函数是个虚函数，而看 `TDispatchProcessor` 源码就可以明白，
 这个函数是被供 `TDispatchProcessor` 类中的虚函数 `process` 来调用的。
-这里的动态绑定的技巧需要有一定的 `C++` 基础才能理解。
+这里是用了多态是进行动态调用的。
 这样的用法其实很常见，因为所需用到的场景非常多，
 你在父类，也就是 `TDispatchProcessor` 这个类中暴漏给外界的接口是 `process` ，
 而具体的实现需要在不同子类里面进行不同的实现，
 所以定义出 `dispatchCall` 这个**纯虚函数** 强制子类实现之。
 而父类在 `process` 函数中适当的调用 `dispatchCall` 即可。
-虽然对于第一次接触的人来说可能会比较绕，但是也算是很好用的一种技巧。
 
 2\. 
 
@@ -191,7 +190,7 @@ processMap_["GetName"] = &FooProcessor::process_GetName;
 在 [thrift-0.9.0] 里面的超时时间是 3 seconds 。
 也就是可以理解为其实每次 `serverTransport_->accept()` 函数退出时不一定是接受到请求了。 
 也有可能是超时时间到了。
-具体可以看 `thrift-0.9.0/lib/cpp/src/thrift/transport/TServerSocket.cpp`文件里
+具体可以看 thrift-0.9.0/lib/cpp/src/thrift/transport/TServerSocket.cpp 文件里
 360行的函数 `TServerSocket::acceptImpl()` 的实现过程。
 所以在 `TThreadedServer` 的实现里面，
 需要用 `while(_stop)` 轮询进行 `serverTransport_->accept()` 的调用。
@@ -207,14 +206,14 @@ Task 就是将 `transport`, `protocol`, `processor` 包装起来而已。
 再把 Task 插入任务集合中即可。
 注意到，之前的 `while(_stop)` 轮询退出时，会检测该任务集合，
 如果任务集合不为空，则会阻塞直到任务集合为空，`TThreadedServer` 的 `server` 函数才会退出。
-细节请看 `thrift-0.9.0/lib/cpp/src/thrift/server/TThreadedServer.cpp` 
-第40行的 `class TThreadedServer::Task: public Runnable` 函数实现。
+细节请看 thrift-0.9.0/lib/cpp/src/thrift/server/TThreadedServer.cpp 
+第40行的 class TThreadedServer::Task: public Runnable 函数实现。
 
 当连接进来的时候，会新建一个 Task 扔进任务队列。
 当连接断开的时候，该 Task 对应的线程会执行完毕，在退出之前会从任务队列中删除该任务。
 但是当客户端迟迟不主动断开连接呢？
 答案是线程就会迟迟不退出，任务队列就会一直保持非空状态。
-原因在 Task 的 run 函数里面，会循环调用 `thrift-0.9.0/lib/cpp/src/thrift/server/TThreadedServer.cpp` 71行
+原因在 Task 的 run 函数里面，会循环调用 thrift-0.9.0/lib/cpp/src/thrift/server/TThreadedServer.cpp 71行
 里面的 peek() 函数，这个 peek() 函数是阻塞型函数。
 功能是窥探客户端是否有新的函数调用请求，如果没有，
 则阻塞等待直到客户端发送函数调用请求。
