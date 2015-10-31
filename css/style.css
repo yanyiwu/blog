@@ -82,12 +82,13 @@ code {
     white-space:pre;
 }
 
-pre code{
+pre code {
     background:none;
     padding:0;
     margin:0;
     border:0;
     border-radius:0;
+    line-height: 1.5em;
 }
 
 pre {
@@ -171,8 +172,10 @@ border-bottom: 0px;
     margin: 0;
     border: 0;
     padding: 0;
-    width: 1.5em;
-    height: 1.5em;
+}
+
+#logo img {
+    width: 60px;
 }
 
 .thumbnail {
@@ -241,6 +244,21 @@ nav a:hover{
    background:none;
 }
 
+@media screen and (max-width:1023px) {
+    .bdsharebuttonbox a {
+        width: 60px !important;
+        height: 60px !important;
+        background-size:60px !important;
+        padding:0 !important;
+    }
+    .bds_tsina {
+        background-position: 0 -261px !important;
+    }
+    .bds_weixin {
+        background-position: 0 -4031px !important;
+    }
+}
+
 @media screen and (min-width:1024px) {
     body {
         font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
@@ -267,5 +285,9 @@ nav a:hover{
 
     .photo {
         width: 60%;
+    }
+
+    #logo img {
+        width: 35px;
     }
 }
