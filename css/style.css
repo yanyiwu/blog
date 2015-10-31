@@ -196,13 +196,15 @@ border-bottom: 0px;
     border-bottom: none !important;
 }
 
+/*
 #ds-reset p {
-    font-size: 30px !important;
+    font-size: 30px;
 }
 
 #ds-reset a {
-    font-size: 30px !important;
+    font-size: 30px;
 }
+*/
 
 nav {
 	height:2em;
@@ -276,12 +278,14 @@ nav a:hover{
         font-size: 16px;
     }
 
+    /*
     #ds-reset p {
         font-size: 16px !important;
     }
     #ds-reset a {
         font-size: 16px !important;
     }
+    */
 
     .photo {
         width: 60%;
