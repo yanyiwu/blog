@@ -6,6 +6,10 @@ date:   2015-10-30
 category: life
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/fanggezi" class="photo"></img>
+</center>
+
 记得之前有某个创业公司的CEO加我微信，
 刚聊了没几句推荐系统相关的事情，
 然后一开口就问我要全中国搞推荐系统最牛逼的人才。
