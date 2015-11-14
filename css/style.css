@@ -232,7 +232,7 @@ nav li {
     color: rgb(130, 127, 127);
 }
 nav li:hover{
-	background-color:#CCC;
+	/*background-color:#CCC;*/
 }
 nav li a{
    font:  bold 13px Arial, Helvetica, sans-serif;
