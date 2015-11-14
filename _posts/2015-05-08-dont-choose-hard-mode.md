@@ -6,6 +6,10 @@ date:   2015-05-08
 category: work
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/zhiyeguihua.jpg" class="photo"></img>
+</center>
+
 大约去年十月份的时候，收到过一封印象深刻的邮件。
 内容是关于编程的咨询，一个正读研二的同学，
 非计算机专业且编程基础不好，
