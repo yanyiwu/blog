@@ -30,7 +30,7 @@ category: work
 [ideawu] 实现的 C1000K 服务器 [icomet] 核心就是基于 [Libevent] 实现的。
 
 > 本文源码分析基于 [Libevent] master 分支
-`commit 6dba1694c89119c44cef03528945e5a5978ab43a` 版本的代码。
+commit 6dba1694c89119c44cef03528945e5a5978ab43a 版本的代码。
 
 ## 事件循环
 

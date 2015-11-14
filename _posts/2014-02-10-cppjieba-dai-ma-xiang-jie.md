@@ -42,8 +42,7 @@ category: work
 
 * 比如我需要的是一个很简单的日志库，在python中，直接`import logging`就可以使用。在cpp中，就需要自己网上搜，然后再自己整合进去。其实找到自己满意的日志库所花费的时间，还不如直接写一个来得快。
 * 比如unicode和utf8的转换，cpp也不支持，刚开始用网上搜的一份代码，居然错误处理不够好。开发中正常，上线之后直接给我`core dump`了真心无语。只好自己怒写了一份。
-* 还有比如我们定义了`vector<pair<string, double> > vec;`，在调试代码的时候(`linux+vim`)，无法`cout<<vec<<endl;`来查看vec的内容是否正确(当然用VS这类IDE开发的就没有这类烦恼), 通过自己重载了一些 `<<` 操作符，我在调试的时候直接`print(vec);/*print 也是Limonp里面写的一个宏*/` 即可。
-
+* 还有比如我们定义了`vector<pair<string, double> > vec;`，在调试代码的时候(`linux+vim`)，无法`cout<<vec<<endl;`来查看vec的内容是否正确(当然用VS这类IDE开发的就没有这类烦恼), 通过自己重载了一些 `<<` 操作符，我在调试的时候直接`print(vec);` print 也是Limonp里面写的一个宏。
 
 当然可能有人会问，为什么不用boost之类的库呢？
 

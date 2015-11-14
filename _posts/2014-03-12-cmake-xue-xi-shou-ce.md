@@ -34,7 +34,16 @@ category: work
 
 * `CMAKE_INSTALL_PREFIX` 指定安装时是选哪个目录作为安装的根目录下，默认是`/usr/local/`
 * `INTSALL` 用来指定`make install`时会进行的动作，一般是指定将生成的哪个可执行文件或者库文件已送到`CMAKE_INSTALL_PREFIX`这个目录下的指定子目录，可执行文件一般对应到`bin/`，库文件一般对应到`lib/`
-* `ADD_CUSTOM_COMMAND` 有时候需要在生成某文件之后，自动运行某命令。示例如：`ADD_CUSTOM_COMMAND(TARGET targername POST_BUILD COMMAND cp ${PROJECT_SOURCE_DIR}/script/*.sh ${PROJECT_BINARY_DIR})` 
+* `ADD_CUSTOM_COMMAND` 有时候需要在生成某文件之后，自动运行某命令。
+示例如：
+
+```
+ADD_CUSTOM_COMMAND(TARGET 
+    targername 
+    POST_BUILD COMMAND 
+    cp ${PROJECT_SOURCE_DIR}/script/*.sh 
+    ${PROJECT_BINARY_DIR})
+``` 
 
 ## 有待完善的地方
 

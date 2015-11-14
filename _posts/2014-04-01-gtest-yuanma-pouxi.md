@@ -66,7 +66,7 @@ TEST(FooTest, Case1)
 带着上面说的问题(main自动察觉)看了一下源码。
 
 主要核心在于TEST这个宏，追溯TEST这个宏定义之后可以发现，这个TEST其实是一个类定义。
-而且在这个类定义调用了`MakeAndRegisterTestInfo`这个函数(见源码`gtest-1.6.0/include/gtest/internal/gtest-internal.h`的1217行)。
+而且在这个类定义调用了`MakeAndRegisterTestInfo`这个函数(见源码gtest-1.6.0/include/gtest/internal/gtest-internal.h的1217行)。
 
 查看`MakeAndRegisterTestInfo`函数的定义可知，此函数将会`new`出一个类的实例。
 并将该类实例通过`GetUnitTestImpl()->AddTestInfo`添加到一个`vector(test_info_list_)`里面。

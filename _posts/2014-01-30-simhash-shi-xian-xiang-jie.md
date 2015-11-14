@@ -21,8 +21,8 @@ simhash值的生成图解如下
 
 算法过程大概如下：
 
-1.  将Doc进行关键词抽取(其中包括分词和计算权重)，抽取出n个(关键词，权重)对， 即图中的`(feature, weight)`们。 记为  `feature_weight_pairs = [fw1, fw2 ... fwn]`，其中 `fwn = (feature_n, weight_n)`。
-2. `hash_weight_pairs = [ (hash(feature), weight) for feature, weight in feature_weight_pairs ]` 生成图中的`(hash,weight)`们, 此时假设hash生成的位数`bits_count = 6`（如图）;
+1.  将Doc进行关键词抽取(其中包括分词和计算权重)，抽取出n个(关键词，权重)对， 即图中的`(feature, weight)`们。 记为  `feature_weight_pairs` = [fw1, fw2 ... fwn]`，其中 fwn = (`feature_n`, `weight_n`)。
+2. `hash_weight_pairs` = [ (hash(feature), weight) for feature, weight in `feature_weight_pairs` ] 生成图中的`(hash,weight)`们, 此时假设hash生成的位数`bits_count = 6`（如图）;
 3. 然后对 `hash_weight_pairs` 进行位的纵向累加，如果该位是1，则`+weight`,如果是0，则`-weight`，最后生成`bits_count`个数字，如图所示是`[13, 108, -22, -5, -32, 55]`, 这里产生的值和hash函数所用的算法相关。
 4. `[13,108,-22,-5,-32,55] -> 110001`这个就很简单啦，正1负0。
 

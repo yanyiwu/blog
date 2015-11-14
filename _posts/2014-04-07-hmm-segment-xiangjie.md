@@ -39,9 +39,9 @@ HMM的典型介绍就是这个模型是一个五元组:
 
 HMM模型可以用来解决三种问题：
 
-1. 参数(StatusSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**观察值序列**。(`Forward-backward`算法)
-2. 参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(`viterbi`算法)
-3. 参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(`Baum-Welch`算法)
+1. 参数(StatusSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**观察值序列**。(Forward-backward算法)
+2. 参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(viterbi算法)
+3. 参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(Baum-Welch算法)
 
 其中，第三种问题最玄乎也最不常用，第二种问题最常用，【中文分词】，【语音识别】, 【新词发现】， 【词性标注】 都有它的一席之地。所以本文主要介绍第二种问题，即【viterbi算法求解状态值序列】的方法。
 
@@ -52,9 +52,9 @@ HMM模型可以用来解决三种问题：
 
 ### StatusSet & ObservedSet
 
-状态值集合为(B, M, E, S): `{B:begin, M:middle, E:end, S:single}`。分别代表每个状态代表的是该字在词语中的位置，B代表该字是词语中的起始字，M代表是词语中的中间字，E代表是词语中的结束字，S则代表是单字成词。
+状态值集合为(B, M, E, S): {B:begin, M:middle, E:end, S:single}。分别代表每个状态代表的是该字在词语中的位置，B代表该字是词语中的起始字，M代表是词语中的中间字，E代表是词语中的结束字，S则代表是单字成词。
 
-观察值集合为就是所有汉字(`东南西北你我他...`)，甚至包括标点符号所组成的集合。
+观察值集合为就是所有汉字(东南西北你我他...)，甚至包括标点符号所组成的集合。
 
 状态值也就是我们要求的值，在HMM模型中文分词中，我们的输入是一个句子(也就是观察值序列)，输出是这个句子中每个字的状态值。
 比如:
@@ -89,7 +89,12 @@ BE/BE/BME/BE/BME/BE/S
 
 上文只介绍了五元组中的两元【StatusSet, ObservedSet】，下文介绍剩下的三元【InitStatus, TransProbMatrix, EmitProbMatrix】。
 
-这五元的关系是通过一个叫`Viterbi`的算法串接起来，`ObservedSet`序列值是`Viterbi`的输入，而`StatusSet`序列值是`Viterbi`的输出，输入和输出之间`Viterbi`算法还需要借助三个模型参数，分别是`InitStatus, TransProbMatrix, EmitProbMatrix`，接下来一一讲解：
+这五元的关系是通过一个叫`Viterbi`的算法串接起来，
+`ObservedSet`序列值是`Viterbi`的输入，
+而`StatusSet`序列值是`Viterbi`的输出，
+输入和输出之间`Viterbi`算法还需要借助三个模型参数，
+分别是InitStatus, TransProbMatrix, EmitProbMatrix，
+接下来一一讲解：
 
 ### InitStatus
 
