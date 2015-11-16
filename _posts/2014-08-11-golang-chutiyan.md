@@ -6,6 +6,10 @@ date:   2014-08-11
 category: work
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" class="photo"></img>
+</center>
+
 前几天看了云风关于 golang 的博客，勾起了我对 golang 的极大兴趣。  
 所以就趁这两天抽空，断断续续把七牛许式伟的 《Go语言编程》看完了，感觉特别过瘾。  
 golang 这门语言设计得非常简单，但是闪光点却很多，而且都很合我的胃口，我甚至觉得所有 C++ 程序员都没有理由去讨厌 golang（当然如果死活不肯接受 golang 代码风格的话，那确实没办法）。  

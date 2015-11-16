@@ -6,6 +6,10 @@ date:   2015-03-02
 category: life
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/dahuaxiyou.jpg" class="photo"></img>
+</center>
+
 春节回去的时候，聊天中我妈感慨说：
 “现在的生活真是好很多了，
 以前你读高三的时候，家里真的拮据，
