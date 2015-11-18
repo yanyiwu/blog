@@ -3,22 +3,6 @@ layout: post_without_date
 title: AboutMe
 ---
 
-## 简介
-
-北邮普通渣本一个，曾经试图保送北大计算机科学研究所读研，
-因为学艺不精从而最后关头惨遭失败。
-最后保送到北邮网研院就读计算机科学技术。
-没料到读研生活与内心预期背离太远，
-纠结后最终选择退学参加工作，结束纠结的学业生涯。
-
-今年最幸运的事：遇到优秀的创业团队，工作顺心，享受创业的过程，
-虽然呆过不少公司，大到国内某著名电商公司，小到创业公司，
-辗转之后才发现自己最享受忙碌且充实的创业工作氛围，
-有生之年最大的梦想就是能有机会跟着公司去纳斯达克敲钟。
-
-本博客主要记录工作和技术相关，
-偶尔记录一些{[生活随笔]}和{[厨艺展示]}，
-
 ## 社交资料
 
 + [GitHub]
@@ -68,8 +52,6 @@ title: AboutMe
 + [ruochenxu]
 + [evilbinary]
 
-[生活随笔]:http://yanyiwu.com/moments/moment.html
-[厨艺展示]:http://yanyiwu.com/cooking-in-life.html
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/yanyiwu/cppjieba
 [NodeJieba]:http://github.com/yanyiwu/nodejieba
@@ -91,5 +73,5 @@ title: AboutMe
 [evilbinary]:http://evilbinary.org/
 
 [微博]:http://weibo.com/buptwyy
-[微信]:http://7viirv.com1.z0.glb.clouddn.com/5a7d1b5c0d_yanyiwu_personal_qrcodes.jpg
+[微信]:http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_personal.jpg
 [知乎]:http://www.zhihu.com/people/bu-shi-wo-gan-de-17
