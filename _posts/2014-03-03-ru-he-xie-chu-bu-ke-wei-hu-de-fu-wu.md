@@ -5,6 +5,10 @@ date:   2014-03-03
 category: work
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/fragile.png" class="photo"></img>
+</center>
+
 『配置文件篇』
 
 ### 1. 配置文件一定要写不只一个
