@@ -6,6 +6,10 @@ date:   2014-08-21
 category: work
 ---
 
+<center>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/startup.jpg" class="photo"></img>
+</center>
+
 说说这几年关注或者耳闻过的那些明星创业公司或者团队吧。  
 
 ## 汽车之家
