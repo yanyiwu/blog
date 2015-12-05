@@ -2,9 +2,9 @@ name: YanyiWu
 markdown: redcarpet
 #highlighter: pygments
 redcarpet:
-  extensions: [fenced_code_blocks]
-  render_options:
+ extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+ render_options:
 author: yanyiwu
-author_email: wuyanyi09@gmail.com
+author_email: i@yanyiwu.com
 safe: false
 url: http://yanyiwu.com

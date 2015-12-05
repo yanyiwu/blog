@@ -3,18 +3,35 @@ layout: post_without_date
 title: AboutMe
 ---
 
+&raquo;『个人简介』
+
+> 男，奔三的年纪，现居海淀区，喜欢吃「西部马华」的牛肉面。  
+> 年轻不懂事的时候很幽默，但是长大后却经常被生活push得笑不出来。  
+> 生活就是一直在处理一张无限空间的任务「队列」，过着「生产者消费者模型」的日子。  
+> 希望慢慢积累自己的「线程池」，和越来越多优秀的「消费者」「并发」做事。  
+> 喜欢写代码，喜欢「开源」，喜欢 Merge 别人的 Pull Request，但是更喜欢 别人 Merge 自己的 Pull Request。  
+> 喜欢讨论技术，喜欢「解惑」的快感，却讨厌为了装逼或者为了应试地学习技术。  
+> 喜欢关注优秀的人，不善网上社交，但是希望能和越来越多优秀的技术产品人员「神交」。  
+> 做着「搜索引擎」，基础架构的工作，但是却对产品体验非常感兴趣；  
+> 常常为别人公司优秀的产品体验拍案叫绝；  
+> 也常常因为自家产品令人发指的差劲细节体验难「无」以「能」入「为」眠「力」。  
+> 非常喜欢「微信」这个产品的各种创新和优化，但是却很少发朋友圈。  
+> 自认为学习能力很不错，保过研，却没有发过好的 Paper 。  
+> 自认为很孝顺父母，却不顾父母反对最后硕士退学。  
+> 自认为很顾家，却因为工作和生活分不开，常常因为没有付出足够的陪伴时间而内疚。  
+> 希望在自己有限的时间里，多发现一些自己真正热爱的事情，然后就去做，然后做好它「们」。  
+
 &raquo;『社交资料』
 
-> + [GitHub]
-> + [微博]
-> + [知乎]
-> + [微信]
+> |社|交|资|料|
+> |:-:|:-:|:-:|:-:|
+> | [GitHub] | [知乎] | [微信] | [微博] |
 
 &raquo;『开发语言』
 
-> 目前最擅长的是 C/C++ 搜索引擎(基础架构)开发;
-> 兴趣广泛，熟悉 go/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;
-> 目前最看好 golang 的发展前景；
+> 目前最擅长的是 C/C++ 搜索引擎(基础架构)开发;  
+> 兴趣广泛，熟悉 go/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;  
+> 目前最看好 golang 的发展前景；  
 
 &raquo;『开源项目』
 
@@ -60,7 +77,6 @@ title: AboutMe
 [armsword]:http://armsword.com
 [kaiyizhang]:http://luckykaiyi.com/
 [evilbinary]:http://evilbinary.org/
-
 [微博]:http://weibo.com/buptwyy
 [微信]:http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_personal.jpg
 [知乎]:http://www.zhihu.com/people/yanyiwu.com

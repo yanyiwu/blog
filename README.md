@@ -1,16 +1,16 @@
-# 个人主页
+# blog
 
-效果请看 [yanyiwu] 。
+[yanyiwu.com] 
 
-## 简介
+## Dependencies
 
-+ 目录使用插件 `category_plugin.rb` 
-+ 代码高亮：[highlightjs]
-+ 版本 Jekyll 2.5
++ Ruby 2.x
++ Jekyll 3.x `gem install Jekyll`
++ Redcaepet `gem install redcarpet` 
 
-## 客服
+## Contact
 
 > - i@yanyiwu.com
 
-[yanyiwu]:http://yanyiwu.com
+[yanyiwu.com]:http://yanyiwu.com
 [highlightjs]:https://highlightjs.org/
