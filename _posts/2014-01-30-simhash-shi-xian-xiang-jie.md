@@ -72,13 +72,20 @@ bool isEqual(uint64_t lhs, uint64_t rhs, unsigned short n = 3)
 由上式这个函数来计算的话，时间复杂度是 O(n);
 这里的n默认取值为3。由此可见还是蛮高效的。
 
+『计算二进制序列中1的个数之O(1)算法实现』
+
+感谢 [@SCatWang] (http://weibo.com/scatwang) 的评论分享：
+
+> 感谢您做的simhash库，感觉会很方便。
+有关求二进制中1的个数，其实有各种O(1)的实现。可以参考这个地方：
+http://stackoverflow.com/a/14682688
+
 ## simhash 实现的工程项目
 
 + C++ 版本 [simhash](https://github.com/yanyiwu/simhash)
 + Go 版本 [gosimhash](https://github.com/yanyiwu/gosimhash)
 
 主要是针对中文文档，也就是此项目进行simhash之前同时还进行了分词和关键词的抽取。
-
 
 ## 对比其他算法
 
@@ -101,3 +108,4 @@ shingle算法我认为过于学院派，对于工程实现不够友好，速度�
 * [Similarity estimation techniques from rounding algorithms](http://dl.acm.org/citation.cfm?id=509965)
 * [simhash与Google的网页去重](http://leoncom.org/?p=650607)
 * [海量数据相似度计算之simhash和海明距离](http://www.lanceyan.com/tech/arch/simhash_hamming_distance_similarity.html)
+
