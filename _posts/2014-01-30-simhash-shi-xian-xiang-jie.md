@@ -1,5 +1,6 @@
 ---
 layout: post
+hot: "yes"
 title:  "simhash算法原理及实现"
 date:   2014-01-30
 category: work
