@@ -21,9 +21,13 @@ title: AboutMe
 
 &raquo;『社交资料』
 
+> <center>
+
 > |社|交|资|料|
 > |:-:|:-:|:-:|:-:|
 > | [GitHub] | [知乎] | [微信] | [微博] |
+
+> </center>
 
 &raquo;『开发语言』
 
@@ -55,6 +59,12 @@ title: AboutMe
 > + [armsword]
 > + [ruochenxu]
 > + [evilbinary]
+
+&raquo;『念书时的模样』
+
+> <center>
+> <img src="http://7viirv.com1.z0.glb.clouddn.com/student.jpeg" class="photo" style="width:60%"></img>
+> </center>
 
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/yanyiwu/cppjieba

@@ -9,7 +9,9 @@ title: 发现
 专门打开体验了一下，把以前申请的『不是我干的』公众号收拾了一下。
 突然觉得公众号即使只是拿来作为博文的推送和分享，也是很便捷的。
 
+> <center>
 > <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
+> </center>
 
 &raquo; 微信公众号『多米厨房』
 
@@ -17,7 +19,9 @@ title: 发现
 不过夫人的『多米厨房』开始更新了，
 关注如下微信二维码即可订阅。
 
+> <center>
 > <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcode_for_gh_e85b7890672f_258.jpg" class="photo" style="width:60%"></img>
+> </center>
 
 > 之前『大厨的日常』图文归档请见:
 
