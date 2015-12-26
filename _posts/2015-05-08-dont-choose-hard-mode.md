@@ -1,6 +1,6 @@
 ---
 published: true
-hot: "yes"
+stick: "yes"
 layout: post
 title:  "不要总是选择困难模式"
 date:   2015-05-08

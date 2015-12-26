@@ -1,4 +1,5 @@
 ---
+hot: "yes"
 layout: post
 title:  "中文分词之HMM模型详解"
 date:   2014-04-07

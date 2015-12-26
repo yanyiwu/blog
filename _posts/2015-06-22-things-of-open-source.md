@@ -1,4 +1,5 @@
 ---
+hot: "yes"
 published: true
 layout: post
 title:  开源项目的那点事

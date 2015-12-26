@@ -1,4 +1,5 @@
 ---
+hot: "yes"
 published: true
 layout: post
 title:  "那些年追过的创业团队"
