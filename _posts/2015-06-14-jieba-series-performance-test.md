@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "\"结巴\"中文分词系列性能评测"
+title:  "\"结巴\"(Jieba)中文分词系列性能评测"
 date:   2015-06-14
 category: work
 ---
@@ -29,6 +29,7 @@ category: work
 
 + C++版本 [CppJieba] 7.6 s 
 + Node.js版本 [NodeJieba] 10.2 s
++ go语言版本 [GoJieba] 9.12 s
 + go语言版本 [Jiebago] 67.4 s
 + Python版本 [Jieba] 89.6 s
 
@@ -38,6 +39,7 @@ category: work
 
 + [CppJieba Performance Test] 基于 [CppJieba] 版本 v3.0.0
 + [NodeJieba Performance Test] 基于 [NodeJieba] 版本 v1.0.3
++ [GoJieba Performance Test] 基于 [GoJieba] 版本 v0.9.3
 + [Jiebago Performance Test] 基于 [Jiebago] 版本 v0.3.2
 + [Jieba Performance Test] 基于 [Jieba] 版本 v0.32
 
@@ -47,35 +49,32 @@ category: work
 拿最低的基准数据 CppJieba 的耗时 7.6s 作为参照物。那么其他程序的耗时分别是：
 
 + [NodeJieba] = 1.34 * [CppJieba]
++ [GoJieba] = 1.2 * [CppJieba]
 + [Jiebago] = 8.86 * [CppJieba]
 + [Jieba] = 11.79 * [CppJieba]
 
 【结果分析】 
 
 + [CppJieba] 性能最高这个符合我的预期，因为自己在它的开发过程也一直在考虑性能方面。
-+ [NodeJieba] 是 [CppJieba] 包装而来的，所以我觉得在两倍之内都是正常的。
++ [NodeJieba] 是 [CppJieba] 包装而来的，所以我觉得耗时在1倍多一点是正常的。
++ [GoJieba] 和 [NodeJieba] 同理，也是 [CppJieba] 包装而来的，所以我也觉得耗时在1倍多一点是正常的。
 + [Jiebago] 这么高的耗时就完全不正常了，毕竟是go语言写的，简单翻阅过源码，可优化空间还是很大的。
-+ [Jieba] 耗时确实比较多，应该也有不小的优化空间，但是我想说的是，性能不是唯一标准，简单易用也很重要，[Jieba]依然最优秀的国产开源软件之一。
++ [Jieba] 耗时确实比较多，应该也有不小的优化空间，但是我想说的是，性能不是唯一标准，简单易用也很重要，[Jieba]依然非常优秀的国产开源软件明星。
 
 ## 最后
 
-结巴分词系列的还有语言版本的比如Java, Erlang, R语言 等。以后有时间再测咯。
 这次的评测只是纯洁的各语言版本的实现评测，希望不要陷入语言孰优孰劣的争论，没什么意义。
-
-还有测试的时候发现Node.js的 console这个对象 有内存泄露（也可以理解成内存碎片等）的坑，
-就是 console.log 打印数据的时候，内存蹭蹭蹭的往上涨。刚开始还以为是我的程序有问题。后来才发现是 console.log 的问题，
-详见 [console.log有内存泄露的坑?]
 
 [CppJieba]:https://github.com/yanyiwu/cppjieba
 [NodeJieba]:https://github.com/yanyiwu/nodejieba
+[GoJieba]:https://github.com/yanyiwu/gojieba
 [Jiebago]:https://github.com/wangbin/jiebago
 [Jieba]:https://github.com/fxsjy/jieba
 
-[NodeJieba Performance Test]:https://github.com/yanyiwu/practice/blob/master/nodejs/nodejieba/performance/
 [CppJieba Performance Test]:https://github.com/yanyiwu/cppjieba/blob/master/test/load_test.cpp
+[NodeJieba Performance Test]:https://github.com/yanyiwu/practice/blob/master/nodejs/nodejieba/performance/
+[GoJieba Performance Test]:https://github.com/yanyiwu/practice/blob/master/go/gojieba/performance/
 [Jiebago Performance Test]:https://github.com/yanyiwu/practice/blob/master/go/jiebago/performance.go
 [Jieba Performance Test]:https://github.com/yanyiwu/practice/blob/master/python/jieba/performance.py
 
 [围城]:https://github.com/yanyiwu/practice/blob/master/nodejs/nodejieba/performance/weicheng.utf8
-
-[console.log有内存泄露的坑?]:https://cnodejs.org/topic/557c2f0816839d2d539362b5
