@@ -27,31 +27,37 @@ category: work
 
 【耗时数据平均值如下，从低到高排序。】
 
-+ C++版本 [CppJieba] 7.6 s 
-+ Node.js版本 [NodeJieba] 10.2 s
-+ go语言版本 [GoJieba] 9.12 s
-+ go语言版本 [Jiebago] 67.4 s
-+ Python版本 [Jieba] 89.6 s
+|语言|源码|耗时|
+|:-:|:-:|:-:|
+|C++版本|[CppJieba]|7.6 s|
+|Node.js版本|[NodeJieba]|10.2 s|
+|go语言版本|[GoJieba]|9.12 s|
+|go语言版本|[Jiebago]|67.4 s|
+|Python版本|[Jieba]|89.6 s|
 
 注明：以上耗时都是计算分词过程的耗时，不包括词典载入的耗时。
 
 测试的源码分别如下：
 
-+ [CppJieba Performance Test] 基于 [CppJieba] 版本 v3.0.0
-+ [NodeJieba Performance Test] 基于 [NodeJieba] 版本 v1.0.3
-+ [GoJieba Performance Test] 基于 [GoJieba] 版本 v0.9.3
-+ [Jiebago Performance Test] 基于 [Jiebago] 版本 v0.3.2
-+ [Jieba Performance Test] 基于 [Jieba] 版本 v0.32
+|测试源码|分词源码|版本信息|
+|:-:|:-:|:-:|
+|[CppJieba Performance Test]|[CppJieba]|v3.0.0|
+|[NodeJieba Performance Test]|[NodeJieba]|v1.0.3|
+|[GoJieba Performance Test]|[GoJieba]|v0.9.3|
+|[Jiebago Performance Test]|[Jiebago]|v0.3.2|
+|[Jieba Performance Test]|[Jieba]|v0.32|
 
 这些时间数据本身没什么意义，因为在不同机器上跑出来的都不一样。
 但是他们之间的对比是有意义的。
 
 拿最低的基准数据 CppJieba 的耗时 7.6s 作为参照物。那么其他程序的耗时分别是：
 
-+ [NodeJieba] = 1.34 * [CppJieba]
-+ [GoJieba] = 1.2 * [CppJieba]
-+ [Jiebago] = 8.86 * [CppJieba]
-+ [Jieba] = 11.79 * [CppJieba]
+|分词源码|耗时倍数|
+|:-:|:-:|
+|[NodeJieba]|1.34 * [CppJieba]|
+|[GoJieba]|1.2 * [CppJieba]|
+|[Jiebago]|8.86 * [CppJieba]|
+|[Jieba]|11.79 * [CppJieba]|
 
 【结果分析】 
 
