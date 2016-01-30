@@ -3,6 +3,19 @@ layout: post_without_date
 title: 发现
 ---
 
+&raquo; 信息订阅栈『邮订阅』 
+
+> <center>
+> <img src="http://7xloce.com1.z0.glb.clouddn.com/udylogo.png"></img>
+> </center>
+
+> 女朋友的一个开源的练习作品，目前主要只是个架子而已。
+> 主要适配移动端，同时也支持PC端。欢迎关注和交流。
+
+> <center>
+> <img src="http://7xloce.com1.z0.glb.clouddn.com/udyqrcode.png" class="photo" style="width:60%"></img>
+> </center>
+
 &raquo; 微信公众号『不是我干的』
 
 > 听说微信的公众号后台系统做的越来越好了，

@@ -9,8 +9,7 @@ category: work
 <center>  
 <img src="http://7viirv.com1.z0.glb.clouddn.com/toobusy.jpg" class="photo"></img>  
 </center>  
-    
-  
+
 【删除一个臃肿的鸡肋功能为何如此之难】  
   
 昨天做了一个很艰难的决定，把 [cppjieba] 的源码进行了大刀阔斧的删减，  
@@ -104,5 +103,9 @@ category: work
 只是应该在尝试他们的时候，不要对其他好用的功能造成干扰。  
 而当在发现他们是鸡肋的时候，果断删除它们。  
 还是那句话，『可以没有功劳，但是不要产生负作用的苦劳。』  
+
+更新：几乎是在我发这篇文章的同一天，小道消息公众号也发了一篇文章叫 [换个团队做微信，微信会是什么样？]，
+很多观点和我不谋而合，但是小道的文章表达得更好，里面有个关键词叫『克制』，相当传神。
   
 [cppjieba]:https://github.com/yanyiwu/cppjieba.git  
+[换个团队做微信，微信会是什么样？]:https://mp.weixin.qq.com/s?__biz=MjM5ODIyMTE0MA==&mid=402086673&idx=1&sn=c54c58f7dc01dc42948e79e006b022d7&scene=1&srcid=0124QLWCs3zQKiRhVs2ioQVw&key=710a5d99946419d97121a6bda19f1f9a65d80715c69d814241517ca14370dc6b96abec96e5f27bc5688dba02871396d7&ascene=0&uin=Njc4NTAwNDgw&devicetype=iMac+MacBookAir6%2C2+OSX+OSX+10.10.5+build(14F27)&version=11020201&pass_ticket=dtBKqA38PLrE5ZbrFYoP%2BgN8jJ4ePN%2FITK8aaWaAUXQ00OicHIhPDwG%2FvCJZIpaw
