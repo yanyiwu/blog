@@ -5,7 +5,7 @@ date:   2014-02-10
 category: work
 ---
 
-本博文基于[CppJieba] v2.3.0版本。
+本博文基于[CppJieba] 的 [v2.3.0](https://github.com/yanyiwu/cppjieba/archive/v2.3.0.zip) 版本。
 
 ## 脉络概要
 
