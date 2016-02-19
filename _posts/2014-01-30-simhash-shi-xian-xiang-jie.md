@@ -84,7 +84,7 @@ http://stackoverflow.com/a/14682688
 ## simhash 实现的工程项目
 
 + C++ 版本 [simhash](https://github.com/yanyiwu/simhash)
-+ Go 版本 [gosimhash](https://github.com/yanyiwu/gosimhash)
++ Golang 版本 [gosimhash](https://github.com/yanyiwu/gosimhash)
 
 主要是针对中文文档，也就是此项目进行simhash之前同时还进行了分词和关键词的抽取。
 

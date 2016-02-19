@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  中文simhash算法库的Go语言版本
+title:  中文simhash算法库的Golang版本
 date:   2015-10-19
 category: work
 ---
@@ -18,8 +18,8 @@ category: work
 但是呢，想在 C++ 版本的 [simhash] 上加上通过命令行传参和配置的话，又挺蛋疼的。
 每次调试都要自己 git clone 和 cmake 和 make 什么的一大堆东西。
 
-不过呢，如果是 Go 语言的话就简单得多了，反正有 `go get` 和 Go 标准库里面自动支持了 `flag` 。
-所以就更简单了，而且我想应该也会有 Go 语言开发者有 simhash 库的需求。
+不过呢，如果是 Golang 语言的话就简单得多了，反正有 `go get` 和 Golang 标准库里面自动支持了 `flag` 。
+所以就更简单了，而且我想应该也会有 Golang 开发者有 simhash 库的需求。
 所以就有了这个项目『[gosimhash]』。
 
 So, 没别的意思，有需要的朋友拿去试试呗。
