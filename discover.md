@@ -3,11 +3,14 @@ layout: post_without_date
 title: 发现
 ---
 
-&raquo; 信息订阅栈『邮订阅』 
+&raquo; 信息订阅栈『[邮订阅](http://youdingyue.luckykaiyi.com)』 
 
 > <center>
-> <img src="http://7xloce.com1.z0.glb.clouddn.com/udylogo.png"></img>
-> </center>
+<a href="http://youdingyue.luckykaiyi.com" style="border-bottom:0px">
+<img src="http://7xloce.com1.z0.glb.clouddn.com/udylogo.png">
+</img>
+</a>
+</center>
 
 > 女朋友的一个开源的练习作品，目前主要只是个架子而已。
 > 主要适配移动端，同时也支持PC端。欢迎关注和交流。
