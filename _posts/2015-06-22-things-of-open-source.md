@@ -7,6 +7,10 @@ date:   2015-06-22
 category: work
 ---
 
+<center>        
+<img src="http://7viirv.com1.z0.glb.clouddn.com/github.jpg" class="photo"></img>      
+</center>        
+
 上周受到一位[CppJieba]使用者的邮件咨询所启发
 （我也很好奇为什么那么多人还是偏向于邮件咨询，而不是通过issue发问。），
 重构了[CppJieba]的代码，高度集成了一下各个api，
