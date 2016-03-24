@@ -32,15 +32,23 @@ title: AboutMe
 &raquo;『开发语言』
 
 > 目前最擅长的是 C/C++ 搜索引擎(基础架构)开发;  
-> 兴趣广泛，熟悉 go/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;  
-> 目前最看好 golang 的发展前景；  
+> 兴趣广泛，熟悉 Golang/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;  
+> 目前最看好 Golang 的发展前景；  
 
 &raquo;『开源项目』
 
-> - 结巴中文分词 C++ 版本 {[CppJieba]} 的作者。
-> - 结巴中文分词 Node.js 版本 {[NodeJieba]} 的作者。
-> - 结巴中文分词 iOS 版本 {[iosjieba]} 的作者。
-> - {[Simhash]} 算法 C++ 版本库的作者。
+> - 结巴中文分词 C++ 版本 {[CppJieba]} 作者。
+<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=cppjieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+> - 结巴中文分词 Node.js 版本 {[NodeJieba]} 作者。
+<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=nodejieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+> - 结巴中文分词 Golang 版本 {[GoJieba]} 作者。
+<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=gojieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+> - 结巴中文分词 iOS 版本 {[iosjieba]} 作者。
+<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=iosjieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+> - 网页去重算法 {[Simhash]} C++ 版本库作者。
+<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=simhash&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+> - 开源文件分布式存储引擎 {[Seaweedfs]}(Golang) 贡献者 。
+<iframe src="https://ghbtns.com/github-btn.html?user=chrislusf&repo=seaweedfs&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
 > 更详细的请看 {[GitHub]} 。
 
@@ -61,7 +69,9 @@ title: AboutMe
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/yanyiwu/cppjieba
 [NodeJieba]:http://github.com/yanyiwu/nodejieba
+[GoJieba]:http://github.com/yanyiwu/gojieba
 [iosjieba]:http://github.com/yanyiwu/iosjieba
+[Seaweedfs]:https://github.com/chrislusf/seaweedfs
 [推荐系统的那点事]:http://yanyiwu.com/work/2014/06/01/tuijian-xitong-de-nadianshi.html
 [GitHub]:http://github.com/yanyiwu
 [golang初体验]:http://yanyiwu.com/work/2014/08/11/golang-chutiyan.html
