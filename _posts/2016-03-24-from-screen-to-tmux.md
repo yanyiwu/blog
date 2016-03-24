@@ -69,8 +69,8 @@ screen -d -r <session-name>
   
 『最后』  
   
-好的有点标题党了，其实tmux还有其他一些不错的功能比screen好的。  
-毕竟是screen的增强版。  
+好吧有点标题党了，其实tmux还有其他一些不错的功能比screen好的。  
+毕竟tmux是screen的增强版。  
 虽然本文其实就是一次screen踩坑记录而已。  
 但是我觉得还是有必要宣传一下tmux的，所以就把标题起得比较浮夸了。  
 
