@@ -14,3 +14,7 @@
 
 [yanyiwu.com]:http://yanyiwu.com
 [highlightjs]:https://highlightjs.org/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yanyiwu/blog/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
