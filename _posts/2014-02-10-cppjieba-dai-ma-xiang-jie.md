@@ -5,6 +5,10 @@ date:   2014-02-10
 category: work
 ---
 
+<center>        
+<img src="http://7viirv.com1.z0.glb.clouddn.com/CppJiebaLogo-v1.png" class="photo", style="width:60%"></img>      
+</center>        
+
 本博文基于[CppJieba] 的 [v2.3.0](https://github.com/yanyiwu/cppjieba/archive/v2.3.0.zip) 版本。
 
 ## 脉络概要
