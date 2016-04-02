@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/wasd.jpg" class="photo"></img>
+<img src="http://7viirv.com1.z0.glb.clouddn.com/GoSimhashLogo-v1.png" class="photo" style="width:60%"></img>
 </center>
 
 感觉好像没什么好说的，就是发现自己写的『[simhash]』似乎还挺受欢迎的，
@@ -25,8 +25,6 @@ category: work
 So, 没别的意思，有需要的朋友拿去试试呗。
 
 simhash 算法原理？看这篇：『[simhash算法原理及实现]』
-
-『题图』和本文无关，是定制的一把WASD机械键盘，续命用的，但是确实好看，忍不住想贴。
 
 [gosimhash]:http://github.com/yanyiwu/gosimhash
 [simhash]:http://github.com/yanyiwu/simhash

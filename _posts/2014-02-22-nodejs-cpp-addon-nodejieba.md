@@ -5,6 +5,10 @@ date:   2014-02-22
 category: work
 ---
 
+<center>        
+<img src="http://7viirv.com1.z0.glb.clouddn.com/NodeJiebaLogo-v1.png" class="photo", style="width:60%"></img>      
+</center>        
+
 故事要从[NodeJieba]说起，身为Node初学者，有一定的Cpp基础，又得知Node是Cpp写的，自然是根本把持不住，想来一发Node的Cpp扩展，没想到一切进展顺利，参考了几个`helloworld`就写好了。并且已发布在npm上。详见[NodeJieba]
 
 本博文基于NodeJieba v0.1.1
