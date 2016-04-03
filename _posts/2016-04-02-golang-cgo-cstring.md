@@ -124,3 +124,4 @@ func Print(s string) {
 [cgo-1]:https://golang.org/cmd/cgo/
 [cgo-2]:http://blog.golang.org/c-go-cgo
 [test.go]:https://github.com/yanyiwu/practice/blob/master/go/gojieba/cstr/test.go
+[GoJieba]:https://github.com/yanyiwu/gojieba
