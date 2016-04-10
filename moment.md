@@ -3,6 +3,29 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2016-04-11 00:03
+
+> <img src="http://7viirv.com1.z0.glb.clouddn.com/yanyiwu-github.jpg" class="photo"></img>
+> 晚上在别人项目的issue下和别人讨论技术，讨论到最后还互加了联系方式。
+> 很久没有讨论得这么『一颗赛艇』了。GitHub 不愧是码农搞基网站。
+> 发现自己 [GitHub] 突破 500 Followers 了，截图纪录一下。
+
+&raquo; 2016-04-04 01:34
+
+> 上一次熬夜到现在是开发 MySQl 中文分词插件 [sqljieba] 的时候。
+> 这一次熬夜到现在是开发 [GoJieba] 支持 [bleve] 搜索引擎中文分词。
+> 希望明天睡得晚一点。
+
+&raquo; 2016-03-27 12:49
+
+> 很久没有一部电影像《老炮儿》那样让我觉得如此的『余音绕梁，三月不知肉滋味』了。
+> 很想写一篇文章谈谈感受，但是实在写不出来。很多人觉得电影太江湖情义，不现实。
+> 但是其实并没有太脱离现实。只让我感触的是里面的一句台词 『人啊，都有好的时候，也有背的时候，别给哥儿几个这点情分全都给弄没了。』
+> 感慨良久，时代发展太快，做事只看利益的太多，看情分的少。
+> 一得意就忘形，一失意就被打回原形。
+> 顺的时候看不起混得不好的兄弟，背的时候想才想当年同甘共苦的朋友。
+> 打江山容易，分江山难。
+
 &raquo; 2016-03-24 23:42
 
 > 其实我一直不太明白 [GitHub] 的个人主页上面的仓库排序为什么不能自定义。
@@ -872,3 +895,5 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [NodeJieba]:https://github.com/yanyiwu/nodejieba
 [GoJieba]:https://github.com/yanyiwu/gojieba
 [iOSJieba]:https://github.com/yanyiwu/iosjieba
+[sqljieba]:https://github.com/yanyiwu/sqljieba
+[bleve]:https://github.com/blevesearch/bleve
