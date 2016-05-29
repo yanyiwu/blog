@@ -40,9 +40,9 @@ HMM的典型介绍就是这个模型是一个五元组:
 
 HMM模型可以用来解决三种问题：
 
-1. 参数(StatusSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**观察值序列**。(Forward-backward算法)
-2. 参数(ObservedSet,TransProbMatrix,EmitRobMatrix,InitStatus)已知的情况下，求解**状态值序列**。(viterbi算法)
-3. 参数(ObservedSet)已知的情况下，求解**(TransProbMatrix,EmitRobMatrix,InitStatus)**。(Baum-Welch算法)
+1. 参数(StatusSet, TransProbMatrix, EmitRobMatrix, InitStatus)已知的情况下，求解**观察值序列**。(Forward-backward算法)
+2. 参数(ObservedSet, TransProbMatrix, EmitRobMatrix, InitStatus)已知的情况下，求解**状态值序列**。(viterbi算法)
+3. 参数(ObservedSet)已知的情况下，求解**(TransProbMatrix, EmitRobMatrix, InitStatus)**。(Baum-Welch算法)
 
 其中，第三种问题最玄乎也最不常用，第二种问题最常用，【中文分词】，【语音识别】, 【新词发现】， 【词性标注】 都有它的一席之地。所以本文主要介绍第二种问题，即【viterbi算法求解状态值序列】的方法。
 
@@ -137,7 +137,13 @@ BE/BE/BME/BE/BME/BE/S
 -0.7211965654669841 -3.14e+100 -3.14e+100 -0.6658631448798212
 ```
 
-比如`TransProbMatrix[0][0]`代表的含义就是从状态B转移到状态B的概率，由`TransProbMatrix[0][0] = -3.14e+100`可知，这个转移概率是0，这符合常理。由状态各自的含义可知，状态B的下一个状态只可能是ME，不可能是BS，所以不可能的转移对应的概率都是0，也就是对数值负无穷，在此记为`-3.14e+100`。
+比如`TransProbMatrix[0][0]`代表的含义就是从状态B转移到状态B的概率，由
+
+```
+TransProbMatrix[0][0] = -3.14e+100
+```
+
+可知，这个转移概率是0，这符合常理。由状态各自的含义可知，状态B的下一个状态只可能是ME，不可能是BS，所以不可能的转移对应的概率都是0，也就是对数值负无穷，在此记为`-3.14e+100`。
 
 由上`TransProbMatrix`矩阵可知，对于各个状态可能转移的下一状态，且转移概率对应如下：
 
