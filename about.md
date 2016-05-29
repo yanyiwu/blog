@@ -27,9 +27,8 @@ title: AboutMe
 
 &raquo;『开发语言』
 
-> 目前最擅长的是 C/C++ 搜索引擎(基础架构)开发;  
-> 兴趣广泛，熟悉 Golang/Python/JavaScript/Node.js，略懂Erlang，HTML/CSS;  
-> 目前最看好 Golang 的发展前景；  
+> 编程语言: C/C++/Golang/Python, JavaScript/Node.js, HTML/CSS, Erlang;  
+> 目前专注于大数据/推荐系统方向。
 
 &raquo;『开源项目』
 
@@ -51,9 +50,9 @@ title: AboutMe
 &raquo;『友情链接(顺序无关)』
 
 > + [kaiyizhang]
-> + [xushiwei]
-> + [armsword]
 > + [ruochenxu]
+> + [wuyue]
+> + [armsword]
 > + [evilbinary]
 
 &raquo;『念书时的模样』
@@ -83,6 +82,7 @@ title: AboutMe
 [armsword]:http://armsword.com
 [kaiyizhang]:http://luckykaiyi.com/
 [evilbinary]:http://evilbinary.org/
+[wuyue]:http://wuyuebupt.github.io/
 [微博]:http://weibo.com/buptwyy
 [微信]:http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_personal.jpg
 [知乎]:http://www.zhihu.com/people/yanyiwu.com

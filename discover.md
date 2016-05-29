@@ -3,6 +3,16 @@ layout: post_without_date
 title: 发现
 ---
 
+&raquo; 微信公众号『不是我干的』
+
+> 听说微信的公众号后台系统做的越来越好了，
+专门打开体验了一下，把以前申请的『不是我干的』公众号收拾了一下。
+突然觉得公众号即使只是拿来作为博文的推送和分享，也是很便捷的。
+
+> <center>
+> <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
+> </center>
+
 &raquo; 信息订阅栈『[邮订阅](http://youdingyue.luckykaiyi.com)』 
 
 > <center>
@@ -17,16 +27,6 @@ title: 发现
 
 > <center>
 > <img src="http://7xloce.com1.z0.glb.clouddn.com/udyqrcode.png" class="photo" style="width:60%"></img>
-> </center>
-
-&raquo; 微信公众号『不是我干的』
-
-> 听说微信的公众号后台系统做的越来越好了，
-专门打开体验了一下，把以前申请的『不是我干的』公众号收拾了一下。
-突然觉得公众号即使只是拿来作为博文的推送和分享，也是很便捷的。
-
-> <center>
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
 > </center>
 
 &raquo; 微信公众号『多米厨房』
