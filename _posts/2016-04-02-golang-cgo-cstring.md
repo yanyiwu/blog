@@ -24,11 +24,11 @@ category: work
 就下意识的认为这个函数肯定没有动态申请新的内存，
 和 C++ string::c_str() 一样，复用了内存。
 所以也就肯定不需要手动释放。
-当然这些只是『我以为』。
+当然这些最后发现只是我的误解。
 
-『问题深扒』
+『深入分析』
 
-C语言和Go语言本是同根生嘛，
+C语言和Go语言本是同根生，
 所以Go语言在设计的时候就通过cgo对C语言调用支持得很好。
 而Go语言和C语言之间的数据转换就是通过 C.CString (Go->C), C.GoString(C->Go)
 来进行的。
@@ -120,6 +120,9 @@ func Print(s string) {
     C.fputs(cs, (*C.FILE)(C.stdout))
 }
 ```
+
+这个问题我想后来也是引起了Go语言作者的注意了，
+在go1.7新版本发布信息中我发现新出了一个 C.Bytes 的类型，C.Bytes 就不需要像 C.CString 一样需要手动释放内存了。
 
 [cgo-1]:https://golang.org/cmd/cgo/
 [cgo-2]:http://blog.golang.org/c-go-cgo
