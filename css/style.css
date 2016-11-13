@@ -40,6 +40,12 @@ table td {
     font-size: 36px;
 }
 
+.blog_post p {
+    padding: 0;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
 .blog_title h1 {
 }
 
@@ -295,6 +301,12 @@ nav a:hover{
         padding: 0;
         margin: 2% 4%;
         font-size: 16px;
+    }
+
+    .blog_post p {
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     /*
