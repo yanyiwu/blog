@@ -3,11 +3,6 @@ layout: post_without_date
 title: 时间线
 ---
 
-&raquo; 2016-11-13 15:27
-
-> [linear-regression](http://eli.thegreenplace.net/2016/linear-regression/)  
-> [logistic-regression](http://eli.thegreenplace.net/2016/logistic-regression/)
-
 &raquo; 2016-10-31 00:34
 
 > 今天在微博上看到有个关于幸福感的观点，觉得非常有道理：
