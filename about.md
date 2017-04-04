@@ -47,14 +47,6 @@ title: AboutMe
 
 > 更详细的请看 {[GitHub]} 。
 
-&raquo;『友情链接(顺序无关)』
-
-> + [kaiyizhang]
-> + [ruochenxu]
-> + [wuyue]
-> + [armsword]
-> + [evilbinary]
-
 &raquo;『念书时的模样』
 
 > <center>
