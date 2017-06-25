@@ -3,6 +3,12 @@ layout: post_without_date
 title: 发现
 ---
 
+&raquo; 区块链『ASCH』
+
+> <center>
+> <a style="border:none" href="/archive/asch.html"><img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo", style="width:80%"></img></a>
+> </center>
+
 &raquo; 微信公众号『不是我干的』
 
 > 听说微信的公众号后台系统做的越来越好了，
