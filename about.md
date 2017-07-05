@@ -45,14 +45,6 @@ title: AboutMe
 > - 开源文件分布式存储引擎 {[Seaweedfs]}(Golang) 贡献者 。
 <iframe src="https://ghbtns.com/github-btn.html?user=chrislusf&repo=seaweedfs&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-> 更详细的请看 {[GitHub]} 。
-
-&raquo;『念书时的模样』
-
-> <center>
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/student.jpeg" class="photo" style="width:60%"></img>
-> </center>
-
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/yanyiwu/cppjieba
 [NodeJieba]:http://github.com/yanyiwu/nodejieba
