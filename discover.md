@@ -3,11 +3,13 @@ layout: post_without_date
 title: 发现
 ---
 
-&raquo; 区块链『ASCH』
+&raquo; 区块链『Asch』
 
 > <center>
-> <a style="border:none" href="/archive/asch.html"><img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo", style="width:80%"></img></a>
+> <img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo", style="width:80%"></img>
 > </center>
+>
+> 阿希『[Asch](https://www.asch.so/)』是基于侧链技术的新一代去中心化应用开发平台，很有潜力的优秀区块链项目，对区块链技术感兴趣的朋友可以关注一下。
 
 &raquo; 微信公众号『不是我干的』
 

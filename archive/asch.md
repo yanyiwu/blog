@@ -7,7 +7,6 @@ title: 区块链『ASCH』
 <img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo", style="width:80%"></img>  
 </center>  
 
-阿希『[ASCH](https://www.asch.so/)』是基于侧链技术的新一代去中心化应用开发平台，是国产的优秀区块链项目。
 
 目前我也在注册受托人，希望各位能投我一票：
 
