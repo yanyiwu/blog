@@ -3,6 +3,29 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2017-07-24 23:20
+
+> 参加币圈众筹成就达成。
+
+&raquo; 2017-07-23 23:06
+
+> 搞明白了区块链转账加密相关的逻辑，终于用上了比特币轻钱包。    
+> 金融行业已经安逸很久了，或许区块链只是刚开始。  
+
+&raquo; 2017-07-17 22:53
+
+> 『[GitHub] 进展备忘』  
+> + Follower 数量站上 800+ ，目前 810 。期待 1000+ 的那天。  
+> + [CppJieba] 和 [NodeJieba] 也都站上 800+ ，Node.js 社区真心强，后来者居上，[NodeJieba] 现在已经是我 star 数最高的项目了。  
+> + 加入了 [AschPlatform] 开源组织。 
+
+&raquo; 2017-07-15 00:00
+
+> 表妹在清华本硕博读了8年，这周末要离开北京去广州了。今天去和表妹一家人吃了饭，
+> 离别还是很伤感，她妈妈和我妈妈是双胞胎，她也和我从小玩到大，虽然在北京的时候很少见面。
+> 但是至少有个念想是有个亲人在，现在这个亲人也离开北京了。怎能不伤感呢。
+> 回想起当年一起坐33小时的火车来北京上大学，如今离别，时间如白驹过隙。甚是惆怅。
+
 &raquo; 2017-07-09 23:53
 
 > 每次听『万能青年旅店』的『杀死那个石家庄人』，就想写程序员小说。
@@ -1039,3 +1062,5 @@ src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
 [iOSJieba]:https://github.com/yanyiwu/iosjieba
 [sqljieba]:https://github.com/yanyiwu/sqljieba
 [bleve]:https://github.com/blevesearch/bleve
+[AschPlatform]:https://github.com/aschplatform
+[Asch]:https://github.com/aschplatform
