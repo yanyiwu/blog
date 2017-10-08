@@ -3,6 +3,15 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2017-10-09 01:00
+
+> 每次离家返京，都会暗发决心要更加努力。  
+> 希望能抓住机会，抓住一次就够了，才算不枉此生。  
+
+> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/IMG_1134.JPG" class="photo" style=""></img></center>
+
+> 配图来自厦门的鹭江酒店/环岛路，希望能记住这次心情。
+
 &raquo; 2017-07-29 15:46
 
 > 机器学习是一种民主，人工编辑却是主观强权。
