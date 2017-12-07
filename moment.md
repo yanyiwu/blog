@@ -3,6 +3,12 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2017-12-07 23:22
+
+> 以太坊的『云养猫』震撼到我了，会是一个区块链的里程碑吗？区块链真的值得期待。  
+> 下面这只是我买的以太坊上面的猫，希望在这次浪潮中，找到属于自己的位置。
+> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/WechatIMG16.jpeg" class="photo" style=""></img></center>
+
 &raquo; 2017-12-02 01:21
 
 > 听到陈奕迅的『绵绵』，里面有个通宵的字眼，突然想起多年前在网吧通宵打传奇的夜晚。
