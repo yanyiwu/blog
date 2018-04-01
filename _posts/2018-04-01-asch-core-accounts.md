@@ -115,8 +115,8 @@ open,open2 就是 openAccount,openAccount2 的包装。
 
 这篇文章之后，就等于关于 block,transaction,account 的 ./base  和 ./core 的映射源码都读完了。
 
-[Asch源码core模块之blocks]:https://github.com/AschPlatform/dappbook/blob/master/asch-core-blocks.md
-[Asch源码core模块之transactions]:https://github.com/AschPlatform/dappbook/blob/master/asch-core-transactions.md
-[Asch源码base模块之Account]:https://github.com/AschPlatform/dappbook/blob/master/asch-base-account.md
-[Asch源码base模块之block创建]:https://github.com/AschPlatform/dappbook/blob/master/asch-base-block.md
-[Asch源码base模块之transaction]:https://github.com/AschPlatform/dappbook/blob/master/asch-base-transaction.md
+[Asch源码core模块之blocks]:https://yanyiwu.com/work/2018/03/20/asch-core-blocks.html
+[Asch源码core模块之transactions]:https://yanyiwu.com/work/2018/03/28/asch-core-transactions.html
+[Asch源码base模块之Account]:https://yanyiwu.com/work/2018/03/03/asch-base-account.html
+[Asch源码base模块之block创建]:https://yanyiwu.com/work/2018/03/04/asch-base-block.html
+[Asch源码base模块之transaction]:https://yanyiwu.com/work/2018/03/10/asch-base-transaction.html
