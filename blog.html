@@ -6,21 +6,16 @@ title: 博文
 <div>
     <h1>博文</h1>
     <div class="post_list">
-        {% for post in site.posts %}
-            {% if post.stick == "yes" %}
-            <!--
-            <a style="color:#900; border-bottom-color:#900" href="{{ post.url }}">
-            -->
+        {% for post in site.posts %}{% if post.stick == "yes" %}
             <a class="post_list_item post_list_item_hot" href="{{ post.url }}">
                 {{ post.date | date_to_string }}
                 &raquo; 
                 {{ post.title }}
             </a>
-            {% endif %}
-        {% endfor %}
-        {% for post in site.posts %}
-            {% if post.stick != "yes" %}
-                {% if post.hot == "yes" %}
+        {% endif %}{% endfor %}
+        {% for post in site.posts %}{% if post.stick != "yes" %}
+                {% if post.display == "onlydetail" %}
+                {% elsif post.hot == "yes" %}
                 <a class="post_list_item post_list_item_hot" href="{{ post.url }}">
                     {{ post.date | date_to_string }}
                     &raquo; 
@@ -33,8 +28,7 @@ title: 博文
                     {{ post.title }}
                 </a>
                 {% endif %}
-            {% endif %}
-        {% endfor %}
+        {% endif %}{% endfor %}
     </div>
 </div>
 
