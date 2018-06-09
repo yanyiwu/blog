@@ -3,6 +3,13 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2018-06-09 11:12
+
+> 灭霸: 「You are not the only one cursed by knowledge.」  
+> 乔布斯：「Stay hungry, stay foolish.」  
+> 同事：「知道太多上下文，不一定是好事情。」  
+> 人生就应该很傻很天真。  
+
 &raquo; 2018-05-11 21:19
 
 > 创业者跪着拿钱太久了，英雄总是流血流汗又流泪。
