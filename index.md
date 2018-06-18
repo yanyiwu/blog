@@ -3,6 +3,11 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2018-06-18 19:12
+
+> 居然真的不幸言中。
+> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/microsoft_github.jpeg" class="photo" style=""></img></center>
+
 &raquo; 2018-06-09 11:12
 
 > 灭霸: 「You are not the only one cursed by knowledge.」  
