@@ -3,6 +3,11 @@ layout: post_without_date
 title: 时间线
 ---
 
+&raquo; 2018-08-07 23:21
+
+> 新工牌，旧理想。
+> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/bytedance.jpeg" class="photo" style=""></img></center>
+
 &raquo; 2018-07-22 01:09
 
 > [eosioyanyiwu](https://eospark.com/MainNet/account/eosioyanyiwu)
