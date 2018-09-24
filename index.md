@@ -1,5 +1,5 @@
 ---
-layout: post_without_date
+layout: posting
 title: 时间线
 ---
 
