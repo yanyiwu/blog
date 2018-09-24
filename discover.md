@@ -3,13 +3,24 @@ layout: post_without_date
 title: 发现
 ---
 
-&raquo; 区块链『Asch』
+&raquo; [字节跳动诚招各方向人才](https://github.com/yanyiwu/join-us)
 
-> <center>
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo", style="width:80%"></img>
-> </center>
->
-> 阿希『[Asch](https://github.com/aschplatform)』是基于侧链技术的新一代去中心化应用开发平台，很有潜力的优秀区块链项目，对区块链技术感兴趣的朋友可以关注一下。
+> 字节跳动诚招各方向人才，详细的可以参考招聘官网：[join-us]
+> 
+> 策略，算法，工程，后台，前端等，都欢迎投递简历到我的邮箱 wuyanyi at bytedance.com 。
+> 我可以帮忙内推（所有方向）或者部门直招（策略、算法、工程方向）。
+> 
+> 业务一直很缺人，为啥现在才开始建这个 Repo ，因为内部简历池子人才有限，僧多粥少。不得不自己动手，才能丰衣足食。
+> 
+> 招聘要求就不说套话了，无非就是学校背景或学习能力，技术扎实，潜力或者经验丰富。再加两个字：靠谱。
+> 
+> 然后补几个我眼里的加分项吧。
+> 
+> + 主导过创新性的策略上线，并带飞业务核心指标的。
+> + 主导过主流算法并且在业务中解决痛点问题，顺利上线做出明显收益的。
+> + GitHub 有足够含金量的开源项目，比如 star 数超过 500 的。
+> 
+> 满足以上加分项的，我们直接聊聊来了要做什么吧。
 
 &raquo; 微信公众号『不是我干的』
 
@@ -52,3 +63,4 @@ title: 发现
 + [2014]
 
 [2014]:http://yanyiwu.com/archive/2014-cooking.html
+[join-us]:https://job.bytedance.com/society
