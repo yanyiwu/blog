@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/run.png" class="photo"></img>
+<img src="http://images.yanyiwu.com/run.png" class="photo"></img>
 </center>
 
 总有在校的学生问我现在 X,Y,Z... 技术很火热，应该学哪个？

@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/kingofcomedy.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/kingofcomedy.jpg" class="photo"></img>
 </center>
   
 昨天把星爷的喜剧之王看了。  

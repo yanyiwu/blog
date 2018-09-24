@@ -7,7 +7,7 @@ category: life
 ---    
   
 <center>    
-<img src="http://7viirv.com1.z0.glb.clouddn.com/married.jpg" class="photo"></img>    
+<img src="http://images.yanyiwu.com/married.jpg" class="photo"></img>    
 </center>    
   
 今天刚从家乡返回北京。  

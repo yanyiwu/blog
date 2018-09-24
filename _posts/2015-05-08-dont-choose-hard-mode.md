@@ -8,7 +8,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/zhiyeguihua.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/zhiyeguihua.jpg" class="photo"></img>
 </center>
 
 大约去年十月份的时候，收到过一封印象深刻的邮件。

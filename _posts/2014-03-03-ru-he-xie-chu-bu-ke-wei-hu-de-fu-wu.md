@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/fragile.png" class="photo"></img>
+<img src="http://images.yanyiwu.com/fragile.png" class="photo"></img>
 </center>
 
 『配置文件篇』

@@ -7,7 +7,7 @@ category: life
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/watch.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/watch.jpg" class="photo"></img>
 </center>
 
 表妹去年买了个表，去美国学术交流的时候买的，然后送给了我。

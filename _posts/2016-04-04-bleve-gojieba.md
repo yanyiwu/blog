@@ -7,7 +7,7 @@ category: work
 ---  
   
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/bleve-gojieba-logo.png" class="photo", style="width:80%"></img>
+<img src="http://images.yanyiwu.com/bleve-gojieba-logo.png" class="photo", style="width:80%"></img>
 </center>
   
 『Go语言开发的搜索引擎[bleve]』  

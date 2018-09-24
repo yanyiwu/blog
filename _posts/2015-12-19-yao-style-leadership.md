@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/teacher.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/teacher.jpg" class="photo"></img>
 </center>
 
 今天中午赴一个朋友的饭局，就在住的地方不远，骑车过去的。

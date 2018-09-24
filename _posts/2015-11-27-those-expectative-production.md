@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/plane.jpeg" class="photo"></img>
+<img src="http://images.yanyiwu.com/plane.jpeg" class="photo"></img>
 </center>
 
 这几天发现我的一篇旧博文『[那些年追过的创业团队]』又被分享了，

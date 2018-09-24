@@ -8,7 +8,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/algorithm.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/algorithm.jpg" class="photo"></img>
 </center>
 
 ## 推荐系统的误区

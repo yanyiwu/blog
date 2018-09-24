@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/GoSimhashLogo-v1.png" class="photo" style="width:60%"></img>
+<img src="http://images.yanyiwu.com/GoSimhashLogo-v1.png" class="photo" style="width:60%"></img>
 </center>
 
 感觉好像没什么好说的，就是发现自己写的『[simhash]』似乎还挺受欢迎的，

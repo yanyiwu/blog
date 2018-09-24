@@ -7,7 +7,7 @@ category: life
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/dahuaxiyou.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/dahuaxiyou.jpg" class="photo"></img>
 </center>
 
 春节回去的时候，聊天中我妈感慨说：

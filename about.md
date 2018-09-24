@@ -67,5 +67,5 @@ title: AboutMe
 [evilbinary]:http://evilbinary.org/
 [wuyue]:http://wuyuebupt.github.io/
 [微博]:http://weibo.com/buptwyy
-[微信]:http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_personal.jpg
+[微信]:http://images.yanyiwu.com/qrcodes_yanyiwu_personal.jpg
 [知乎]:http://www.zhihu.com/people/yanyiwu.com

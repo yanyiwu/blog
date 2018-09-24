@@ -171,4 +171,4 @@ C 是常数。
 
 + [Wand经典论文]
 
-[Wand经典论文]:http://7viirv.com1.z0.glb.clouddn.com/4331f68fcd_wand.pdf
+[Wand经典论文]:http://images.yanyiwu.com/4331f68fcd_wand.pdf

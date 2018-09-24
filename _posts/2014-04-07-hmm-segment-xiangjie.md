@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/kaifulee.png" class="photo"></img>
+<img src="http://images.yanyiwu.com/kaifulee.png" class="photo"></img>
 </center>
 
 关于HMM模型的介绍，网上的资料已经烂大街，但是大部分都是在背书背公式，本文在此针对HMM模型在**中文分词**中的应用，讲讲实现原理。

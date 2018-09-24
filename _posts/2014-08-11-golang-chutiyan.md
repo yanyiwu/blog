@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" class="photo" style="width:60%"></img>
+<img src="http://images.yanyiwu.com/golang.jpg" class="photo" style="width:60%"></img>
 </center>
 
 前几天看了云风关于 golang 的博客，勾起了我对 golang 的极大兴趣。  

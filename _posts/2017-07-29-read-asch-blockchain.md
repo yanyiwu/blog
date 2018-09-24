@@ -8,7 +8,7 @@ display: feed
 ---    
 
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo"></img>  
+<img src="http://images.yanyiwu.com/xas.jpg" class="photo"></img>  
 </center>  
 
 + [区块链开源项目Asch源码初探](/work/2017/07/29/read-asch-source-code.html) 

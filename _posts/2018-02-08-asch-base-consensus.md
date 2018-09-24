@@ -8,7 +8,7 @@ display: onlydetail
 ---    
 
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo"></img>  
+<img src="http://images.yanyiwu.com/xas.jpg" class="photo"></img>  
 </center>  
 
 在 [Asch源码阅读:启动过程概述] 中，我们提到 init.js 初始化中的一个步骤就是初始化 base 模块。

@@ -7,7 +7,7 @@ category: work
 ---
   
 <center>        
-<img src="http://7viirv.com1.z0.glb.clouddn.com/money.jpg" class="photo"></img>      
+<img src="http://images.yanyiwu.com/money.jpg" class="photo"></img>      
 </center>        
   
 其实这个是前几天的话题了，但是也算是个很有意思的现象，值得记录。  

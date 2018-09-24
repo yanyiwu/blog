@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/elephant.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/elephant.jpg" class="photo"></img>
 </center>
   
 移动开发发展到现在，有一点我一直很好奇：  

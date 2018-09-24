@@ -14,7 +14,7 @@ title: 时间线
 &raquo; 2018-08-07 23:21
 
 > 新工牌，旧理想。
-> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/bytedance.jpeg" class="photo" style=""></img></center>
+> <center><img src="http://images.yanyiwu.com/bytedance.jpeg" class="photo" style=""></img></center>
 
 &raquo; 2018-07-22 01:09
 
@@ -23,7 +23,7 @@ title: 时间线
 &raquo; 2018-06-18 19:12
 
 > 居然真的不幸言中。
-> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/microsoft_github.jpeg" class="photo" style=""></img></center>
+> <center><img src="http://images.yanyiwu.com/microsoft_github.jpeg" class="photo" style=""></img></center>
 
 &raquo; 2018-06-09 11:12
 
@@ -137,7 +137,7 @@ title: 时间线
 
 > 以太坊的『云养猫』震撼到我了，会是一个区块链的里程碑吗？区块链真的值得期待。  
 > 下面这只是我买的以太坊上面的猫，希望在这次浪潮中，找到属于自己的位置。
-> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/WechatIMG16.jpeg" class="photo" style=""></img></center>
+> <center><img src="http://images.yanyiwu.com/WechatIMG16.jpeg" class="photo" style=""></img></center>
 
 {% endcomment %}
 
@@ -151,7 +151,7 @@ title: 时间线
 > 每次离家返京，都会暗发决心要更加努力。  
 > 希望能抓住机会，抓住一次就够了，才算不枉此生。  
 
-> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/IMG_1134.JPG" class="photo" style=""></img></center>
+> <center><img src="http://images.yanyiwu.com/IMG_1134.JPG" class="photo" style=""></img></center>
 
 > 配图来自厦门的鹭江酒店/环岛路，希望能记住这次心情。
 
@@ -289,7 +289,7 @@ title: 时间线
 > 把自己的打赏二维码加到了每篇博文的最后面（当然是根据Jekyll的layout自动化加的）。如下图。
 > 观察一段时间试试吧，或许会有惊喜呢。
 
-> <center><img src="http://7viirv.com1.z0.glb.clouddn.com/1024.jpg" class="photo" style="width:60%"></img></center>
+> <center><img src="http://images.yanyiwu.com/1024.jpg" class="photo" style="width:60%"></img></center>
 
 &raquo; 2016-05-19 23:52
 
@@ -331,7 +331,7 @@ title: 时间线
 
 &raquo; 2016-04-11 00:03
 
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/yanyiwu-github.jpg" class="photo"></img>
+> <img src="http://images.yanyiwu.com/yanyiwu-github.jpg" class="photo"></img>
 > 晚上在别人项目的issue下和别人讨论技术，讨论到最后还互加了联系方式。
 > 很久没有讨论得这么『一颗赛艇』了。GitHub 不愧是码农搞基网站。
 > 发现自己 [GitHub] 突破 500 Followers 了，截图纪录一下。
@@ -389,7 +389,7 @@ title: 时间线
 
 &raquo; 2016-01-30 00:40
 
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/wasd2.png" class="photo"></img>
+> <img src="http://images.yanyiwu.com/wasd2.png" class="photo"></img>
 > 最近下班回来后写代码的时间激增，就是因为去年10月份海淘的机械键盘。  
 > 终!于!到!了!  
 > 刚拿到的前十分钟手感并不能马上适应，然后十分钟后基本上就顺手得令人发指。 
@@ -566,7 +566,7 @@ title: 时间线
 
 > 经土豪推荐打算买WASD个人定制的机械键盘，定制了一发如下图：
 
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/wasd.jpg" class="photo"></img>
+> <img src="http://images.yanyiwu.com/wasd.jpg" class="photo"></img>
 
 > 感觉光看这图就心情不错，至少续命一个月。不过因为得走海外代购，听说需要少则一个月，
 多则三个多月的也可能。也是醉了。
@@ -708,10 +708,10 @@ C++总是要大费周章，甚至还经常有依赖包的版本上的兼容问�
 > GitHub上第二个项目的Star数也上百了，纪念一下。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"
+href="http://images.yanyiwu.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"/></a>
+src="http://images.yanyiwu.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.jpg"/></a>
 
 
 &raquo; 2015-03-24 00:07
@@ -859,10 +859,10 @@ src="http://7viirv.com1.z0.glb.clouddn.com/146CD59C-C85F-4B9E-9923-41F1B3B103E5.
 > 看了看 Pro 的 Retina 屏幕再看自己的 MacBookAir，感觉好忧伤。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/55f96a8286_MacBookPro.jpg"
+href="http://images.yanyiwu.com/55f96a8286_MacBookPro.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/55f96a8286_MacBookPro.jpg"/></a>
+src="http://images.yanyiwu.com/55f96a8286_MacBookPro.jpg"/></a>
 
 &raquo; 2014-12-27 10:24
 
@@ -990,10 +990,10 @@ go get 还是太原始，比如 npm 和 gem 都可以帮你管理库的编译，
 > - [GitHub] follower 数量 99 了，截图纪念一下。
 
 > - <a
-href="http://7viirv.com1.z0.glb.clouddn.com/53e2ef1616_E61C49CB-39A9-4BE0-92F9-241BFE641FDF.png"
+href="http://images.yanyiwu.com/53e2ef1616_E61C49CB-39A9-4BE0-92F9-241BFE641FDF.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/5294d2c4d9_E61C49CB-39A9-4BE0-92F9-241BFE641FDF-thumbnail.jpeg"/></a>
+src="http://images.yanyiwu.com/5294d2c4d9_E61C49CB-39A9-4BE0-92F9-241BFE641FDF-thumbnail.jpeg"/></a>
 
 &raquo; 2014-12-14 14:51
 
@@ -1084,20 +1084,20 @@ src="http://7viirv.com1.z0.glb.clouddn.com/5294d2c4d9_E61C49CB-39A9-4BE0-92F9-24
 > 从 iPhone 5s 换过来使用安卓没有落差而且反而惊喜不断。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/4bd360ce7e_smartisan_4bd.png"
+href="http://images.yanyiwu.com/4bd360ce7e_smartisan_4bd.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/4bd360ce7e_smartisan_4bd.png"/></a>
+src="http://images.yanyiwu.com/4bd360ce7e_smartisan_4bd.png"/></a>
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/4a7238e2e3_smartisan_4a7.png"
+href="http://images.yanyiwu.com/4a7238e2e3_smartisan_4a7.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/4a7238e2e3_smartisan_4a7.png"/></a>
+src="http://images.yanyiwu.com/4a7238e2e3_smartisan_4a7.png"/></a>
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/4ca93fdcb2_smartisan_4ca.png"
+href="http://images.yanyiwu.com/4ca93fdcb2_smartisan_4ca.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/4ca93fdcb2_smartisan_4ca.png"/></a>
+src="http://images.yanyiwu.com/4ca93fdcb2_smartisan_4ca.png"/></a>
 
 &raquo; 2014-11-18 00:19
 
@@ -1115,30 +1115,30 @@ src="http://7viirv.com1.z0.glb.clouddn.com/4ca93fdcb2_smartisan_4ca.png"/></a>
 > 你没有看错，我在那里写 `erlang` 。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"
+href="http://images.yanyiwu.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"/></a>
+src="http://images.yanyiwu.com/486b90b40e_06182C450B9785E6C17D20547B464DB4.png"/></a>
 
 &raquo; 2014-11-16 16:20
 
 > 去英国读研的同学送的纪念品，感觉很不错。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"
+href="http://images.yanyiwu.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"/></a>
+src="http://images.yanyiwu.com/457e3856ef_4D7F79EC58BD0D2CFCC1B168E944B215.png"/></a>
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"
+href="http://images.yanyiwu.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"/></a>
+src="http://images.yanyiwu.com/4671a234cc_D987428381F9EB5FE82C7E53CD5CF9DB.png"/></a>
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"
+href="http://images.yanyiwu.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"/></a>
+src="http://images.yanyiwu.com/475d485051_80823CC02E30ED85C9B6A19ED004722B.png"/></a>
 
 &raquo; 2014-11-13 01:06
 
@@ -1163,10 +1163,10 @@ src="http://7viirv.com1.z0.glb.clouddn.com/475d485051_80823CC02E30ED85C9B6A19ED0
 > 一股城市绿化带风格。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
+href="http://images.yanyiwu.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
+src="http://images.yanyiwu.com/24931338bd_26988218-7962-4D33-AF24-2F0D8D7E93FE.jpg"/></a>
 
 &raquo; 2014-11-04 22:44
 
@@ -1174,10 +1174,10 @@ src="http://7viirv.com1.z0.glb.clouddn.com/24931338bd_26988218-7962-4D33-AF24-2F
 > 重新照出来再看一遍，还是觉得非常好的文章，如下图：
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
+href="http://images.yanyiwu.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
+src="http://images.yanyiwu.com/21028a652d_61c921e5jw1elqowqbxo8j20ri1kwdoq.jpg"/></a>
 
 &raquo; 2014-11-02 00:01
 
@@ -1188,10 +1188,10 @@ src="http://7viirv.com1.z0.glb.clouddn.com/21028a652d_61c921e5jw1elqowqbxo8j20ri
 > 这个选择简直比当时选择是否退学还难，再说吧。
 
 > <a
-href="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"
+href="http://images.yanyiwu.com/19bc893b5b_smartisan_t1.jpg"
 data-lightbox="image-1" >
 <img class="thumbnail" 
-src="http://7viirv.com1.z0.glb.clouddn.com/19bc893b5b_smartisan_t1.jpg"/></a>
+src="http://images.yanyiwu.com/19bc893b5b_smartisan_t1.jpg"/></a>
 
 &raquo; 2014-11-01 17:30
 

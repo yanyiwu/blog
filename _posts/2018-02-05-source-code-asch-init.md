@@ -8,7 +8,7 @@ display: onlydetail
 ---    
 
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/xas.jpg" class="photo"></img>  
+<img src="http://images.yanyiwu.com/xas.jpg" class="photo"></img>  
 </center>  
 
 以下源码阅读基于 asch@1.3.5 版本。

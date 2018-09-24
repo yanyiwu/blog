@@ -7,7 +7,7 @@ category: work
 ---    
   
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/dragon.jpg" class="photo", style="width:80%"></img>  
+<img src="http://images.yanyiwu.com/dragon.jpg" class="photo", style="width:80%"></img>  
 </center>  
   
 入职新公司也差不多三个月了，说实话很庆幸当时选择了这里。  

@@ -7,7 +7,7 @@ category: life
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/fanggezi" class="photo"></img>
+<img src="http://images.yanyiwu.com/fanggezi" class="photo"></img>
 </center>
 
 记得之前有某个创业公司的CEO加我微信，

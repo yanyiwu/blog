@@ -7,7 +7,7 @@ category: work
 ---    
 
 <center>    
-<img src="http://7viirv.com1.z0.glb.clouddn.com/seaweedfs.png" class="photo" style="width:60%"></img>    
+<img src="http://images.yanyiwu.com/seaweedfs.png" class="photo" style="width:60%"></img>    
 </center>    
 
 『场景展现』

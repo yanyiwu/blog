@@ -8,7 +8,7 @@ category: life
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/road.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/road.jpg" class="photo"></img>
 </center>
 
 今天不到7点就醒来，想起昨天晚上和许式伟大神见面聊天的经历，到现在还感触颇多。

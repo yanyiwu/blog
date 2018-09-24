@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>        
-<img src="http://7viirv.com1.z0.glb.clouddn.com/firehazard.jpg" class="photo"></img>      
+<img src="http://images.yanyiwu.com/firehazard.jpg" class="photo"></img>      
 </center>        
 
 『故事背景』  

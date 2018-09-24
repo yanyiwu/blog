@@ -7,7 +7,7 @@ category: work
 ---  
   
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/toobusy.jpg" class="photo"></img>  
+<img src="http://images.yanyiwu.com/toobusy.jpg" class="photo"></img>  
 </center>  
 
 【删除一个臃肿的鸡肋功能为何如此之难】  

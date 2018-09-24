@@ -7,7 +7,7 @@ category: work
 ---
 
 <center>
-<img src="http://7viirv.com1.z0.glb.clouddn.com/golang.jpg" class="photo"></img>
+<img src="http://images.yanyiwu.com/golang.jpg" class="photo"></img>
 </center>
 
 前几天同事在学习Go语言，对Go的变量类型定义一直吐槽。

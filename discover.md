@@ -29,7 +29,7 @@ title: 发现
 突然觉得公众号即使只是拿来作为博文的推送和分享，也是很便捷的。
 
 > <center>
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
+> <img src="http://images.yanyiwu.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
 > </center>
 
 &raquo; 信息订阅栈『[邮订阅](http://youdingyue.luckykaiyi.com)』 
@@ -55,7 +55,7 @@ title: 发现
 关注如下微信二维码即可订阅。
 
 > <center>
-> <img src="http://7viirv.com1.z0.glb.clouddn.com/qrcode_for_gh_e85b7890672f_258.jpg" class="photo" style="width:60%"></img>
+> <img src="http://images.yanyiwu.com/qrcode_for_gh_e85b7890672f_258.jpg" class="photo" style="width:60%"></img>
 > </center>
 
 > 之前『大厨的日常』图文归档请见:

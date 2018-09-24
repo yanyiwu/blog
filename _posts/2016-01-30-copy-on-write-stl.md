@@ -7,7 +7,7 @@ category: work
 ---  
   
 <center>  
-<img src="http://7viirv.com1.z0.glb.clouddn.com/error.png" class="photo"></img>  
+<img src="http://images.yanyiwu.com/error.png" class="photo"></img>  
 </center>  
 
 前几天在开发某些数据结构到文件的 Dump 和 Load 功能的时候，

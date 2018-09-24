@@ -8,7 +8,7 @@ category: work
 ---
 
 <center>        
-<img src="http://7viirv.com1.z0.glb.clouddn.com/github.jpg" class="photo"></img>      
+<img src="http://images.yanyiwu.com/github.jpg" class="photo"></img>      
 </center>        
 
 上周受到一位[CppJieba]使用者的邮件咨询所启发
