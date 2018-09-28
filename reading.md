@@ -5,6 +5,10 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; 《Factorization Machines》
+
+> FM论文，解决了稀疏特征叉乘的经典算法。现在应用特别广泛了，而且收益很solid。
+
 &raquo; 《Ad Click Prediction: a View from the Trenches》
 
 > 在线学习算法 FTRL 的工程实现经典论文，在线机器学习领域的必读论文。
