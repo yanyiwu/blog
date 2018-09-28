@@ -1,14 +1,14 @@
 ---    
 published: true
 layout: post    
-title: 上海 Google Developer Days 的一些想法
+title: 2018 Google Developer Days 
 date: 2018-09-21
 category: work    
 ---    
 
 【第一天】
 
-GDD = Google Developer Days，谷歌开发者大会，0920~0921 两天。
+Google Developer Days，谷歌开发者大会，0920~0921 两天。
 
 第一次参加这类会议，第一天大部分 Talk 都是泛泛而谈，
 干货不多。但是居然遇到了当时毕业去谷歌的学姐。
