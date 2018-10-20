@@ -5,6 +5,11 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; 《Wide & Deep Learning for Recommender Systems》
+
+> Google Play 的推荐系统实践，提出Memorization和Generalization。
+> 前者用Wide，也就是LR+特征工程的方式解，后者用Deep，也就是神经网络的解决泛化问题。
+
 &raquo; 《Field-aware Factorization Machines》
 
 > FFM论文，准确的来讲，这是一份ppt。FM 把特征向量化，FFM则是把特征针对不同域进行不同的向量化。
