@@ -5,6 +5,10 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; 《Field-aware Factorization Machines》
+
+> FFM论文，准确的来讲，这是一份ppt。FM 把特征向量化，FFM则是把特征针对不同域进行不同的向量化。
+
 &raquo; 《Factorization Machines》
 
 > FM论文，解决了稀疏特征叉乘的经典算法。现在应用特别广泛了，而且收益很solid。
