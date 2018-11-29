@@ -5,6 +5,8 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; 《解析卷积神经网络 ——深度学习实践手册》
+
 &raquo; 《Google Vizier: A Service for Black-Box Optimization》
 
 > 黑箱调参系统，或者叫自动调参的工程实现。调参民工的救星。不过如果 Google Vizier 代码开源出来的话那就更好了。
