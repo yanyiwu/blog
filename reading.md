@@ -5,7 +5,11 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; 《DeepFM: A Factorization-Machine based Neural Network for CTR Prediction》
+
 &raquo; 《解析卷积神经网络 ——深度学习实践手册》
+
+> 看完特地搜了下作者，没想到这么年轻这么厉害。
 
 &raquo; 《Google Vizier: A Service for Black-Box Optimization》
 
