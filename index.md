@@ -12,6 +12,8 @@ title: 时间线
 
 > 微信和FB都太老，饭否偶尔诈尸。也差不多是时候了。下一个划时代社交产品是什么？
 
+> [美好社交，源自不开心](https://yanyiwu.com/work/2018/04/21/unhappiness-change-the-world.html)
+
 &raquo; 2018-12-15 21:47
 
 > 『资本寒冬』or 『瑞雪兆丰年』?
