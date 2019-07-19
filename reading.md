@@ -7,6 +7,8 @@ title: 阅读
 
 &raquo; 《DeepFM: A Factorization-Machine based Neural Network for CTR Prediction》
 
+> FFM 一般都是二阶组合，DeepFM 等于是把高阶组合的特性也通过 NN 的方式学到了。
+
 &raquo; 《解析卷积神经网络 ——深度学习实践手册》
 
 > 看完特地搜了下作者，没想到这么年轻这么厉害。
