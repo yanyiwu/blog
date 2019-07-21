@@ -36,6 +36,8 @@ title: 发现
 > <img src="http://images.yanyiwu.com/qrcodes_yanyiwu_public.jpg" class="photo" style="width:60%"></img>
 > </center>
 
+{% comment %}
+
 &raquo; 信息订阅栈『[邮订阅](http://youdingyue.luckykaiyi.com)』 
 
 > <center>
@@ -51,6 +53,8 @@ title: 发现
 > <center>
 > <img src="http://7xloce.com1.z0.glb.clouddn.com/udyqrcode.png" class="photo" style="width:60%"></img>
 > </center>
+
+{% endcomment %}
 
 &raquo; 微信公众号『多米厨房』
 
