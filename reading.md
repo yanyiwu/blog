@@ -5,6 +5,10 @@ title: 阅读
 
 以时间顺序记录一些阅读过并且有收获的书籍、论文等。
 
+&raquo; [机器学习规则 (Rules of Machine Learning)：关于机器学习工程的最佳实践](https://developers.google.com/machine-learning/guides/rules-of-ml/#training-serving_skew)
+
+> 这篇内容读完让我有种回到学校时代，阅读《Effective C++》的感觉。
+
 &raquo; 《DeepFM: A Factorization-Machine based Neural Network for CTR Prediction》
 
 > FFM 一般都是二阶组合，DeepFM 等于是把高阶组合的特性也通过 NN 的方式学到了。
