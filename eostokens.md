@@ -54,3 +54,6 @@ title: EOS-Tokens白皮书分析专栏
 &raquo; [KROWN]
     
 
+&raquo; [EMT](https://emanate.live/discover)
+
+> 目前看来官网体验最好的代币，没有之一。大概是作为一个音乐平台，让听众直接走链上交易给音乐人。更细节的东西还没研究，待研究。
