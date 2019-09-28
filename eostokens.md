@@ -12,11 +12,43 @@ title: EOS-Tokens白皮书分析专栏
 
 分析顺序就和 EOS 社区最流行的去中心化交易所 Newdex 上币[顺序](https://newdex.zendesk.com/hc/zh-cn/sections/360003160531-%E5%B8%81%E7%A7%8D%E5%8A%A8%E6%80%81)对齐吧。
 
-+ [TB](http://tbkao.com/)
-    - 点进去[官网](http://tbkao.com/)，你就知道，这个币就是100%纯韭菜币。
-+ [SOV](https://www.soveos.one/)
-    - 目前来看EOS连上最有诚意和创意的代币，很新的概念。
-    - 划重点:
-        + 通缩，交易的时候会按费率焚毁代币，直到总量从10亿下降到2100万。
-        + 82%空投给创世账号，每个创世账号可以领取5k的量，去中心化含量高。
+&raquo; [TB](http://tbkao.com/)
+
+> 点进去[官网](http://tbkao.com/)看了下，这个币韭菜含量100%。
+
+&raquo; [SOV](https://www.soveos.one/)
+
+> 目前来看EOS连上最有诚意和创意的代币，很新的概念。
+
+> 划重点:  
+> 通缩，交易的时候会按费率焚毁代币，直到总量从10亿下降到2100万。  
+> 82%空投给创世账号，每个创世账号可以领取5k的量，去中心化含量高。  
+
+&raquo; [BET](https://eosbet.io/)
+
+> 没找到白皮书，看官网完整性还可以。后面有空再详细分析。值得关注。
+
+&raquo; [CHT](https://cryptoheroes.net/)
+
+> 游戏有关的概念币，不看好，感觉游戏类的币，都有点走飘了，游戏的本质在于娱乐，在于消费和花钱，不在于增值。
+> 而且看开盘砸成这样，应该也不是什么好鸟。
+
+&raquo; [PAXE](https://www.paxos.com/pax/)
+
+> 这个币有点唬，目测是类似USDT的稳定币，不是很感兴趣。
+
+&raquo; [GRD](https://eosgrand.io/)
+
+> 打开官网，浓浓韭菜味，直觉告诉我应该立马退出。
+
+&raquo; [XDAP]
+
+> 博彩，博彩，还是博彩。
+
+&raquo; [DS]
+
+> 号称要做区块链上的 App Store，真是想多了，朋友。
+
+&raquo; [KROWN]
+    
 
