@@ -3,6 +3,18 @@ layout: posting
 title: 时间线
 ---
 
+&raquo; 2019-10-19 16:58
+
+区块链知识科普里程碑节点：
+
+> [Mastering Bitcoin](https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/) Release Date: December 2014
+
+> [Mastering Ethereum](http://shop.oreilly.com/product/0636920056072.do) Release Date: December 2018
+
+> Mastering EOS?, Release Date: December 2019-2020?
+
+> 『对科技的好奇，就是对未来的猜测和验证。』
+
 &raquo; 2019-10-08 23:19
 
 > 这次国庆长假休得最舒服的是，心理上做到沉浸式放空。好久没有这样长时间从工作中逃离出来了。
