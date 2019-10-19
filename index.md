@@ -5,7 +5,7 @@ title: 时间线
 
 &raquo; 2019-10-19 16:58
 
-区块链知识科普里程碑节点：
+> 区块链知识科普里程碑节点：
 
 > [Mastering Bitcoin](https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/) Release Date: December 2014
 
