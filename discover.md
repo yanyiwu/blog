@@ -3,7 +3,7 @@ layout: posting
 title: 发现
 ---
 
-&raquo; [EOS-Tokens白皮书分析专栏](/eostokens.html)
+&raquo; [EOS Token Ranking](/eostokens.html)
 
 > 背景：那天看到一个微博大V，说了一个非常让我大跌眼镜的话，很明显暴露他连白皮书都没看，就自以为是的对不了解的代币信口雌黄。
 > 让我突然意识到，真的没有几个人会看白皮书。所以突发奇想，不如做一个专栏。
