@@ -55,6 +55,10 @@ title: EOS Token Ranking
 
 『3分』
 
+&raquo; [VIG](https://vig.ai/VIGOR.pdf)
+
+> 官网和白皮书完成度都不错，解决抵押借贷问题，方向也没问题，但是代币分配不够去中心化，智能合约目前也没有去中心化。
+
 &raquo; [BET](https://eosbet.io/)
 
 > 没找到白皮书，看官网完整性还可以。后面有空再详细分析。值得关注。
