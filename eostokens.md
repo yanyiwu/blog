@@ -114,6 +114,10 @@ title: EOS Token Ranking
 
 > dice平台上的积分代币，没太大意思，主要是起到比较喜庆的作用。
 
+&raquo; BAP
+
+> 又一个菠菜游戏，同质化太严重，不看好。
+
 『1分』
 
 &raquo; BID
