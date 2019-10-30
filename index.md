@@ -3,6 +3,12 @@ layout: posting
 title: 时间线
 ---
 
+&raquo; 2019-10-30 23:18
+
+> 第一笔用命令行完成的区块链转账，值得纪念，这感觉好像多年前第一次使用 Linux 的 echo "hello world" 一样。
+
+> [trx](https://eospark.com/tx/2580a8112aa2028e9436b4e21035ec7a09c0acc065b7e230bcadcc900cd55de1)
+
 &raquo; 2019-10-19 20:17
 
 > 工资是你目前可能贡献的收益的预估值，根据你所在的位置和你所掌握的技术等因素作为特征来预估。
