@@ -27,22 +27,9 @@ title: AboutMe
 &raquo;『开发语言』
 
 > 编程语言: C/C++/Golang/Python, JavaScript/Node.js, HTML/CSS, Erlang;  
-> 目前专注于大数据/推荐系统方向。
+> 目前专注于推荐系统方向。
 
-&raquo;『开源项目』
 
-> - 结巴中文分词 C++ 版本 {[CppJieba]} 作者。
-<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=cppjieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-> - 结巴中文分词 Node.js 版本 {[NodeJieba]} 作者。
-<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=nodejieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-> - 结巴中文分词 Golang 版本 {[GoJieba]} 作者。
-<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=gojieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-> - 结巴中文分词 iOS 版本 {[iosjieba]} 作者。
-<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=iosjieba&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-> - 网页去重算法 {[Simhash]} C++ 版本库作者。
-<iframe src="https://ghbtns.com/github-btn.html?user=yanyiwu&repo=simhash&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-> - 开源文件分布式存储引擎 {[Seaweedfs]}(Golang) 贡献者 。
-<iframe src="https://ghbtns.com/github-btn.html?user=chrislusf&repo=seaweedfs&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
 [Jieba]:https://github.com/fxsjy/jieba
 [CppJieba]:http://github.com/yanyiwu/cppjieba
