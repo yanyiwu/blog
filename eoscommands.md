@@ -59,4 +59,53 @@ cleos wallet create --name testwallet --file testwallet.password
 cleos wallet import --name testwallet --private-key {yourprivatekey}
 ```
 
+## 连上主网
+
+> 我们通过 cleos 去请求主网，所以我们需要知道主网的地址，不过区块链厉害的地方就是，节点有多少个，地址就有多少个。
+> 任何节点都是一个主网server，目前请求主网流行的方式是用这个节点：http://api.eosnewyork.io 
+
+```
+cleos -u http://api.eosnewyork.io get info
+```
+
+获取主网信息，主要是最新区块信息。
+
+```
+cleos -u http://api.eosnewyork.io system listproducers
+
+Producer      Producer key                                              Url
+eoshuobipool  EOS5XKswW26cR5VQeDGwgNb5aixv1AMcKkdDNrC59KzNSBfnH6TR7     https://www.eoshuobipool.com
+okcapitalbp1  EOS6NqWZ1i9KSNoeBiby6Nmf1seAbEfhvrDoCbwSi1hV4cuqqnYRP     https://www.okex.com/eosbp/
+eoseouldotio  EOS6SSA4gYCSZ3q9NWpxGsYDv5MWjSwKseyq25RRZexwj8EM6YHDa     https://www.eoseoul.io
+newdex.bp     EOS688SnH8tQ7NiyhamiCzWXAGPDLF9S7K8ga79UBHKFgjS1MhqhB     https://newpool.io
+bitfinexeos1  EOS4tkw7LgtURT3dvG3kQ4D1sg3aAtPDymmoatpuFkQMc7wzZdKxc     https://www.bitfinex.com
+```
+
+获取主网目前产块的节点信息。
+只要在url后面再加上 /bp.json ，从返回结果里面找 `api_endpoint` 就是该节点的地址。比如 `https://www.eoshuobipool.com/bp.json`，
+
+```
+...
+api_endpoint: "http://peer2.eoshuobipool.com:8181"
+...
+```
+
+```
+cleos -u http://peer2.eoshuobipool.com:8181 get info
+```
+
+所以获取区块链主网信息也可以换一个节点去请求，结果也是一样的。
+
+## 转账 
+
+```
+cleos -u https://api.eoslaomao.com/ transfer practicetest gitatyanyiwu '0.001 EOS'
+
+executed transaction: 99a9f8e1a01f436ff0b9e8865146efdf6ce74d7eeddbe201bcad5eac66c20eae  128 bytes  408 us
+#   eosio.token <= eosio.token::transfer        {"from":"practicetest","to":"gitatyanyiwu","quantity":"0.0010 EOS","memo":""}
+#  practicetest <= eosio.token::transfer        {"from":"practicetest","to":"gitatyanyiwu","quantity":"0.0010 EOS","memo":""}
+#  gitatyanyiwu <= eosio.token::transfer        {"from":"practicetest","to":"gitatyanyiwu","quantity":"0.0010 EOS","memo":""}
+```
+
+这个前提是之前在 cleos wallet 已经 import 了 practicetest 权限组里面的私钥。
 
