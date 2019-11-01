@@ -7,7 +7,7 @@ title: 时间线
 
 > 第一笔用命令行完成的区块链转账，值得纪念，这感觉好像多年前第一次使用 Linux 的 echo "hello world" 一样。
 
-> [2580a8112aa2028e9436b4e21035ec7a09c0acc065b7e230bcadcc900cd55de1](https://eospark.com/tx/2580a8112aa2028e9436b4e21035ec7a09c0acc065b7e230bcadcc900cd55de1)
+> [2580a8112](https://eospark.com/tx/2580a8112aa2028e9436b4e21035ec7a09c0acc065b7e230bcadcc900cd55de1)
 
 &raquo; 2019-10-19 20:17
 
