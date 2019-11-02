@@ -28,19 +28,19 @@ keosd &
 ## 创建钱包
 
 
-```
-cleos wallet list
-```
-
 先列出目前所有钱包。
 
 ```
-cleos wallet create --name testwallet --file testwallet.password
+cleos wallet list
 ```
 
 创建名字为 testwallet 的钱包，并且把这个钱包的密码写到 testwallet.password ，
 这里的 testwallet.password 里面的密码，注意，不是私钥，只是这个钱包的密码，用来加密这个钱包所包含私钥的密码。
 只是这个密码默认生成方式太复杂，看上去长得有点像私钥。
+
+```
+cleos wallet create --name testwallet --file testwallet.password
+```
 
 ## 创建账号
 
@@ -63,11 +63,27 @@ cleos wallet import --name testwallet --private-key {yourprivatekey}
 > 我们通过 cleos 去请求主网，所以我们需要知道主网的地址，不过区块链厉害的地方就是，节点有多少个，地址就有多少个。
 > 任何节点都是一个主网server，目前请求主网流行的方式是用这个节点：http://api.eosnewyork.io 
 
+获取主网信息，主要是最新区块信息。
+
 ```
 cleos -u http://api.eosnewyork.io get info
-```
 
-获取主网信息，主要是最新区块信息。
+{
+  "server_version": "7c0b0d38",
+  "chain_id": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+  "head_block_num": 87812884,
+  "last_irreversible_block_num": 87812549,
+  "last_irreversible_block_id": "053be9c523ae3f27442c7fbfce5a62228cedff4a86588e0ff574be35d46ed6c3",
+  "head_block_id": "053beb14c7a1598a8ed67316fbe060f821d56010e332934b987b5b0ad59e9fd7",
+  "head_block_time": "2019-11-02T16:46:17.000",
+  "head_block_producer": "blockpooleos",
+  "virtual_block_cpu_limit": 224856,
+  "virtual_block_net_limit": 1048576000,
+  "block_cpu_limit": 158916,
+  "block_net_limit": 1026840,
+  "server_version_string": "v1.8.4"
+}
+```
 
 ```
 cleos -u http://api.eosnewyork.io system listproducers
@@ -89,11 +105,11 @@ api_endpoint: "http://peer2.eoshuobipool.com:8181"
 ...
 ```
 
+所以获取区块链主网信息也可以换一个节点去请求，结果也是一样的。
+
 ```
 cleos -u http://peer2.eoshuobipool.com:8181 get info
 ```
-
-所以获取区块链主网信息也可以换一个节点去请求，结果也是一样的。
 
 ## 转账 
 
@@ -110,13 +126,20 @@ executed transaction: 99a9f8e1a01f436ff0b9e8865146efdf6ce74d7eeddbe201bcad5eac66
 
 ## 获取账号余额
 
+获取指定账号的EOS代币余额
+
 ```
 cleos -u https://api.eoslaomao.com/ get currency balance eosio.token practicetest
 
 4.3119 EOS
 ```
 
-## 后记
+获取指定账号的指定合约代币余额示例
 
-到这里其实就算把最常用的操作都学会了。
+```
+cleos -u https://api.eoslaomao.com/ get currency balance eidosonecoin practicetest
 
+14.2646 EIDOS
+```
+
+> 未完待续
