@@ -6,6 +6,8 @@ date: 2016-04-02
 category: work
 ---
 
+# 谈谈Go语言的字符串设计
+
 <center>        
 <img src="http://images.yanyiwu.com/GoJieBaLogo-v2.png" class="photo", style="width:60%"></img>      
 </center>        

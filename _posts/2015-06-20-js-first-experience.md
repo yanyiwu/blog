@@ -6,6 +6,8 @@ date:   2015-06-20
 category: work
 ---
 
+# JavaScript初体验
+
 其实已经不算初体验了，
 毕竟虽然没有全职的JavaScript开发经历，
 但是或多或少的使用也算是对JavaScript略熟。

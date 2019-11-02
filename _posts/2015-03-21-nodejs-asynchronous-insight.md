@@ -6,6 +6,8 @@ date:   2015-03-21
 category: work
 ---
 
+# 由NodeJieba谈谈Node.js异步实现
+
 有些人刚接触 Node.js 的时候，
 都会以为异步是多么高深莫测的技术。
 所以在此结合 [NodeJieba] 代码(加上详细注释)说说 Node.js 异步实现原理，

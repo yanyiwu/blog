@@ -6,6 +6,8 @@ date:   2016-02-25
 category: work  
 ---    
 
+# Seaweedfs之Volume读请求重定向
+
 <center>    
 <img src="http://images.yanyiwu.com/seaweedfs.png" class="photo" style="width:60%"></img>    
 </center>    

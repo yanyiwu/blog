@@ -5,6 +5,8 @@ date:   2014-03-27
 category: work
 ---
 
+# C++中unordered_map的版本兼容性问题
+
 ## 背景
 
 在C++中最让我蛋疼的事情之一就是`unordered_map`千呼万唤才出来，在C++早期版本标准库里面只有`map`这个字典。

@@ -6,6 +6,8 @@ date: 2016-03-24
 category: work
 ---
 
+# 放弃screen,拥抱tmux
+
 <center>        
 <img src="http://images.yanyiwu.com/firehazard.jpg" class="photo"></img>      
 </center>        

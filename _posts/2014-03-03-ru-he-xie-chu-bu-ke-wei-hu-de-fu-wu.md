@@ -6,6 +6,8 @@ date:   2014-03-03
 category: work
 ---
 
+# 如何写出不可维护的服务端程序
+
 <center>
 <img src="http://images.yanyiwu.com/fragile.png" class="photo"></img>
 </center>

@@ -6,6 +6,8 @@ date:   2015-01-09
 category: work
 ---
 
+# 分布式存储Seaweedfs源码分析
+
 基于源码版本号 0.67 ， 【Seaweedfs以前旧版叫Weedfs】。
 
 [Seaweedfs] 是一个非常优秀的由 golang 开发的分布式存储开源项目，

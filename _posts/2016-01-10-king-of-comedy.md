@@ -6,6 +6,8 @@ date:   2016-01-10
 category: work
 ---
 
+# 《喜剧之王》
+
 <center>
 <img src="http://images.yanyiwu.com/kingofcomedy.jpg" class="photo"></img>
 </center>

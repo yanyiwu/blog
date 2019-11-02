@@ -5,6 +5,8 @@ date:   2014-02-09
 category: work
 ---
 
+# 记一次使用gprof进行性能优化
+
 gprof是linux下进行性能优化的神器
 
 ## 记一次性能调优的经历

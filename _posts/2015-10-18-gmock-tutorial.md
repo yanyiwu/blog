@@ -6,6 +6,8 @@ date:   2015-10-18
 category: work
 ---
 
+# 单元测试之gmock使用『指北』
+
 <center>
 <img src="http://7xloce.com1.z0.glb.clouddn.com/p2273115476.jpg" class="photo"></img>
 </center>

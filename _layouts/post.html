@@ -2,15 +2,17 @@
 layout: review
 ---
 
-<h1 class="post_title">
-    {{ page.title }}
-</h1>
-
+<!--
 <div class="post_date">
     {{ page.date | date_to_string }}
 </div>
+-->
 
 <div class="blog_post">
+
+    <div class="post_date">
+        {{ page.date | date_to_string }}
+    </div>
     {{ content }}
     <p>转载请注明出处: <a href="{{site.url}}{{page.url}}">{{page.title}}</a></p>
     <!--

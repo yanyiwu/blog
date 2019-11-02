@@ -5,6 +5,8 @@ date:   2014-03-12
 category: work
 ---
 
+# cmake常用指令学习手册
+
 ## 环境设置
 
 * `PROJECT` 项目名称

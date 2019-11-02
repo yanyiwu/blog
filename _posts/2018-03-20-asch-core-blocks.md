@@ -7,6 +7,8 @@ category: work
 display: onlydetail
 ---    
 
+# Asch源码core模块之blocks
+
 <center>  
 <img src="http://images.yanyiwu.com/xas.jpg" class="photo"></img>  
 </center>  

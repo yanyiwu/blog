@@ -6,6 +6,8 @@ date:   2015-09-14
 category: work
 ---
 
+# C/C++/Go混合编程实践之GoJieba
+
 <center>
 <img src="http://images.yanyiwu.com/gojieba.jpg" class="photo"></img>
 </center>

@@ -5,6 +5,8 @@ date:   2014-02-22
 category: work
 ---
 
+# Node.js的C++扩展初体验之NodeJieba
+
 <center>        
 <img src="http://images.yanyiwu.com/NodeJiebaLogo-v1.png" class="photo", style="width:60%"></img>      
 </center>        

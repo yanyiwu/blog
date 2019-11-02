@@ -7,6 +7,8 @@ date:   2014-10-11
 category: life
 ---
 
+# 影响我一生的两个选择
+
 <center>
 <img src="http://images.yanyiwu.com/road.jpg" class="photo"></img>
 </center>

@@ -6,6 +6,8 @@ date: 2016-03-27
 category: work
 ---
 
+# MySQL中文分词插件SqlJieba
+
 <center>        
 <img src="http://images.yanyiwu.com/sqljieba.jpg" class="photo", style="width:60%"></img>      
 </center>        

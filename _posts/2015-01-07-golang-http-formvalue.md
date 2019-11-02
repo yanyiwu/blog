@@ -6,6 +6,8 @@ date:   2015-01-07
 category: work
 ---
 
+# golang之http/FormValue踩坑记
+
 今天下午在试 [Weed-FS] 的 Collection 特性的时候，
 发现了一个关于 FormValue 返回结果不符合预期的 bug ，
 检查了一番，

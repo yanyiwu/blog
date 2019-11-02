@@ -6,6 +6,8 @@ date:   2014-11-26
 category: work
 ---
 
+# Erlang初体验
+
 我对 Erlang 编程理念的理解：以分布式架构师的角度写代码。
 
 ## 函数式编程

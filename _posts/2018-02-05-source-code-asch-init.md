@@ -7,6 +7,8 @@ category: work
 display: onlydetail
 ---    
 
+# Asch源码阅读:启动过程概述
+
 <center>  
 <img src="http://images.yanyiwu.com/xas.jpg" class="photo"></img>  
 </center>  

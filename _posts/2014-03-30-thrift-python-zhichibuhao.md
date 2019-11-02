@@ -5,6 +5,8 @@ date:   2014-03-30
 category: work
 ---
 
+# Thrift对Python的支持并不好
+
 Thrift声称对`C++/Java/Python`这类大众语言支持的很好，但是最近工作发现Thrift对Python的支持真是惨不忍睹。
 
 ## Thrift`0.8.0`有严重bug 

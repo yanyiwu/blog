@@ -5,6 +5,8 @@ title:  只增不减的互联网恶习
 date:   2016-01-21
 category: work  
 ---  
+
+# 只增不减的互联网恶习
   
 <center>  
 <img src="http://images.yanyiwu.com/toobusy.jpg" class="photo"></img>  

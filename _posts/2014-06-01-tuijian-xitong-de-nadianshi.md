@@ -7,6 +7,8 @@ date:   2014-06-01
 category: work
 ---
 
+# 推荐系统的那点事
+
 <center>
 <img src="http://images.yanyiwu.com/algorithm.jpg" class="photo"></img>
 </center>

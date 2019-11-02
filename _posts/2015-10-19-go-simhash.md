@@ -6,6 +6,8 @@ date:   2015-10-19
 category: work
 ---
 
+# 中文simhash算法库的Golang版本
+
 <center>
 <img src="http://images.yanyiwu.com/GoSimhashLogo-v1.png" class="photo" style="width:60%"></img>
 </center>

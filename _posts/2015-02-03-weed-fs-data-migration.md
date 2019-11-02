@@ -6,6 +6,8 @@ date:   2015-02-04
 category: work
 ---
 
+# Seaweedfs之Volume数据迁移
+
 【Seaweedfs以前旧版叫Weedfs】，
 本篇主要是关于数据迁移相关的内容，
 更详细的源码相关的请看[分布式存储Seaweedfs源码分析]。

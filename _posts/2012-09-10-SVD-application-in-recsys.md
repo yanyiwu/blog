@@ -6,6 +6,8 @@ date:   2012-09-10
 category: work
 ---
 
+# SVD在推荐系统中的应用
+
 参考自：http://www.igvita.com/2007/01/15/svd-recommendation-system-in-ruby/
 
 其实说参考也不准确，准确地说应该是半翻译半学习笔记。

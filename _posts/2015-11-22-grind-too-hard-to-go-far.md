@@ -6,6 +6,8 @@ date:   2015-11-22
 category: work
 ---
 
+# 太用力的人跑不远
+
 <center>
 <img src="http://images.yanyiwu.com/run.png" class="photo"></img>
 </center>

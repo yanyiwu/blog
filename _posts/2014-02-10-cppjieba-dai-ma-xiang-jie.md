@@ -5,6 +5,8 @@ date:   2014-02-10
 category: work
 ---
 
+# CppJieba代码详解
+
 <center>        
 <img src="http://images.yanyiwu.com/CppJiebaLogo-v1.png" class="photo", style="width:60%"></img>      
 </center>        

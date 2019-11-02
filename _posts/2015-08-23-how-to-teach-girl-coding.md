@@ -6,6 +6,8 @@ date:   2015-08-23
 category: work
 ---
 
+# 如何教会非计算机专业的女友写代码
+
 <center>
 <img src="http://images.yanyiwu.com/coding-girl.jpg" class="photo"></img>
 </center>

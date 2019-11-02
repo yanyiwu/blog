@@ -6,6 +6,8 @@ date:   2015-11-03
 category: work
 ---
 
+# Go语言『饱受非议』的类型定义
+
 <center>
 <img src="http://images.yanyiwu.com/golang.jpg" class="photo"></img>
 </center>

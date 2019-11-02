@@ -6,6 +6,8 @@ date:   2014-11-15
 category: work
 ---
 
+# golang的杀手级应用:docker
+
 docker 是 golang 的第一个杀手级应用，发展迅猛，
 现在各大云计算平台几乎全都支持 docker 实例，包括 谷歌，亚马逊，阿里云等。
 golang 本身已经让我惊喜万分，而 docker 更是极大的激发了我对虚拟化的想象。

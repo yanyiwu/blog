@@ -6,6 +6,8 @@ date:   2016-01-07
 category: life
 ---
 
+# 表妹去年买了个表
+
 <center>
 <img src="http://images.yanyiwu.com/watch.jpg" class="photo"></img>
 </center>

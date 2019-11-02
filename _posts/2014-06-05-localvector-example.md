@@ -5,6 +5,8 @@ date:   2014-06-05
 category: work
 ---
 
+# 短数组优化之LocalVector
+
 `vector` 是 `C++ STL` 里面最常用的容器，没有之一，`vector` 本质上是**动态**数组，它帮我们动态的管理内存。
 
 但是需要注意的是，vector这个对象自身维护的内存是在**堆上**，这就涉及到**内存布局(memory layout)**的问题。

@@ -5,6 +5,8 @@ date:   2014-01-23
 category: work
 ---
 
+# Node.js初体验
+
 node.js是一直想探索的一个开源项目。
 这几天闲来无事看了一些相关tutorial，并将中文分词[CppJieba]整合进去可以让node.js调用。
 

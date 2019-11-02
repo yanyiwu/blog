@@ -7,6 +7,8 @@ date:   2015-05-08
 category: work
 ---
 
+# 不要总是选择困难模式
+
 <center>
 <img src="http://images.yanyiwu.com/zhiyeguihua.jpg" class="photo"></img>
 </center>

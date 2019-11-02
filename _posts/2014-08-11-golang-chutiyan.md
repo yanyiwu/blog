@@ -6,6 +6,8 @@ date:   2014-08-11
 category: work
 ---
 
+# golang初体验
+
 <center>
 <img src="http://images.yanyiwu.com/golang.jpg" class="photo" style="width:60%"></img>
 </center>

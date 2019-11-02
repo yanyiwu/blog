@@ -6,6 +6,8 @@ date:   2015-12-19
 category: work
 ---
 
+# 姚氏教学法成功案例分析
+
 <center>
 <img src="http://images.yanyiwu.com/teacher.jpg" class="photo"></img>
 </center>

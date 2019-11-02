@@ -6,6 +6,8 @@ date:   2015-10-30
 category: life
 ---
 
+# 守『鸽』如玉
+
 <center>
 <img src="http://images.yanyiwu.com/fanggezi" class="photo"></img>
 </center>

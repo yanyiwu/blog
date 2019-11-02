@@ -5,6 +5,8 @@ title:  C++之stl::string写时拷贝导致的问题
 date:   2016-01-30
 category: work  
 ---  
+
+# C++之stl::string写时拷贝导致的问题
   
 <center>  
 <img src="http://images.yanyiwu.com/error.png" class="photo"></img>  

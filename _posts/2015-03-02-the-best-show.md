@@ -6,6 +6,8 @@ date:   2015-03-02
 category: life
 ---
 
+# 《我演得最好的一场戏》
+
 <center>
 <img src="http://images.yanyiwu.com/dahuaxiyou.jpg" class="photo"></img>
 </center>

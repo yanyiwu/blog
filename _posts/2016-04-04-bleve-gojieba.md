@@ -5,6 +5,8 @@ title: bleve中文分词插件之gojieba
 date: 2016-04-04  
 category: work  
 ---  
+
+# bleve中文分词插件之gojieba
   
 <center>
 <img src="http://images.yanyiwu.com/bleve-gojieba-logo.png" class="photo", style="width:80%"></img>

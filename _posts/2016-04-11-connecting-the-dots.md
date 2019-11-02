@@ -6,6 +6,8 @@ date: 2016-04-11
 category: work  
 ---  
 
+# ConnectingTheDots
+
 最近猛然间才发现，以前关注的几个牛人，
 都已经几乎离开了微博，或者很少发微博了。
 

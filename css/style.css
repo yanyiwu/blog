@@ -214,8 +214,9 @@ border-bottom: 0px;
 }
 
 .post_date {
-    text-align:right;
+    text-align:left;
     margin: 1% 2%;
+    color: #989694;
 }
 
 #bdshare_weixin_qrcode_dialog_qr table {

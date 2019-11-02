@@ -6,6 +6,8 @@ date:   2014-04-07
 category: work
 ---
 
+# 中文分词之HMM模型详解
+
 <center>
 <img src="http://images.yanyiwu.com/kaifulee.png" class="photo"></img>
 </center>
