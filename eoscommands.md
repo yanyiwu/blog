@@ -1,10 +1,9 @@
 ---
-layout: posting
+layout: post
 title: EOS命令行手记
 ---
 
-> 抖音，记录美好生活；  
-> 区块，记录真实历史。
+# EOS命令行操作
 
 ## 安装
 
@@ -108,4 +107,16 @@ executed transaction: 99a9f8e1a01f436ff0b9e8865146efdf6ce74d7eeddbe201bcad5eac66
 ```
 
 这个前提是之前在 cleos wallet 已经 import 了 practicetest 权限组里面的私钥。
+
+## 获取账号余额
+
+```
+cleos -u https://api.eoslaomao.com/ get currency balance eosio.token practicetest
+
+4.3119 EOS
+```
+
+## 后记
+
+到这里其实就算把最常用的操作都学会了。
 
