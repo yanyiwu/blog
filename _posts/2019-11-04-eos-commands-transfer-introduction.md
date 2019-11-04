@@ -1,9 +1,10 @@
 ---
 layout: post
-title: EOS命令行手记
+title: EOS命令行转账入门
+date: 2019-11-04
 ---
 
-# EOS命令行操作
+# EOS命令行转账入门
 
 ## 安装
 
@@ -142,4 +143,7 @@ cleos -u https://api.eoslaomao.com/ get currency balance eidosonecoin practicete
 14.2646 EIDOS
 ```
 
-> 未完待续
+到这里，基本上区块链最最常用的操作，也就是转账和查余额，已经搞定了。
+已经击败99.9%币圈韭菜。
+
+> 命令我都懂，还是亏成狗。
