@@ -48,6 +48,12 @@ ABI。
 
 ```
 cleos -u http://peer1.eoshuobipool.com:8181 push action eosio.token transfer '{"from": "abtestabtest", "to": "practicetest", "quantity": "0.0001 EOS", "memo": "hello eosio.token contract"}' -p abtestabtest@active
+
+executed transaction: f97ae156ab4ba26e7d8d021297d841cf769423a42c7dfead21a332893a989277  152 bytes  333 us
+#   eosio.token <= eosio.token::transfer        {"from":"abtestabtest","to":"practicetest","quantity":"0.0001 EOS","memo":"hello eosio.token contrac...
+#  abtestabtest <= eosio.token::transfer        {"from":"abtestabtest","to":"practicetest","quantity":"0.0001 EOS","memo":"hello eosio.token contrac...
+#  practicetest <= eosio.token::transfer        {"from":"abtestabtest","to":"practicetest","quantity":"0.0001 EOS","memo":"hello eosio.token contrac...
+warning: transaction executed locally, but may not be confirmed by the network yet
 ```
 
 
