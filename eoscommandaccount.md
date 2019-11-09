@@ -71,3 +71,11 @@ cpu bandwidth:
      available:           20 us
      limit:               20 us
 ```
+
+```
+cleosm set account permission abtestabtest active '{"threshold": 1, "keys": [{"key": "EOS6Xe5G1KZVVqYm1gGwPWHUybYph3eK9nW7Kh23Z1WXjvgJEbc2k", "weight": 1}, {"key": "EOS7NQgj1E6xAHNvgjqjCvQ5eksPd2paHFyyUub9wwuyFhGZDrSgy", "weight": 1}]}' owner
+
+executed transaction: 6fc9eb30ea547006d74e342ab5effc66bebb9539405111227a02547b4b2fd4de  200 bytes  169 us
+#         eosio <= eosio::updateauth            {"account":"abtestabtest","permission":"active","parent":"owner","auth":{"threshold":1,"keys":[{"key...
+warning: transaction executed locally, but may not be confirmed by the network yet
+```
