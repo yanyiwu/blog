@@ -1,6 +1,7 @@
 ---
-layout: posting
+layout: post
 title: EOS命令行账号操作入门
+date: 2019-11-16
 ---
 
 # EOS命令行账号操作入门
@@ -119,3 +120,5 @@ cleos -u http://peer1.eoshuobipool.com:8181 set account permission abtestabtest 
 executed transaction: 9703e3610417dfdd44ce02b9ebf325ea440248c95fff41e53ea74b643e326114  160 bytes  232 us
 #         eosio <= eosio::updateauth            {"account":"abtestabtest","permission":"active","parent":"owner","auth":{"threshold":1,"keys":[{"key...
 ```
+
+> 命令我都懂，还是亏成狗。
