@@ -3,7 +3,9 @@ layout: posting
 title: 阅读
 ---
 
-以时间顺序记录一些阅读过并且有收获的书籍、论文等。
+以时间倒序记录一些阅读过并且有收获的书籍、论文等。
+
+&raquo; 《Notification Volume Control and Optimization System at Pinterest》
 
 &raquo; [机器学习规则 (Rules of Machine Learning)：关于机器学习工程的最佳实践](https://developers.google.com/machine-learning/guides/rules-of-ml/#training-serving_skew)
 
