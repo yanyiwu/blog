@@ -5,8 +5,9 @@ title: 阅读
 
 以时间倒序记录一些阅读过并且有收获的书籍、论文等。
 
-&raquo; 《Personalization and Optimization of Decision Parameters via
-Heterogenous Causal Effects》
+&raquo; 《Horizon: Facebook’s Open Source Applied Reinforcement Learning Platform》
+
+&raquo; 《Personalization and Optimization of Decision Parameters via Heterogenous Causal Effects》
 
 &raquo; 《Near real-time optimization of activity-based notifications》
 
