@@ -7,6 +7,8 @@ title: 阅读
 
 &raquo; 《Deep Interest Network for Click-Through Rate Prediction》
 
+&raquo; 《Product-based Neural Networks for User Response Prediction》
+
 &raquo; 《Horizon: Facebook’s Open Source Applied Reinforcement Learning Platform》
 
 &raquo; 《Personalization and Optimization of Decision Parameters via Heterogenous Causal Effects》
