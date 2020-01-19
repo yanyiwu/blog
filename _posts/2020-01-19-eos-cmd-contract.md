@@ -1,6 +1,7 @@
 ---
-layout: posting
-title: EOS智能合约操作
+layout: post
+title: EOS命令行智能合约操作
+date: 2020-01-19
 ---
 
 # EOS智能合约操作
@@ -14,9 +15,9 @@ ABI。
 
 比如我们想执行转账操作。我们需要通过 eosio.token 这个合约的 transfer 操作来进行。要调用 transfer ，先查询下合约ABI。
 
-如下：
-
 ```
+cleos -u http://peer1.eoshuobipool.com:8181 get abi eosio.token
+
 ...
 {
   "name": "transfer",
