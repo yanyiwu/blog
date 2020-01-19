@@ -4,7 +4,7 @@ title: EOS命令行智能合约操作
 date: 2020-01-19
 ---
 
-# EOS智能合约操作
+# EOS命令行智能合约操作
 
 ## [eosio.token](https://eospark.com/contract/eosio.token?tab=abi)
 
