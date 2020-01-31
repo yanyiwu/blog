@@ -3,7 +3,11 @@ layout: posting
 title: 阅读
 ---
 
-以时间倒序记录一些阅读过并且有收获的书籍、论文等。
+以时间倒序记录一些阅读过并且有收获的书籍、论文、源码等。
+
+&raquo; [eosiopowcoin](https://github.com/NedAmarril/eosiopowcoin)
+
+&raquo; [eidos](https://github.com/enumivo/eidos)
 
 &raquo; 《Deep Interest Network for Click-Through Rate Prediction》
 
