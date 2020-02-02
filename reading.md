@@ -3,7 +3,7 @@ layout: posting
 title: 阅读
 ---
 
-以时间倒序记录一些阅读过并且有收获的书籍、论文、源码等。
+以时间倒序记录一些阅读过并且有收获的资料，题材不限：书籍、论文、源码等。
 
 &raquo; [eosiopowcoin](https://github.com/NedAmarril/eosiopowcoin)
 
@@ -20,6 +20,8 @@ title: 阅读
 &raquo; 《Near real-time optimization of activity-based notifications》
 
 &raquo; 《Notification Volume Control and Optimization System at Pinterest》
+
+&raquo; [EOSIO Developer Portal](https://developers.eos.io/)
 
 &raquo; [机器学习规则 (Rules of Machine Learning)：关于机器学习工程的最佳实践](https://developers.google.com/machine-learning/guides/rules-of-ml/#training-serving_skew)
 
