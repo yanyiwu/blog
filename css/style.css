@@ -50,6 +50,10 @@ table td {
     font-weight: normal;
 }
 
+h1.post_title {
+    padding: 1% 3%;
+}
+
 .review {
     margin: 2% 4%;
     line-height: 150%;
@@ -59,10 +63,10 @@ h1 {
     font-weight: normal;
     font-size: 1.4em;
     margin:0;
-    padding: 1% 3%;
+    padding: 1% 0%;
     border-bottom: 1px LightGrey solid;
     line-height: 150%;
-    color: DarkRed;
+    /*color: DarkRed;*/
 }
 
 h2 {
@@ -70,7 +74,7 @@ h2 {
     font-size: 1.3em;
     margin: 0;
     padding: 0;
-    color: DarkGreen;
+    /*color: DarkGreen;*/
 }
 
 
