@@ -165,7 +165,7 @@ hr {
 
     text-decoration: none;
     border-bottom: 1px solid #ddd;
-    color: #005;
+    /*color: #005;*/
 }
 .post_list_item_hot {
     color: #97190E;
