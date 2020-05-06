@@ -163,13 +163,17 @@ cleos -u https://api.testnet.eos.io get abi eosio.token
 ```
 
 ```
-cleos -u https://api.testnet.eos.io push action eosio.token transfer '{"from":"zbldzychiboa", "to":"lxhaduruvcio", "quantity":"1.0 TNT", "memo": "testnet blog in yanyiwu dot com"}' -p zbldzychiboa@owner
+cleos -u https://api.testnet.eos.io push action eosio.token transfer '{"from":"zbldzychiboa", "to":"lxhaduruvcio", "quantity":"0.0001 TNT", "memo": "testnet blog in yanyiwu dot com"}' -p zbldzychiboa@owner
 
-...
+executed transaction: a651189453d72be00f5e69aa6049c667df87127b65f92e84b353153146bf3a9e  160 bytes  336 us
+#   eosio.token <= eosio.token::transfer        {"from":"zbldzychiboa","to":"lxhaduruvcio","quantity":"0.0001 TNT","memo":"testnet blog in yanyiwu d...
+#  zbldzychiboa <= eosio.token::transfer        {"from":"zbldzychiboa","to":"lxhaduruvcio","quantity":"0.0001 TNT","memo":"testnet blog in yanyiwu d...
+#  lxhaduruvcio <= eosio.token::transfer        {"from":"zbldzychiboa","to":"lxhaduruvcio","quantity":"0.0001 TNT","memo":"testnet blog in yanyiwu d...
 ```
 
-To be continued.
+关于转账金额精度这个还遇到一个非常反人性的体验，有遇到精度报错的可以参考 [issue](https://github.com/EOSIO/eos/issues/9037)
 
+To be continued.
 
 [testnet]:https://testnet.eos.io/
 [testnet.eos.io]:https://testnet.eos.io/
