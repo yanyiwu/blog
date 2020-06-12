@@ -1,8 +1,7 @@
 ---
 layout: post
 title: EOS Testnet 入门
-date: 2020-05-04  
-display: onlydetail  
+date: 2020-06-13  
 ---
 
 # EOS Testnet 入门
@@ -173,7 +172,9 @@ executed transaction: a651189453d72be00f5e69aa6049c667df87127b65f92e84b353153146
 
 关于转账金额精度这个还遇到一个非常反人性的体验，有遇到精度报错的可以参考 [issue](https://github.com/EOSIO/eos/issues/9037)
 
-To be continued.
+接下来就是尝试在测试网上测试合约的上传了，这也是测试网存在的主要意义，毕竟如果在主网上上传智能合约，是需要真金白银买ram才能上传成功的。
+
+在后面一篇博文会专门介绍智能合约的编译和上传测试。
 
 [testnet]:https://testnet.eos.io/
 [testnet.eos.io]:https://testnet.eos.io/
