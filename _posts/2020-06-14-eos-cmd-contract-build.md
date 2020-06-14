@@ -162,5 +162,66 @@ executed transaction: 6f1a825f848ae66b0076fe6371a5990a2b335b5b3d4fec1bf2d55944b2
 
 到这里基本上关于 eosio.token 这个合约的操作就比较清楚了，包括如何去发行代币，都比较清楚了。
 
-后面再介绍一个 eosio.token 这个合约的源码。
+## ABI 数据库
+
+上面 push action 本质上其实都是在操作区块链这个数据库。
+ABI 里也有这个数据库的查询接口，如下：
+
+```
+"tables": [
+    {
+        "name": "accounts",
+        "type": "account",
+        "index_type": "i64",
+        "key_names": [],
+        "key_types": []
+    },
+    {
+        "name": "stat",
+        "type": "currency_stats",
+        "index_type": "i64",
+        "key_names": [],
+        "key_types": []
+    }
+],
+```
+
+根据上面的接口，我们可以通过 get table 获取数据库内容信息。
+
+获取 ZZ 代币的数据信息，如下：
+
+```
+cleos -u https://api.testnet.eos.io get table zbldzychiboa ZZ stat
+{
+  "rows": [{
+        "supply": "10 ZZ",
+        "max_supply": "100 ZZ",
+        "issuer": "zbldzychiboa"
+      }
+    ],
+  "more": false,
+  "next_key": ""
+}
+```
+
+获取某账号的相关代币信息。
+
+```
+cleos -u https://api.testnet.eos.io get table zbldzychiboa zbldzychiboa accounts
+{
+  "rows": [{
+        "balance": "10 YY"
+      },{
+            "balance": "10 ZZ"
+          },{
+                "balance": "10.0000 TNTA"
+              }
+    ],
+  "more": false,
+  "next_key": ""
+}
+```
+
+后面再介绍一下 eosio.token 这个合约的源码，
+会比较清楚 action 和 table 的关系。
 
