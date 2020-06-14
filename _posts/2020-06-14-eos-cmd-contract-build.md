@@ -222,6 +222,94 @@ cleos -u https://api.testnet.eos.io get table zbldzychiboa zbldzychiboa accounts
 }
 ```
 
+```
+cleos -u https://api.testnet.eos.io push action zbldzychiboa open '{"owner":"rplmnxyrvggo", "symbol":"0,ZZ", "ram_payer":"zbldzychiboa"}' -p zbldzychiboa@owner
+
+executed transaction: f848d4073a8640ee737006d8e89bdf5c88819c6935d6cf2731bb96611c63a859  120 bytes  317 us
+#  zbldzychiboa <= zbldzychiboa::open           {"owner":"rplmnxyrvggo","symbol":"0,ZZ","ram_payer":"zbldzychiboa"}
+```
+
+```
+cleos -u https://api.testnet.eos.io get table zbldzychiboa rplmnxyrvggo accounts
+
+{
+  "rows": [{
+      "balance": "0 ZZ"
+    }
+  ],
+  "more": false,
+  "next_key": ""
+}
+```
+
+## 关注内存的消耗
+
+先看一下现在该账号的内存消耗
+
+```
+cleos -u https://api.testnet.eos.io get account zbldzychiboa
+
+created: 2020-04-23T04:49:11.500
+permissions:
+     owner     1:    1 EOS5zmo9epkx52b2eCf7wE3r19sz7ttDQifpazRwS8aBURzzcGdhQ
+        active     1:    1 EOS5fpQxDV3gM7QLcTyiYEjzgCb7jrQU2aj4D5rEuhDscSbBkRySe
+memory:
+     quota:     1.951 MiB    used:     178.1 KiB
+```
+
+可以看到目前使用掉的内存是 178.1 KiB
+
+通过 open,close 来分析下内存的消耗和收回。
+
+为其他账号开户某个代币，如下：
+
+```
+cleos -u https://api.testnet.eos.io push action zbldzychiboa open '{"owner":"rplmnxyrvggo", "symbol":"0,ZZ", "ram_payer":"zbldzychiboa"}' -p zbldzychiboa@owner
+
+executed transaction: 870f0e4b72efc1feaab7bfe499095af023da0d21feb8479052a4e647581218a7  120 bytes  255 us
+#  zbldzychiboa <= zbldzychiboa::open           {"owner":"rplmnxyrvggo","symbol":"0,ZZ","ram_payer":"zbldzychiboa"}
+```
+
+然后再查一下目前内存使用量
+
+```
+cleos -u https://api.testnet.eos.io get account zbldzychiboa
+
+created: 2020-04-23T04:49:11.500
+permissions:
+     owner     1:    1 EOS5zmo9epkx52b2eCf7wE3r19sz7ttDQifpazRwS8aBURzzcGdhQ
+        active     1:    1 EOS5fpQxDV3gM7QLcTyiYEjzgCb7jrQU2aj4D5rEuhDscSbBkRySe
+memory:
+     quota:     1.951 MiB    used:     178.4 KiB
+...
+```
+
+可以看到目前内存使用量变成了 178.4 KiB 。而之前是 178.1 KiB，
+也就是这次为其他账号open 代币的操作，消耗了 0.3 KiB 内存。
+
+而通过 close 调研后，可以观察内存也使用也随着恢复到 178.1 KiB 的状态，
+也就是之前说的内存消耗，可以再恢复。
+
+```
+cleos -u https://api.testnet.eos.io push action zbldzychiboa close '{"owner":"rplmnxyrvggo", "symbol":"0,ZZ", "ram_payer":"zbldzychiboa"}' -p rplmnxyrvggo@owner
+
+executed transaction: c039f8ba00a7d418e2ae22efae6960041c0162ed148ed0b16cfa4b282888cd82  112 bytes  244 us
+#  zbldzychiboa <= zbldzychiboa::close          {"owner":"rplmnxyrvggo","symbol":"0,ZZ"}
+```
+
+```
+cleos -u https://api.testnet.eos.io get account zbldzychiboa
+
+created: 2020-04-23T04:49:11.500
+permissions:
+     owner     1:    1 EOS5zmo9epkx52b2eCf7wE3r19sz7ttDQifpazRwS8aBURzzcGdhQ
+        active     1:    1 EOS5fpQxDV3gM7QLcTyiYEjzgCb7jrQU2aj4D5rEuhDscSbBkRySe
+memory:
+     quota:     1.951 MiB    used:     178.1 KiB
+```
+
+## 最后
+
 后面再介绍一下 eosio.token 这个合约的源码，
 会比较清楚 action 和 table 的关系。
 
