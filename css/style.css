@@ -62,7 +62,7 @@ h1.post_title {
 h1 {
     font-weight: normal;
     font-size: 1.4em;
-    margin:0;
+    margin:2% 0%;
     padding: 1% 0%;
     border-bottom: 1px LightGrey solid;
     line-height: 150%;
@@ -91,7 +91,6 @@ h3 {
     width: 80%;
     */
     line-height: 150%;
-    color: DarkBlue;
 }
 
 
