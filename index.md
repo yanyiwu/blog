@@ -5,7 +5,9 @@ title: 时间线
 
 &raquo; 2020-06-23 00:15
 
-> 『If you don't believe me or don't get it, I don't have time to try to convince you, sorry』 from Satochi
+> If you don't believe me or don't get it, I don't have time to try to convince you, sorry
+
+> -- from Satochi
 
 > 中本聪其实挺励志的。
 
