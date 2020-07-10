@@ -3,6 +3,25 @@ layout: posting
 title: 时间线
 ---
 
+&raquo; 2020-07-04 23:36
+
+> 5G 是目前唯一能想到的最大变革机会；  
+> 同时这句话却也是比较让人沮丧的点。
+
+&raquo; 2020-06-30 11:21
+
+> 我们做的很多事情不过是在等待机会；    
+> 我们等待机会的时候可以做很多事情。
+
+&raquo; 2020-06-26 18:07
+
+> 移动互联网段子考古：
+
+> 如果 PM 的简历里如果把 iPhone 写成 iphone ，则淘汰。   
+> 如果 RD 的简历里把 GitHub 写成 github，则淘汰。
+
+> 当年刚听到这个段子的时候觉得好极端。现在偶尔想起来，还是有几分道理。
+
 &raquo; 2020-06-23 00:15
 
 > If you don't believe me or don't get it, I don't have time to try to convince you, sorry
