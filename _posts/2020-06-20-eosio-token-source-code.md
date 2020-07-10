@@ -1,10 +1,10 @@
 ---
 layout: post
-title: eosio.token智能合约源码分析
+title: EOS合约源码分析:eosio.token
 date: 2020-06-20
 ---
 
-# eosio.token智能合约源码分析
+# EOS合约源码分析:eosio.token
 
 ## 获取源码
 
