@@ -5,12 +5,7 @@ title: AboutMe
 
 &raquo;『个人简介』
 
-> 网瘾男，北漂。
-
-> 退过学，创过业，挖过矿，开过源，出过书，就是没有发过财。
-
-> 目前在字节跳动公司打杂，可以帮忙内推或者直招各种技术人才，算法，工程，后台，前端等，总有一款适合你。
-> 欢迎投递简历至 wuyanyi at bytedance.com 。
+> 网瘾男，北漂。Bytedancer。
 
 > 白驹过隙，策码奔腾。  
 
@@ -23,12 +18,6 @@ title: AboutMe
 > | [GitHub] | [知乎] | [微信] | [微博] |
 
 > </center>
-
-&raquo;『开发语言』
-
-> 编程语言: C/C++/Golang/Python, JavaScript/Node.js, HTML/CSS, Erlang;  
-> 目前专注于推荐系统方向。
-
 
 
 [Jieba]:https://github.com/fxsjy/jieba
