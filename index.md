@@ -103,7 +103,7 @@ title: 时间线
 
 &raquo; 2020-06-23 00:15
 
-> If you don't believe me or don't get it, I don't have time to try to convince you, sorry
+> If you do not believe me or do not get it, I do not have time to try to convince you, sorry.
 
 > -- from Satochi
 
