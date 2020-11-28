@@ -3,6 +3,16 @@ layout: posting
 title: 时间线
 ---
 
+&raquo; 2020-11-24 09:13
+
+> [gitdeveloper](https://bloks.io/transaction/adcfb7ae977f864926aa59a28b5a123332c5385e348b08b61815417c8d2ed712)  
+
+> 不知道三年内会不会出现好用的链上博客？blog,vlog,clog(chain-log)?
+
+&raquo; 2020-10-26 00:40
+
+> 每个人的大脑都有两部分，逻辑和情绪，他们会争夺一个人的控制权。from 《原则》
+
 &raquo; 2020-10-03 08:30
 
 > 低调好像永远都是更好的相处之道。
