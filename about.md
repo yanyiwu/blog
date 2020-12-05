@@ -5,7 +5,7 @@ title: AboutMe
 
 &raquo;『个人简介』
 
-> 网瘾男，北漂。Bytedancer。
+> 网瘾男，北漂。ByteDancer。
 
 > 白驹过隙，策码奔腾。  
 
