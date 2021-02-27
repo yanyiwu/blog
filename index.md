@@ -3,6 +3,16 @@ layout: posting
 title: 时间线
 ---
 
+&raquo; 2021-02-11 09:25
+
+> 最近从 iPhone 7 Plus 换成 iPhone 12。
+> 更加确信对于我个人来说，
+> 科技产品的升级换代对于生活品质提升的 ROI 是最高的。
+
+&raquo; 2021-02-01 11:36
+
+> 领先半步是先驱，领先三步是先烈。from 华为企业文化
+
 &raquo; 2021-01-29 10:20
 
 > Think Big, Dive Deep. 
