@@ -2,6 +2,7 @@
 layout: post
 title: EOS命令行智能合约调用操作
 date: 2020-01-19
+display: onlydetail
 ---
 
 # EOS命令行智能合约操作
