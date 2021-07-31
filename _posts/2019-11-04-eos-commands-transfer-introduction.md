@@ -2,6 +2,7 @@
 layout: post
 title: EOS命令行转账入门
 date: 2019-11-04
+display: onlydetail
 ---
 
 # EOS命令行转账入门
