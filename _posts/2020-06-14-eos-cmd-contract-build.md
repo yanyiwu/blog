@@ -2,6 +2,7 @@
 layout: post
 title: EOS命令行智能合约部署
 date: 2020-06-14
+display: onlydetail
 ---
 
 # EOS命令行智能合约操作
