@@ -2,6 +2,7 @@
 layout: post
 title: EOS Testnet 入门
 date: 2020-06-13  
+display: onlydetail
 ---
 
 # EOS Testnet 入门
