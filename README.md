@@ -1,6 +1,6 @@
 # blog
 
-|[时间线](./index.md)|[博文](http://yanyiwu.com/blog.html)|[发现](./discover.md)|[关于·我](./about.md)|
+|[时间线](./index.md)|[博文](./post)|[发现](./discover.md)|[关于·我](./about.md)|
 |:-:|:-:|:-:|:-:|
 
 &raquo; 2021-11-07 13:14
