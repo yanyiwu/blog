@@ -75,6 +75,10 @@ live-at-head
 
 升级各种硬件和软件 也是不错的娱乐方式。
 
+240623
+
+Awesome-AI-Products += Perplexity
+
 240622
 
 办公桌和大显示屏是阳台的灵魂。
