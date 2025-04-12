@@ -1520,29 +1520,3 @@ QQ 空间？微信朋友圈？Facebook主页？发文历史？LinkedIn自我介�
 感觉还是不习惯网上的熟人社交，总觉得一言一行都会担心是否会打扰到别人。
 所以一直更倾向于微博，可是现在微博上的熟人越来越多，也变得越来越不自在。
 所以今天专门在主页上搞一个专门的分类【MOMENT】，记录一些日常事宜。
-
-[ECUG专题回顾]:http://blog.qiniu.com/?p=871
-[@goroutine]:http://www.weibo.com/chuangyiyongpin#1421567595227
-[豌豆荚分布式REDIS设计与实现]:http://blog.qiniu.com/?p=871
-[阿里分布式数据库服务实践]:http://v.youku.com/v_show/id_XODMyMzk2OTUy.html
-[Baby's First Garbage Collector]:http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/
-[GitHub]:http://github.com/yanyiwu
-[我是创业者]:http://www.36kr.com/p/218159.html
-[刘成城]:http://www.weibo.com/techfans
-[UI中国]:http://ui.cn/
-[疯狂的投资]:http://www.ximalaya.com/1412917/sound/4697361
-[CppJieba]:http://github.com/yanyiwu/cppjieba
-[实时系统架构与实现]:http://www.infoq.com/cn/presentations/framework-and-implementation-of-real-time-system
-[kaiyi]:https://github.com/lucky7ky
-[Analyzing-the-performance-of-top-k-retrieval-algorithms]:http://fontoura.org/papers/lsdsir2013.pdf
-[Marcus Fontoura]:http://fontoura.org/
-[德约科维奇：夺冠才敢吃一口巧克力]:http://mp.weixin.qq.com/s?__biz=MzA5NTQ1OTExMQ==&mid=207183453&idx=1&sn=8d4a9d5d1fab2054f52e02c02d5aa373
-[jieba]:https://github.com/fxsjy/jieba
-[seaweedfs]:https://github.com/chrislusf/seaweedfs
-[NodeJieba]:https://github.com/yanyiwu/nodejieba
-[GoJieba]:https://github.com/yanyiwu/gojieba
-[iOSJieba]:https://github.com/yanyiwu/iosjieba
-[sqljieba]:https://github.com/yanyiwu/sqljieba
-[bleve]:https://github.com/blevesearch/bleve
-[AschPlatform]:https://github.com/aschplatform
-[Asch]:https://github.com/aschplatform
